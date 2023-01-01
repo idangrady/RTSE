@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID a9a44203-e612-4113-9383-b7d1afc2a3e2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Analysis</_name>
+			<_modifiedTimeWeak type="a">12.17.2022::17:2:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.17.2022::19:13:18</_modifiedTime>
+			<weakCGTime type="a">12.17.2022::17:2:14</weakCGTime>
+			<strongCGTime type="a">12.17.2022::17:2:12</strongCGTime>
+			<_defaultComposite type="s">GUID 0a975f64-4be4-4f4a-a7af-de001d0c24cb</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 13a56ee0-bd68-4fb6-8d1d-cbca3300b462</value>
+				<value>GUID 0a975f64-4be4-4f4a-a7af-de001d0c24cb</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Requirement</fileName>
+			<_id type="a">GUID 13a56ee0-bd68-4fb6-8d1d-cbca3300b462</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 0a975f64-4be4-4f4a-a7af-de001d0c24cb</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

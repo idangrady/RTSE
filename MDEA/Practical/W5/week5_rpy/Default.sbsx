@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 00786052-c73d-433c-8323-1b97a989ebef</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Default</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::11:16:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:22:22</_modifiedTime>
+			<_lastID type="a">24</_lastID>
+			<weakCGTime type="a">12.14.2022::11:16:37</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_defaultComposite type="s">GUID 54ff42d3-3e80-40d0-876d-ac8b89e3975d</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">12.14.2022::10:42:23</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 54ff42d3-3e80-40d0-876d-ac8b89e3975d</value>
+				<value>GUID 8044eb88-adc4-4f4d-a927-819bac4d5ff6</value>
+				<value>GUID ee174d6f-9c74-4098-8c59-05c37dfbebf7</value>
+				<value>GUID 69a26e52-2702-47c0-a690-75f6947e4a50</value>
+				<value>GUID 00c76926-0291-4e42-bb08-aea8b8cff03b</value>
+				<value>GUID 888f220b-1272-4097-b02f-0d8108b79628</value>
+				<value>GUID ada58474-f471-4321-ab22-1ba1648885ce</value>
+				<value>GUID 6249341b-3f83-4421-9785-4ee9202baa72</value>
+				<value>GUID 520a92ce-bd8f-4c7b-9fd3-9b816df1db93</value>
+				<value>GUID 03fdba8e-7792-43ae-ad5f-ba9381631df7</value>
+				<value>GUID 51636e1e-89f5-4c6a-9713-43cc80332f0f</value>
+				<value>GUID 05e00a74-8e5e-474b-996c-8f8b1a8e9b3d</value>
+				<value>GUID ea7802c5-55d1-40bd-84f8-a4b1cdd65473</value>
+				<value>GUID e3dbcc43-3ef6-474b-8691-a851423e21bf</value>
+				<value>GUID 81e96c08-1e5c-4257-9cf8-b7862403ba77</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 54ff42d3-3e80-40d0-876d-ac8b89e3975d</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::11:15:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">12.14.2022::11:15:12</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 8044eb88-adc4-4f4d-a927-819bac4d5ff6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">LectureRoom</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.14.2022::11:15:12</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">Model1</_hname>
+					<_hid type="a">GUID d5411e1d-30a8-4aec-a709-8e6377fc3cf3</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::10:49:2</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">12.14.2022::11:15:12</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID aaa98e7b-8947-4e8f-8068-9e48b732572b</value>
+				<value>GUID 5e8c1db3-89e7-4df8-9ddf-f882f8d795c9</value>
+				<value>GUID 26bd34d9-2989-466f-8c46-55a686901031</value>
+				<value>GUID 8ec26bd2-c715-4782-8923-958b43ae5cf0</value>
+				<value>GUID efbd5e86-e636-43e4-8eee-1b6f4f688183</value>
+				<value>GUID 91a59e92-7364-44e7-8d0c-dbb3f5220931</value>
+				<value>GUID f3b5128e-ac8a-4463-b493-1fac82e59795</value>
+				<value>GUID abcbfa58-9f8e-4dea-90c4-7e9e61faf29e</value>
+				<value>GUID ee7414a5-67e1-4be5-8082-c636a09ac5a4</value>
+			</AggregatesList>
+		</IClass>
+		<IPort type="e">
+			<_id type="a">GUID aaa98e7b-8947-4e8f-8068-9e48b732572b</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">proxyport_1</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.14.2022::10:49:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:49:2</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::Common</_hsubsystem>
+					<_hname type="a">StubInterfaceBlock</_hname>
+					<_hid type="a">GUID f88d3e88-dcfa-434d-a824-071d77aa3bd7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPort>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 5e8c1db3-89e7-4df8-9ddf-f882f8d795c9</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsStudent</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:35:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:35:43</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hid type="a">GUID 05e00a74-8e5e-474b-996c-8f8b1a8e9b3d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 7721e77b-4c15-4aef-af6c-d0fd4e33c7eb</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 26bd34d9-2989-466f-8c46-55a686901031</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsProfessor</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:37:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:37:40</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hid type="a">GUID ea7802c5-55d1-40bd-84f8-a4b1cdd65473</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 4fee6623-316a-4ea2-82d2-928eade5718e</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 8ec26bd2-c715-4782-8923-958b43ae5cf0</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsPowerSource</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:38:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:38:26</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID ee174d6f-9c74-4098-8c59-05c37dfbebf7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 2fec005a-b646-47bc-b07d-584f19d2c808</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID efbd5e86-e636-43e4-8eee-1b6f4f688183</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsNaturalEnvironment</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:40:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:40:4</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 69a26e52-2702-47c0-a690-75f6947e4a50</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 0f6dddee-6e9a-48f0-8d6b-0407823ee89f</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 91a59e92-7364-44e7-8d0c-dbb3f5220931</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsResevationSystem</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:41:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:41:3</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 00c76926-0291-4e42-bb08-aea8b8cff03b</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 240ecca7-10cf-490c-acca-2df9620b7906</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID f3b5128e-ac8a-4463-b493-1fac82e59795</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsManager</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:42:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:42:53</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hid type="a">GUID e3dbcc43-3ef6-474b-8691-a851423e21bf</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID a2c0618b-1ec6-4f59-9589-6d794046b69b</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID abcbfa58-9f8e-4dea-90c4-7e9e61faf29e</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsSecturity</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:46:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:46:6</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 888f220b-1272-4097-b02f-0d8108b79628</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 125a7079-fe58-41a4-a6a3-8a9ad42fac19</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID ee7414a5-67e1-4be5-8082-c636a09ac5a4</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCommunication</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:46:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:46:29</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID ada58474-f471-4321-ab22-1ba1648885ce</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID a26506c0-a4fb-4347-9a19-7fd10e8c69de</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID ee174d6f-9c74-4098-8c59-05c37dfbebf7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">PowerSource</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.14.2022::11:19:58</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">Model1</_hname>
+					<_hid type="a">GUID d5411e1d-30a8-4aec-a709-8e6377fc3cf3</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::11:19:58</_modifiedTime>
+			<weakCGTime type="a">12.14.2022::11:19:58</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 2fec005a-b646-47bc-b07d-584f19d2c808</value>
+				<value>GUID f26f67a5-87f8-4a38-8a34-a9525654c13b</value>
+				<value>GUID 89b35d7e-f94e-4fc2-aae5-63dcd1393972</value>
+				<value>GUID 3ca4ad3e-cce9-439e-b0c1-6cc241e51714</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 2fec005a-b646-47bc-b07d-584f19d2c808</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsLectureRoom</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:38:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:38:26</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 8044eb88-adc4-4f4d-a927-819bac4d5ff6</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 8ec26bd2-c715-4782-8923-958b43ae5cf0</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID f26f67a5-87f8-4a38-8a34-a9525654c13b</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsUnlockDoor</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:57:58</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">UnlockDoor</_hname>
+					<_hid type="a">GUID 0bcfa2f8-9156-4a4f-850c-2c39767ec29c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">UnlockDoor</_hclass>
+					<_hname type="a">itsPowerSource</_hname>
+					<_hid type="a">GUID 8d500848-6664-47ee-bda5-26b9b38ab790</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 89b35d7e-f94e-4fc2-aae5-63dcd1393972</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTurnOnLight</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:19:54</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">TurnOnLight</_hname>
+					<_hid type="a">GUID e378c88d-1762-44b7-9b22-2b2ca5be107b</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">TurnOnLight</_hclass>
+					<_hname type="a">itsPowerSource</_hname>
+					<_hid type="a">GUID 12e63e24-8ba0-4932-9139-7a320876ed28</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 3ca4ad3e-cce9-439e-b0c1-6cc241e51714</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTurnoffLight</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:19:58</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">TurnoffLight</_hname>
+					<_hid type="a">GUID eadca806-ad0e-4411-8505-939d7cada946</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">TurnoffLight</_hclass>
+					<_hname type="a">itsPowerSource</_hname>
+					<_hid type="a">GUID 4432059d-025e-446a-82b1-d607c3ea8609</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 69a26e52-2702-47c0-a690-75f6947e4a50</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">NaturalEnvironment</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.14.2022::11:15:12</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">Model1</_hname>
+					<_hid type="a">GUID d5411e1d-30a8-4aec-a709-8e6377fc3cf3</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::10:40:4</_modifiedTime>
+			<weakCGTime type="a">12.14.2022::11:15:12</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 0f6dddee-6e9a-48f0-8d6b-0407823ee89f</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 0f6dddee-6e9a-48f0-8d6b-0407823ee89f</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsLectureRoom</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:40:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:40:4</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 8044eb88-adc4-4f4d-a927-819bac4d5ff6</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID efbd5e86-e636-43e4-8eee-1b6f4f688183</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 00c76926-0291-4e42-bb08-aea8b8cff03b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ResevationSystem</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.14.2022::11:15:12</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">Model1</_hname>
+					<_hid type="a">GUID d5411e1d-30a8-4aec-a709-8e6377fc3cf3</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::10:41:3</_modifiedTime>
+			<weakCGTime type="a">12.14.2022::11:15:12</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 240ecca7-10cf-490c-acca-2df9620b7906</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 240ecca7-10cf-490c-acca-2df9620b7906</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsLectureRoom</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:41:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:41:3</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 8044eb88-adc4-4f4d-a927-819bac4d5ff6</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 91a59e92-7364-44e7-8d0c-dbb3f5220931</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 888f220b-1272-4097-b02f-0d8108b79628</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Secturity</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.14.2022::11:15:12</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">Model1</_hname>
+					<_hid type="a">GUID d5411e1d-30a8-4aec-a709-8e6377fc3cf3</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::10:57:13</_modifiedTime>
+			<weakCGTime type="a">12.14.2022::11:15:12</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 125a7079-fe58-41a4-a6a3-8a9ad42fac19</value>
+				<value>GUID 28fe99dd-288b-4ee5-a9e0-cba42f063727</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 125a7079-fe58-41a4-a6a3-8a9ad42fac19</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsLectureRoom</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:46:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:46:6</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 8044eb88-adc4-4f4d-a927-819bac4d5ff6</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID abcbfa58-9f8e-4dea-90c4-7e9e61faf29e</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 28fe99dd-288b-4ee5-a9e0-cba42f063727</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsUnlockDoor</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:57:13</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">UnlockDoor</_hname>
+					<_hid type="a">GUID 0bcfa2f8-9156-4a4f-850c-2c39767ec29c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">UnlockDoor</_hclass>
+					<_hname type="a">itsSecturity</_hname>
+					<_hid type="a">GUID 7bd9aed2-b8f2-48ab-9a78-233a9483864c</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID ada58474-f471-4321-ab22-1ba1648885ce</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Communication</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.14.2022::11:15:12</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">Model1</_hname>
+					<_hid type="a">GUID d5411e1d-30a8-4aec-a709-8e6377fc3cf3</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::10:46:29</_modifiedTime>
+			<weakCGTime type="a">12.14.2022::11:15:12</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID a26506c0-a4fb-4347-9a19-7fd10e8c69de</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID a26506c0-a4fb-4347-9a19-7fd10e8c69de</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsLectureRoom</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:46:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:46:29</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 8044eb88-adc4-4f4d-a927-819bac4d5ff6</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID ee7414a5-67e1-4be5-8082-c636a09ac5a4</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 6249341b-3f83-4421-9785-4ee9202baa72</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SecurityFireAlarm</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.14.2022::11:15:12</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">Alarm</_hname>
+					<_hid type="a">GUID f4e7c405-670f-47a7-80b9-af9ffa887ed9</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::11:12:7</_modifiedTime>
+			<weakCGTime type="a">12.14.2022::11:15:12</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID d1bf5078-edbf-464d-b01e-c806a0d6dc7c</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID d1bf5078-edbf-464d-b01e-c806a0d6dc7c</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsDetectFireAlarm</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:12:7</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">DetectFireAlarm</_hname>
+					<_hid type="a">GUID dc5cc71e-26e0-459f-ae5c-30c2ca1c899d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">DetectFireAlarm</_hclass>
+					<_hname type="a">itsSecurityFireAlarm</_hname>
+					<_hid type="a">GUID 5d79d4f0-f090-4f04-a14f-3e9e02b1d865</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 520a92ce-bd8f-4c7b-9fd3-9b816df1db93</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">UMAC</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.14.2022::11:15:12</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">ControlTemp</_hname>
+					<_hid type="a">GUID cbdf8cf6-57ac-443b-afee-5a94be270cc0</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::11:14:38</_modifiedTime>
+			<weakCGTime type="a">12.14.2022::11:15:12</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 427e1d6d-3428-4105-8eca-6badbdb0f96d</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 427e1d6d-3428-4105-8eca-6badbdb0f96d</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsControlTemp</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:14:38</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">controlTemp</_hname>
+					<_hid type="a">GUID 3b24617f-cdfb-4ebe-865d-6cdd9949590d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">controlTemp</_hclass>
+					<_hname type="a">itsUMAC</_hname>
+					<_hid type="a">GUID b49e8e61-4b47-416a-bd1b-3e969f6a2936</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 03fdba8e-7792-43ae-ad5f-ba9381631df7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Environment</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.14.2022::11:19:52</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">ControlTemp</_hname>
+					<_hid type="a">GUID cbdf8cf6-57ac-443b-afee-5a94be270cc0</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::11:19:52</_modifiedTime>
+			<weakCGTime type="a">12.14.2022::11:19:52</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID d47438eb-a4f1-4817-8693-5f56b6bf780c</value>
+				<value>GUID d64b18b0-121d-4931-99a6-c958e6c19ceb</value>
+				<value>GUID 0da8e939-b55c-4212-9843-30071809e4ac</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID d47438eb-a4f1-4817-8693-5f56b6bf780c</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsControlTemp</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:14:56</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">controlTemp</_hname>
+					<_hid type="a">GUID 3b24617f-cdfb-4ebe-865d-6cdd9949590d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">controlTemp</_hclass>
+					<_hname type="a">itsEnvironment</_hname>
+					<_hid type="a">GUID b6cfdc6f-76f6-4d55-8e24-aa70570803c1</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID d64b18b0-121d-4931-99a6-c958e6c19ceb</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTurnOnLight</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:17:59</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">TurnOnLight</_hname>
+					<_hid type="a">GUID e378c88d-1762-44b7-9b22-2b2ca5be107b</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">TurnOnLight</_hclass>
+					<_hname type="a">itsEnvironment</_hname>
+					<_hid type="a">GUID f84b1791-f82c-4fa9-a335-77a666f21026</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 0da8e939-b55c-4212-9843-30071809e4ac</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTurnoffLight</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:19:52</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">TurnoffLight</_hname>
+					<_hid type="a">GUID eadca806-ad0e-4411-8505-939d7cada946</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">TurnoffLight</_hclass>
+					<_hname type="a">itsEnvironment</_hname>
+					<_hid type="a">GUID b7a05705-dab8-43d2-8b9d-cd8a8f88ab9f</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 51636e1e-89f5-4c6a-9713-43cc80332f0f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Lighting</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.14.2022::11:20:28</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">ControlLight</_hname>
+					<_hid type="a">GUID f990acb0-0136-43c7-b322-65c9184f4062</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::11:20:28</_modifiedTime>
+			<weakCGTime type="a">12.14.2022::11:20:28</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:16:38</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID a807f458-e1b1-4dfa-9bd4-2a962e85776f</value>
+				<value>GUID c92e49ba-5b4e-44f0-bf69-4952c7451ac3</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID a807f458-e1b1-4dfa-9bd4-2a962e85776f</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTurnOnLight</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:20:25</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">TurnOnLight</_hname>
+					<_hid type="a">GUID e378c88d-1762-44b7-9b22-2b2ca5be107b</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">TurnOnLight</_hclass>
+					<_hname type="a">itsLighting</_hname>
+					<_hid type="a">GUID 555fbba1-bd14-4560-b627-e1ba6f8195bf</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID c92e49ba-5b4e-44f0-bf69-4952c7451ac3</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTurnoffLight</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:20:28</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">TurnoffLight</_hname>
+					<_hid type="a">GUID eadca806-ad0e-4411-8505-939d7cada946</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">TurnoffLight</_hclass>
+					<_hname type="a">itsLighting</_hname>
+					<_hid type="a">GUID db31abba-be42-49fc-b116-edea33481ff0</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IActor type="e">
+			<_id type="a">GUID 05e00a74-8e5e-474b-996c-8f8b1a8e9b3d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">student</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::11:15:12</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">Model1</_hname>
+					<_hid type="a">GUID d5411e1d-30a8-4aec-a709-8e6377fc3cf3</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::11:0:36</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">12.14.2022::11:15:12</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 43ba5f27-1459-45ef-a90e-3f2587fd318a</value>
+				<value>GUID 7721e77b-4c15-4aef-af6c-d0fd4e33c7eb</value>
+				<value>GUID 7bb0b11f-8625-4154-b5ea-1b73541d4d64</value>
+			</AggregatesList>
+		</IActor>
+		<IGeneralization type="e">
+			<_id type="a">GUID 43ba5f27-1459-45ef-a90e-3f2587fd318a</_id>
+			<_modifiedTimeWeak type="a">12.14.2022::11:15:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hid type="a">GUID 81e96c08-1e5c-4257-9cf8-b7862403ba77</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 7721e77b-4c15-4aef-af6c-d0fd4e33c7eb</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsLectureRoom</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::11:15:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:35:43</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 8044eb88-adc4-4f4d-a927-819bac4d5ff6</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 5e8c1db3-89e7-4df8-9ddf-f882f8d795c9</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 7bb0b11f-8625-4154-b5ea-1b73541d4d64</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsGiveLecture</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:58:22</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">GiveLecture</_hname>
+					<_hid type="a">GUID 75ace7f3-122d-41e7-8a6e-0914c67e6916</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">GiveLecture</_hclass>
+					<_hname type="a">itsStudent</_hname>
+					<_hid type="a">GUID b936dd6c-3a39-4dbf-bd21-1a9649abc616</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IActor type="e">
+			<_id type="a">GUID ea7802c5-55d1-40bd-84f8-a4b1cdd65473</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Professor</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::11:0:56</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">Model1</_hname>
+					<_hid type="a">GUID d5411e1d-30a8-4aec-a709-8e6377fc3cf3</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::11:0:56</_modifiedTime>
+			<weakCGTime type="a">12.14.2022::11:0:56</weakCGTime>
+			<strongCGTime type="a">12.14.2022::10:37:27</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 7e8c2789-e8ea-42dd-a2fc-e58e810d7561</value>
+				<value>GUID 4fee6623-316a-4ea2-82d2-928eade5718e</value>
+				<value>GUID 05611399-2331-41e6-a5b5-17d11e46fded</value>
+			</AggregatesList>
+		</IActor>
+		<IGeneralization type="e">
+			<_id type="a">GUID 7e8c2789-e8ea-42dd-a2fc-e58e810d7561</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hid type="a">GUID 81e96c08-1e5c-4257-9cf8-b7862403ba77</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 4fee6623-316a-4ea2-82d2-928eade5718e</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsLectureRoom</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:37:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:37:40</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 8044eb88-adc4-4f4d-a927-819bac4d5ff6</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 26bd34d9-2989-466f-8c46-55a686901031</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 05611399-2331-41e6-a5b5-17d11e46fded</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsUnlockDoor</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:0:56</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">UnlockDoor</_hname>
+					<_hid type="a">GUID 0bcfa2f8-9156-4a4f-850c-2c39767ec29c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">UnlockDoor</_hclass>
+					<_hname type="a">itsProfessor</_hname>
+					<_hid type="a">GUID 0329b37a-a179-4061-92a5-b8f87401cac3</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IActor type="e">
+			<_id type="a">GUID e3dbcc43-3ef6-474b-8691-a851423e21bf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Manager</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::11:15:26</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">Model1</_hname>
+					<_hid type="a">GUID d5411e1d-30a8-4aec-a709-8e6377fc3cf3</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::11:15:26</_modifiedTime>
+			<weakCGTime type="a">12.14.2022::11:15:26</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID e4763cc0-6b23-45d6-b81f-ff3f18e0edec</value>
+				<value>GUID a2c0618b-1ec6-4f59-9589-6d794046b69b</value>
+			</AggregatesList>
+		</IActor>
+		<IGeneralization type="e">
+			<_id type="a">GUID e4763cc0-6b23-45d6-b81f-ff3f18e0edec</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hid type="a">GUID 81e96c08-1e5c-4257-9cf8-b7862403ba77</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID a2c0618b-1ec6-4f59-9589-6d794046b69b</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsLectureRoom</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::10:42:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::10:42:53</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 8044eb88-adc4-4f4d-a927-819bac4d5ff6</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID f3b5128e-ac8a-4463-b493-1fac82e59795</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IActor type="e">
+			<_id type="a">GUID 81e96c08-1e5c-4257-9cf8-b7862403ba77</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">UserLR</_name>
+			<_modifiedTimeWeak type="a">12.14.2022::11:17:41</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">USeCases</_hname>
+					<_hid type="a">GUID 93e799f0-ae3f-4349-9fa7-21b9a67ae1ce</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.14.2022::11:17:41</_modifiedTime>
+			<weakCGTime type="a">12.14.2022::11:17:41</weakCGTime>
+			<strongCGTime type="a">12.14.2022::11:15:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 647994c4-d479-46dc-bb10-b07ce9002d48</value>
+				<value>GUID 73139707-2a97-4880-8181-99131c123436</value>
+				<value>GUID fc73f0ff-9c78-41d3-9cbe-d94de444d0e4</value>
+			</AggregatesList>
+		</IActor>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 647994c4-d479-46dc-bb10-b07ce9002d48</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsOpenDoor</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:0:36</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">OpenDoor</_hname>
+					<_hid type="a">GUID 46744ec8-f2c3-4314-930a-fe766e97b9ae</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">OpenDoor</_hclass>
+					<_hname type="a">itsUserLR</_hname>
+					<_hid type="a">GUID d5958952-217a-484f-a7bc-6c93524e0362</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 73139707-2a97-4880-8181-99131c123436</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTurnOnLight</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:17:38</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">TurnOnLight</_hname>
+					<_hid type="a">GUID e378c88d-1762-44b7-9b22-2b2ca5be107b</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">TurnOnLight</_hclass>
+					<_hname type="a">itsUserLR</_hname>
+					<_hid type="a">GUID 2e7a555b-b96d-4d20-a2ab-b2b862dcc7e5</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID fc73f0ff-9c78-41d3-9cbe-d94de444d0e4</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTurnoffLight</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2022::11:17:41</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hname type="a">TurnoffLight</_hname>
+					<_hid type="a">GUID eadca806-ad0e-4411-8505-939d7cada946</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\UseCases.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCases</_hsubsystem>
+					<_hclass type="a">TurnoffLight</_hclass>
+					<_hname type="a">itsUserLR</_hname>
+					<_hid type="a">GUID f98e41c0-5bcb-49f2-9c53-25446bf8aabf</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

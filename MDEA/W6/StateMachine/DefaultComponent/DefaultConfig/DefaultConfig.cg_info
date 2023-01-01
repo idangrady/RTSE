@@ -1,0 +1,40 @@
+I-Logix-RPY-Archive version 8.15.0 * 202002261110
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 4;
+	- value = "DefaultComponent\\DefaultConfig\\Default.cpp" 12.21.2022::10:21:0
+	"DefaultComponent\\DefaultConfig\\Default.h" 12.21.2022::10:21:0
+	"DefaultComponent\\DefaultConfig\\PowerSouceCar.cpp" 12.21.2022::10:22:12
+	"DefaultComponent\\DefaultConfig\\PowerSouceCar.h" 12.21.2022::10:21:0
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID 68336327-d6f2-4c6a-8a22-1059b9d4c6f2" "GUID 2eb3d6ff-af4f-4658-93b3-a926ea4eaec5"
+	"GUID abf4f8f5-9c55-46e0-8671-e10891139003" "GUID 2eb3d6ff-af4f-4658-93b3-a926ea4eaec5"
+	
+}
+- size = 3;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\StateMachine_rpy\\Default.sbsx";
+	- _name = "Default";
+	- _id = GUID abf4f8f5-9c55-46e0-8671-e10891139003;
+}
+- genTime = 12.21.2022::10:20:58;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\StateMachine_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 1b2c312b-a50c-4c0f-b85e-73e35f061c90;
+}
+- genTime = 12.21.2022::10:41:43;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\StateMachine_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "PowerSouceCar";
+	- _id = GUID d0a6ec37-5fb2-4a32-896d-be50f8b11c90;
+}
+- genTime = 12.21.2022::10:41:43;
+

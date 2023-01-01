@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>*</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<CGEMdiWorkspace type="e">
+			<stubList type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</stubList>
+			<isLoadOnDemand type="a">0</isLoadOnDemand>
+			<myViewsWithID type="c">
+				<IRPYRawContainer type="e">
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
+								<m_nLeft type="a">152</m_nLeft>
+								<m_nTop type="a">152</m_nTop>
+								<m_nRight type="a">1455</m_nRight>
+								<m_nBottom type="a">982</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\Packages_rpy\Requirement.sbsx</_hfilename>
+								<_hsubsystem type="a">MyProjectWeek2::Analysis::Requirement</_hsubsystem>
+								<_hname type="a">GeneralReqDiagram</_hname>
+								<_hid type="a">GUID 8d4a22b8-dcc1-4327-9698-11c1741d84d5</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">1251 744 </_DownRight>
+						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
+								<m_nLeft type="a">190</m_nLeft>
+								<m_nTop type="a">190</m_nTop>
+								<m_nRight type="a">1493</m_nRight>
+								<m_nBottom type="a">1020</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\Packages_rpy\PaymentRequirement.sbsx</_hfilename>
+								<_hsubsystem type="a">MyProjectWeek2::Analysis::Requirement::PaymentRequirement</_hsubsystem>
+								<_hname type="a">GPRDiagram</_hname>
+								<_hid type="a">GUID 362bb40a-ab11-48bc-98ed-ae42efa8aba4</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">1251 744 </_DownRight>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
+								<m_nLeft type="a">114</m_nLeft>
+								<m_nTop type="a">114</m_nTop>
+								<m_nRight type="a">1684</m_nRight>
+								<m_nBottom type="a">749</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\Packages_rpy\MyProjectWeek2.sbsx</_hfilename>
+								<_hsubsystem type="a">MyProjectWeek2</_hsubsystem>
+								<_hname type="a">TopViewPackages</_hname>
+								<_hid type="a">GUID cbc696a1-0fc6-43ba-bdba-ba1cbf713a26</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 -16 </_UpLeft>
+						<_DownRight type="a">1518 533 </_DownRight>
+						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+				</IRPYRawContainer>
+			</myViewsWithID>
+			<_fullName type="a">D:\GitHub\RTSE\MDEA\Practical\Packages\Packages</_fullName>
+			<_selectedPerspective type="a">Advanced</_selectedPerspective>
+			<m_SearchScopeList type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</m_SearchScopeList>
+			<bUsingBrowserCustomView type="a">1</bUsingBrowserCustomView>
+			<bApplyOnDiagrams type="a">0</bApplyOnDiagrams>
+			<liCustomViewIDs type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</liCustomViewIDs>
+			<mapOslcRmCollections type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</mapOslcRmCollections>
+			<favoritesItem type="e">
+				<generation type="a">0</generation>
+				<name type="a">Favorites</name>
+				<idOrFolder type="a">folder-expanded</idOrFolder>
+			</favoritesItem>
+			
+			<favoritesItem type="e">
+				<generation type="a">1</generation>
+				<name type="a">ProblemDescribtion</name>
+				<idOrFolder type="a">#startHnd# INObjectHandle 
+	- _m2Class = &quot;ISubsystem&quot;#hndSem#
+	- _filename = &quot;D:\\GitHub\\RTSE\\MDEA\\Practical\\Packages\\Packages_rpy\\ProblemDescribtion.sbsx&quot;#hndSem#
+	- _subsystem = &quot;MyProjectWeek2&quot;#hndSem#
+	- _name = &quot;ProblemDescribtion&quot;#hndSem#
+	- _id = GUID 6a81e89c-2144-4650-929f-0ad6dcabc066#hndSem#
+#endHnd#</idOrFolder>
+			</favoritesItem>
+			
+
+	- tableMatrixRowAdditionHight = {
+		count=1;
+		{ - TableMatrixView
+			id=27efe029-0ff8-4be9-8562-277db02b45f2;
+			rowAdditionalHight=;;
+			rowAdditionalHightExt=;
+		}
+	}
+
+		</CGEMdiWorkspace>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
