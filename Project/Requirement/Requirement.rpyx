@@ -24,9 +24,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.18.2022::12:35:53</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:35:53</_modifiedTime>
-			<_lastID type="a">13</_lastID>
+			<_modifiedTimeWeak type="a">1.4.2023::10:53:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2023::11:9:35</_modifiedTime>
+			<_lastID type="a">14</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<value>16777215</value>
@@ -86,10 +86,6 @@
 				</IRPYRawContainer>
 			</Multiplicities>
 			<_isImportedFromDM type="a">0</_isImportedFromDM>
-			<UCDiagrams type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UCDiagrams>
 			<mapOslcAddedCollections type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>

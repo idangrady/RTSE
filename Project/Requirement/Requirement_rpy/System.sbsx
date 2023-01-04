@@ -12,25 +12,23 @@
 			<_id type="a">GUID 982bb086-3f98-4365-a2ed-da63220dd18f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">System</_name>
-			<_modifiedTimeWeak type="a">12.18.2022::12:37:16</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:37:16</_modifiedTime>
-			<_lastID type="a">12</_lastID>
-			<weakCGTime type="a">12.18.2022::12:37:16</weakCGTime>
+			<_modifiedTimeWeak type="a">1.4.2023::11:7:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2023::11:9:35</_modifiedTime>
+			<_lastID type="a">17</_lastID>
+			<weakCGTime type="a">1.4.2023::11:7:52</weakCGTime>
 			<strongCGTime type="a">12.18.2022::12:9:55</strongCGTime>
 			<_defaultComposite type="s">GUID 72e6f889-4d8f-4a82-b9cf-cf1d1846218e</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">12.18.2022::12:20:44</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 72e6f889-4d8f-4a82-b9cf-cf1d1846218e</value>
-				<value>GUID 31c8b74e-5fe1-48cb-b86f-456b7a67a9e7</value>
-				<value>GUID 9c0fd543-0bf7-4e0d-9591-6c7449b213cc</value>
-				<value>GUID f2315efb-4c3d-4212-a692-9da8cb55db6e</value>
-				<value>GUID e6b40fec-efef-4347-a34d-7e1a08339407</value>
 				<value>GUID bf0d9009-c999-4a1e-86fb-4f0523511860</value>
 				<value>GUID 3ed18898-af71-429c-801c-8d27604e667a</value>
 				<value>GUID 5ca72a44-2885-48a0-91cf-5bd9cf77a168</value>
 				<value>GUID 6dbc03e9-ee55-4f45-9a52-0d138a869c36</value>
 				<value>GUID d5ee578e-ccdf-4e1b-8429-61faad6284ea</value>
+				<value>GUID dffd1a75-fe1c-4df6-b168-e50dd9162fe1</value>
+				<value>GUID b8eb8b7a-7cb4-46e1-9e15-089703c24aa2</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IClass type="e">
@@ -48,731 +46,55 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 		</IClass>
 		<IUseCase type="e">
-			<_id type="a">GUID 31c8b74e-5fe1-48cb-b86f-456b7a67a9e7</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">TurnOnVehicle</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:34:46</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<Diagrams type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Diagrams>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
-			<_EntryPoints type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</_EntryPoints>
-			<AggregatesList type="e">
-				<value>GUID c8159869-e2f7-4c02-8f0b-37a1b831da66</value>
-				<value>GUID 579cdeaa-42f7-4945-a8a6-e4ecff407a3e</value>
-				<value>GUID e71ff715-c184-4c03-be4b-81d6e2dfa4ed</value>
-			</AggregatesList>
-		</IUseCase>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID c8159869-e2f7-4c02-8f0b-37a1b831da66</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsEnergySource</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:24:14</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">EnergySource</_hname>
-					<_hid type="a">GUID 770ce620-16ec-46f5-9054-5f5e06e18f80</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">EnergySource</_hclass>
-					<_hname type="a">itsTurnOnVehicle</_hname>
-					<_hid type="a">GUID 52d55d53-0241-48a7-b021-c4cbbe3886de</_hid>
-				</IHandle>
-			</_inverse>
-			<Qualifiers type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Qualifiers>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 579cdeaa-42f7-4945-a8a6-e4ecff407a3e</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsEnvironment</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:26:56</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">Environment</_hname>
-					<_hid type="a">GUID be171fa2-625e-4f16-b6aa-3265fa553a63</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">Environment</_hclass>
-					<_hname type="a">itsTurnOnVehicle</_hname>
-					<_hid type="a">GUID cc00fcbe-9b6c-419a-ae0b-7d4e95036d09</_hid>
-				</IHandle>
-			</_inverse>
-			<Qualifiers type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Qualifiers>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID e71ff715-c184-4c03-be4b-81d6e2dfa4ed</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsDriver</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:34:46</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IActor</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">Driver</_hname>
-					<_hid type="a">GUID 8bc58334-32a2-4269-9049-51db79c93417</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">Driver</_hclass>
-					<_hname type="a">itsTurnOnVehicle</_hname>
-					<_hid type="a">GUID 854b37c5-7a79-46d0-a125-aa193e005a4a</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IUseCase type="e">
-			<_id type="a">GUID 9c0fd543-0bf7-4e0d-9591-6c7449b213cc</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">TunOffVehicle</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:34:43</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">12.18.2022::12:14:17</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<Diagrams type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Diagrams>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
-			<_EntryPoints type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</_EntryPoints>
-			<AggregatesList type="e">
-				<value>GUID d5ceb64d-71fc-4af7-b445-471dc07274b7</value>
-				<value>GUID a838fc76-334f-45a9-a8c1-a1853cb9f5b7</value>
-				<value>GUID 5c4c2b12-5140-47e9-a302-0c7262d21102</value>
-				<value>GUID 1d4057f3-61a4-49d8-88fc-3f425ceb7701</value>
-			</AggregatesList>
-		</IUseCase>
-		<IDependency type="e">
-			<_id type="a">GUID d5ceb64d-71fc-4af7-b445-471dc07274b7</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">TurnOnVehicle</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-							<_hname type="a">extend</_hname>
-							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.18.2022::12:14:17</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:14:17</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hid type="a">GUID 31c8b74e-5fe1-48cb-b86f-456b7a67a9e7</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hid type="a">GUID 9c0fd543-0bf7-4e0d-9591-6c7449b213cc</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID a838fc76-334f-45a9-a8c1-a1853cb9f5b7</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsEnergySource</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:24:17</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">EnergySource</_hname>
-					<_hid type="a">GUID 770ce620-16ec-46f5-9054-5f5e06e18f80</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">EnergySource</_hclass>
-					<_hname type="a">itsTunOffVehicle</_hname>
-					<_hid type="a">GUID c1f4a573-65f6-4aa9-853f-cf58cbbc2279</_hid>
-				</IHandle>
-			</_inverse>
-			<Qualifiers type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Qualifiers>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 5c4c2b12-5140-47e9-a302-0c7262d21102</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsEnvironment</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:26:53</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">Environment</_hname>
-					<_hid type="a">GUID be171fa2-625e-4f16-b6aa-3265fa553a63</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">Environment</_hclass>
-					<_hname type="a">itsTunOffVehicle</_hname>
-					<_hid type="a">GUID 95d15201-778c-4659-944a-2b252111fd97</_hid>
-				</IHandle>
-			</_inverse>
-			<Qualifiers type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Qualifiers>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 1d4057f3-61a4-49d8-88fc-3f425ceb7701</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsDriver</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:34:43</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IActor</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">Driver</_hname>
-					<_hid type="a">GUID 8bc58334-32a2-4269-9049-51db79c93417</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">Driver</_hclass>
-					<_hname type="a">itsTunOffVehicle</_hname>
-					<_hid type="a">GUID 8016977a-0c09-4f5d-9cb5-f3213adacecf</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IUseCase type="e">
-			<_id type="a">GUID f2315efb-4c3d-4212-a692-9da8cb55db6e</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">DriveVehicle</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:34:41</_modifiedTime>
-			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">12.18.2022::12:15:58</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<Diagrams type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Diagrams>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
-			<_EntryPoints type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</_EntryPoints>
-			<AggregatesList type="e">
-				<value>GUID 3c0f997f-5ce4-41df-8da5-fde3c8ad9dc5</value>
-				<value>GUID a73eb811-eef9-4492-90b8-63b04d0c7ee2</value>
-				<value>GUID 07fa0e16-ae5b-47f6-a986-d1038524e5b5</value>
-				<value>GUID e4bcbf95-08c5-42d1-8153-e392f8adaa5b</value>
-			</AggregatesList>
-		</IUseCase>
-		<IDependency type="e">
-			<_id type="a">GUID 3c0f997f-5ce4-41df-8da5-fde3c8ad9dc5</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">TurnOnVehicle</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-							<_hname type="a">include</_hname>
-							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.18.2022::12:15:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:15:58</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hid type="a">GUID 31c8b74e-5fe1-48cb-b86f-456b7a67a9e7</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hid type="a">GUID f2315efb-4c3d-4212-a692-9da8cb55db6e</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID a73eb811-eef9-4492-90b8-63b04d0c7ee2</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsEnergySource</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:25:9</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">EnergySource</_hname>
-					<_hid type="a">GUID 770ce620-16ec-46f5-9054-5f5e06e18f80</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">EnergySource</_hclass>
-					<_hname type="a">itsDriveVehicle</_hname>
-					<_hid type="a">GUID a433dd30-71a7-45eb-b011-8a8a9d03c852</_hid>
-				</IHandle>
-			</_inverse>
-			<Qualifiers type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Qualifiers>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 07fa0e16-ae5b-47f6-a986-d1038524e5b5</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsEnvironment</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:26:18</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">Environment</_hname>
-					<_hid type="a">GUID be171fa2-625e-4f16-b6aa-3265fa553a63</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">Environment</_hclass>
-					<_hname type="a">itsDriveVehicle</_hname>
-					<_hid type="a">GUID 18c628ec-ce7a-48e5-930d-3abc7bbd9ba4</_hid>
-				</IHandle>
-			</_inverse>
-			<Qualifiers type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Qualifiers>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID e4bcbf95-08c5-42d1-8153-e392f8adaa5b</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsDriver</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:34:41</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IActor</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">Driver</_hname>
-					<_hid type="a">GUID 8bc58334-32a2-4269-9049-51db79c93417</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">Driver</_hclass>
-					<_hname type="a">itsDriveVehicle</_hname>
-					<_hid type="a">GUID c4335f1c-1032-4117-ad70-0974e970123b</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IUseCase type="e">
-			<_id type="a">GUID e6b40fec-efef-4347-a34d-7e1a08339407</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">StopVehicle</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:34:38</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">12.18.2022::12:16:30</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<Diagrams type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Diagrams>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
-			<_EntryPoints type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</_EntryPoints>
-			<AggregatesList type="e">
-				<value>GUID d7a0687c-6752-44b7-b2bd-04d1c3f03428</value>
-				<value>GUID c46d88ea-d85a-409a-b739-f56543e70d59</value>
-				<value>GUID 31f31c68-af3a-406e-8c41-880fcac3ce50</value>
-				<value>GUID 77deb364-c75a-4200-9b73-8bcbdb28adfb</value>
-			</AggregatesList>
-		</IUseCase>
-		<IDependency type="e">
-			<_id type="a">GUID d7a0687c-6752-44b7-b2bd-04d1c3f03428</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">TunOffVehicle</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-							<_hname type="a">extend</_hname>
-							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.18.2022::12:16:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:16:30</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hid type="a">GUID 9c0fd543-0bf7-4e0d-9591-6c7449b213cc</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hid type="a">GUID e6b40fec-efef-4347-a34d-7e1a08339407</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID c46d88ea-d85a-409a-b739-f56543e70d59</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsEnergySource</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:25:13</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">EnergySource</_hname>
-					<_hid type="a">GUID 770ce620-16ec-46f5-9054-5f5e06e18f80</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">EnergySource</_hclass>
-					<_hname type="a">itsStopVehicle</_hname>
-					<_hid type="a">GUID 3cf7aea4-f5b1-4d66-b6c3-db808bf1a622</_hid>
-				</IHandle>
-			</_inverse>
-			<Qualifiers type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Qualifiers>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 31f31c68-af3a-406e-8c41-880fcac3ce50</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsEnvironment</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:26:21</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">Environment</_hname>
-					<_hid type="a">GUID be171fa2-625e-4f16-b6aa-3265fa553a63</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">Environment</_hclass>
-					<_hname type="a">itsStopVehicle</_hname>
-					<_hid type="a">GUID ea99102e-8eae-4b0f-bc40-a5c8126ade9b</_hid>
-				</IHandle>
-			</_inverse>
-			<Qualifiers type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Qualifiers>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 77deb364-c75a-4200-9b73-8bcbdb28adfb</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsDriver</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:34:38</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IActor</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">Driver</_hname>
-					<_hid type="a">GUID 8bc58334-32a2-4269-9049-51db79c93417</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">Driver</_hclass>
-					<_hname type="a">itsStopVehicle</_hname>
-					<_hid type="a">GUID 6b5cda60-c76f-44ec-a588-e267dea99e9e</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IUseCase type="e">
 			<_id type="a">GUID bf0d9009-c999-4a1e-86fb-4f0523511860</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">FactoryReset</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:31:16</_modifiedTime>
+			<_modifiedTime type="a">1.4.2023::10:44:20</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
+			<Associations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<Diagrams type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Diagrams>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</_EntryPoints>
-			<AggregatesList type="e">
-				<value>GUID e0738e24-0a70-4f87-a181-17894d29e0bc</value>
-			</AggregatesList>
 		</IUseCase>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID e0738e24-0a70-4f87-a181-17894d29e0bc</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsMechanic</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:31:16</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IActor</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">Mechanic</_hname>
-					<_hid type="a">GUID 510fa832-a6fc-40eb-8e63-da7db5b36b9b</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">Mechanic</_hclass>
-					<_hname type="a">itsFactoryReset</_hname>
-					<_hid type="a">GUID c2a48c29-a9ee-46fd-86fd-990b6afb2540</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
 		<IUseCase type="e">
 			<_id type="a">GUID 3ed18898-af71-429c-801c-8d27604e667a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ReplaceFautlyHardware</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:31:19</_modifiedTime>
+			<_modifiedTime type="a">1.4.2023::10:44:20</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
+			<Associations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<Diagrams type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Diagrams>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</_EntryPoints>
-			<AggregatesList type="e">
-				<value>GUID a18451be-2eb1-4d66-815a-78c0b17b8029</value>
-			</AggregatesList>
 		</IUseCase>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID a18451be-2eb1-4d66-815a-78c0b17b8029</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsMechanic</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:31:19</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IActor</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">Mechanic</_hname>
-					<_hid type="a">GUID 510fa832-a6fc-40eb-8e63-da7db5b36b9b</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">Mechanic</_hclass>
-					<_hname type="a">itsReplaceFautlyHardware</_hname>
-					<_hid type="a">GUID c7e8336f-dfcb-4841-9ee0-8e7e04fc1ef2</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
 		<IUseCase type="e">
 			<_id type="a">GUID 5ca72a44-2885-48a0-91cf-5bd9cf77a168</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Notificationacknoledge</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:39:22</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.18.2022::12:39:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2023::10:46:49</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">12.18.2022::12:39:22</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -781,18 +103,14 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</_EntryPoints>
 			<AggregatesList type="e">
 				<value>GUID 29dc1d99-f161-4c45-9bfc-b6e4ccfeb5ae</value>
-				<value>GUID 03583db4-578f-41d0-81a5-bddea7899987</value>
-				<value>GUID f6d7a1fd-5a1a-4efb-9eba-5bc8d89a3dc6</value>
+				<value>GUID 0374be9d-2694-4d4f-9ac7-8a0efdc062db</value>
+				<value>GUID 66278aa2-16b1-4ba4-a5f3-5f90cfecce96</value>
 			</AggregatesList>
 		</IUseCase>
 		<IDependency type="e">
@@ -827,48 +145,19 @@
 			</_dependent>
 		</IDependency>
 		<IAssociationEnd type="e">
-			<_id type="a">GUID 03583db4-578f-41d0-81a5-bddea7899987</_id>
+			<_id type="a">GUID 0374be9d-2694-4d4f-9ac7-8a0efdc062db</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsSensor</_name>
+			<_name type="a">itsSensorActor</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:38:25</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">Sensor</_hname>
-					<_hid type="a">GUID bf4163a6-c35a-453a-a725-f6812dd4e579</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Default.sbsx</_hfilename>
-					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">Sensor</_hclass>
-					<_hname type="a">itsNotificationacknoledge</_hname>
-					<_hid type="a">GUID 87f21c32-3cb1-4e9e-8a71-c6e431189e35</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID f6d7a1fd-5a1a-4efb-9eba-5bc8d89a3dc6</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsUser</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:38:58</_modifiedTime>
+			<_modifiedTime type="a">1.4.2023::10:44:57</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\Default.sbsx</_hfilename>
 					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">User</_hname>
-					<_hid type="a">GUID cf36547e-0c73-4bc9-95df-7ae8b665ff18</_hid>
+					<_hname type="a">SensorActor</_hname>
+					<_hid type="a">GUID cd10b923-0e8e-4d27-9728-0eea611fcd04</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -876,9 +165,38 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\Default.sbsx</_hfilename>
 					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">User</_hclass>
+					<_hclass type="a">SensorActor</_hclass>
 					<_hname type="a">itsNotificationacknoledge</_hname>
-					<_hid type="a">GUID cff6ecaa-d6b4-489c-bcd3-e34c78b6960c</_hid>
+					<_hid type="a">GUID 50a4b77c-04eb-4522-9aa5-be41c235331a</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 66278aa2-16b1-4ba4-a5f3-5f90cfecce96</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsEnergySource</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2023::10:46:49</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\Default.sbsx</_hfilename>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hname type="a">EnergySource</_hname>
+					<_hid type="a">GUID 770ce620-16ec-46f5-9054-5f5e06e18f80</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Default.sbsx</_hfilename>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">EnergySource</_hclass>
+					<_hname type="a">itsNotificationacknoledge</_hname>
+					<_hid type="a">GUID 47e0b2fb-7e28-498e-9ac4-9ff43cbad954</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>
@@ -888,27 +206,35 @@
 			<_id type="a">GUID 6dbc03e9-ee55-4f45-9a52-0d138a869c36</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DataReception</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:39:40</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">12.18.2022::12:39:40</weakCGTime>
+			<_modifiedTimeWeak type="a">12.18.2022::12:39:40</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\Default.sbsx</_hfilename>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hname type="a">AutomaticInflator</_hname>
+					<_hid type="a">GUID 9308558c-2e15-4fd7-ada4-893f67d488d5</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">1.4.2023::11:16:7</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">1.4.2023::11:16:7</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</_EntryPoints>
 			<AggregatesList type="e">
 				<value>GUID 8137be90-b917-4541-8af9-449fc9411c38</value>
-				<value>GUID c1f58a12-94f1-4dfe-bd50-75652bdb9f0a</value>
+				<value>GUID 9d47cd7b-2631-42b7-b87b-e1373b1ba2c0</value>
+				<value>GUID 4964c9ec-8195-42bb-a617-b73023ef5f3c</value>
+				<value>GUID 93fc9c1c-46a4-477a-8613-a3d524416f0d</value>
+				<value>GUID 53159a03-e64d-4d1a-93e2-170fb68ae728</value>
 			</AggregatesList>
 		</IUseCase>
 		<IDependency type="e">
@@ -942,20 +268,52 @@
 				</INObjectHandle>
 			</_dependent>
 		</IDependency>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID c1f58a12-94f1-4dfe-bd50-75652bdb9f0a</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsSensor</_name>
+		<IDependency type="e">
+			<_id type="a">GUID 9d47cd7b-2631-42b7-b87b-e1373b1ba2c0</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">InflateWheel</_name>
+			<_modifiedTimeWeak type="a">1.4.2023::11:16:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2023::11:16:7</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID dffd1a75-fe1c-4df6-b168-e50dd9162fe1</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 6dbc03e9-ee55-4f45-9a52-0d138a869c36</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IGeneralization type="e">
+			<_id type="a">GUID 4964c9ec-8195-42bb-a617-b73023ef5f3c</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:38:27</_modifiedTime>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID b8eb8b7a-7cb4-46e1-9e15-089703c24aa2</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 93fc9c1c-46a4-477a-8613-a3d524416f0d</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsSensorActor</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2023::10:45:4</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
+					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\Default.sbsx</_hfilename>
 					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">Sensor</_hname>
-					<_hid type="a">GUID bf4163a6-c35a-453a-a725-f6812dd4e579</_hid>
+					<_hname type="a">SensorActor</_hname>
+					<_hid type="a">GUID cd10b923-0e8e-4d27-9728-0eea611fcd04</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -963,9 +321,38 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\Default.sbsx</_hfilename>
 					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">Sensor</_hclass>
+					<_hclass type="a">SensorActor</_hclass>
 					<_hname type="a">itsDataReception</_hname>
-					<_hid type="a">GUID d28104f3-27eb-4407-b22b-900f3b6b1981</_hid>
+					<_hid type="a">GUID 84536c02-db14-46a9-b87c-54081c021778</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 53159a03-e64d-4d1a-93e2-170fb68ae728</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsEnergySource</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2023::10:46:51</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\Default.sbsx</_hfilename>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hname type="a">EnergySource</_hname>
+					<_hid type="a">GUID 770ce620-16ec-46f5-9054-5f5e06e18f80</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Default.sbsx</_hfilename>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">EnergySource</_hclass>
+					<_hname type="a">itsDataReception</_hname>
+					<_hid type="a">GUID fc53ade4-d169-4ebe-9da3-d19e81388068</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>
@@ -976,8 +363,89 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">DataDocumentation</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:38:29</_modifiedTime>
+			<_modifiedTime type="a">1.4.2023::10:46:53</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID b3f86a9a-8645-40ff-9d6a-7411670029f6</value>
+				<value>GUID dcabe1a5-beb4-4109-84ba-f75f9c97d0cd</value>
+			</AggregatesList>
+		</IUseCase>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID b3f86a9a-8645-40ff-9d6a-7411670029f6</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsSensorActor</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2023::10:45:7</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\Default.sbsx</_hfilename>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hname type="a">SensorActor</_hname>
+					<_hid type="a">GUID cd10b923-0e8e-4d27-9728-0eea611fcd04</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Default.sbsx</_hfilename>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">SensorActor</_hclass>
+					<_hname type="a">itsDataDocumentation</_hname>
+					<_hid type="a">GUID 3821f15d-18ce-4cdc-932e-488e30cc1af5</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID dcabe1a5-beb4-4109-84ba-f75f9c97d0cd</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsEnergySource</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2023::10:46:53</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\Default.sbsx</_hfilename>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hname type="a">EnergySource</_hname>
+					<_hid type="a">GUID 770ce620-16ec-46f5-9054-5f5e06e18f80</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Default.sbsx</_hfilename>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">EnergySource</_hclass>
+					<_hname type="a">itsDataDocumentation</_hname>
+					<_hid type="a">GUID 8a26d555-93f5-4e67-82af-ec9e99586484</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IUseCase type="e">
+			<_id type="a">GUID dffd1a75-fe1c-4df6-b168-e50dd9162fe1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">InflateWheel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2023::11:16:1</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">1.4.2023::11:12:12</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -993,23 +461,55 @@
 				</IRPYRawContainer>
 			</_EntryPoints>
 			<AggregatesList type="e">
-				<value>GUID f42c4d61-a3f6-43ee-bb6e-697a31ef368f</value>
+				<value>GUID dc0dcd34-db30-4693-85ff-4afaf4ef5b72</value>
+				<value>GUID ba3d6650-d797-40c8-92fa-61489ec637dc</value>
 			</AggregatesList>
 		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID dc0dcd34-db30-4693-85ff-4afaf4ef5b72</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DeflateWheel</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.4.2023::11:12:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2023::11:12:12</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID b8eb8b7a-7cb4-46e1-9e15-089703c24aa2</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID dffd1a75-fe1c-4df6-b168-e50dd9162fe1</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IAssociationEnd type="e">
-			<_id type="a">GUID f42c4d61-a3f6-43ee-bb6e-697a31ef368f</_id>
+			<_id type="a">GUID ba3d6650-d797-40c8-92fa-61489ec637dc</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsSensor</_name>
+			<_name type="a">itsWheel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2022::12:38:29</_modifiedTime>
+			<_modifiedTime type="a">1.4.2023::11:11:57</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hfilename type="a">.\Default.sbsx</_hfilename>
 					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hname type="a">Sensor</_hname>
-					<_hid type="a">GUID bf4163a6-c35a-453a-a725-f6812dd4e579</_hid>
+					<_hname type="a">Wheel</_hname>
+					<_hid type="a">GUID aa7cd7d2-fb52-4fd8-a34a-28d31505a87a</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -1017,9 +517,71 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\Default.sbsx</_hfilename>
 					<_hsubsystem type="a">Default</_hsubsystem>
-					<_hclass type="a">Sensor</_hclass>
-					<_hname type="a">itsDataDocumentation</_hname>
-					<_hid type="a">GUID 6a51bbbe-6887-45cb-9ca1-ec3398ee02df</_hid>
+					<_hclass type="a">Wheel</_hclass>
+					<_hname type="a">itsInflateWheel</_hname>
+					<_hid type="a">GUID ba6b2fe8-baaa-463d-9076-c9e45525ba44</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IUseCase type="e">
+			<_id type="a">GUID b8eb8b7a-7cb4-46e1-9e15-089703c24aa2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DeflateWheel</_name>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2023::11:14:58</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<Diagrams type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Diagrams>
+			<UseCaseStereoTypes type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</UseCaseStereoTypes>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID 7c49ac87-e02d-4267-96b9-2acbb4822b5c</value>
+			</AggregatesList>
+		</IUseCase>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 7c49ac87-e02d-4267-96b9-2acbb4822b5c</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsWheel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2023::11:12:0</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\Default.sbsx</_hfilename>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hname type="a">Wheel</_hname>
+					<_hid type="a">GUID aa7cd7d2-fb52-4fd8-a34a-28d31505a87a</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Default.sbsx</_hfilename>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">Wheel</_hclass>
+					<_hname type="a">itsDeflateWheel</_hname>
+					<_hid type="a">GUID 66da60b5-6616-415a-84ca-b2cab34c9492</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>
