@@ -12,10 +12,10 @@
 			<_id type="a">GUID ca4174e7-b908-4beb-befe-7834994808d4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Default</_name>
-			<_modifiedTimeWeak type="a">2.9.2023::17:14:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.9.2023::17:10:54</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.9.2023::17:24:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.9.2023::17:28:50</_modifiedTime>
 			<_lastID type="a">63</_lastID>
-			<weakCGTime type="a">2.9.2023::17:14:27</weakCGTime>
+			<weakCGTime type="a">2.9.2023::17:24:10</weakCGTime>
 			<strongCGTime type="a">2.7.2023::18:27:44</strongCGTime>
 			<_defaultComposite type="s">GUID 73f1665e-9eee-46c8-b261-47c075cc522e</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -536,7 +536,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.8.2023::17:8:35</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.9.2023::17:29:20</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -544,8 +544,9 @@
 					<_hid type="a">GUID 9c97632e-93af-464b-93b1-438af4358674</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.8.2023::17:8:35</_modifiedTime>
-			<weakCGTime type="a">2.8.2023::17:8:35</weakCGTime>
+			<_modifiedTime type="a">2.9.2023::17:29:20</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">2.9.2023::17:29:20</weakCGTime>
 			<strongCGTime type="a">2.8.2023::16:5:14</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -553,6 +554,9 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID c7a6a744-bcef-467b-9a70-a266d777f728</value>
+				<value>GUID fe8d9efd-c4e5-424e-8286-90c27250f7c9</value>
+				<value>GUID 8fa87a5a-c1d1-49e0-988e-a69224613ca7</value>
 				<value>GUID ab797060-9f1b-47e1-b177-79df3f6d5e7b</value>
 				<value>GUID aeec7a4f-feca-4cbb-8542-048ba7873bb4</value>
 				<value>GUID 61221051-c054-49da-bce6-28e079d5353b</value>
@@ -561,6 +565,136 @@
 				<value>GUID af026636-f49b-4af9-9d89-c5352da8f64b</value>
 			</AggregatesList>
 		</IClass>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID c7a6a744-bcef-467b-9a70-a266d777f728</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SwitchOnLed</_name>
+			<_modifiedTimeWeak type="a">2.9.2023::17:28:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.9.2023::17:28:33</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_virtual type="a">1</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<AggregatesList type="e">
+				<value>GUID a34d5e5c-3ca1-423a-82d8-8d64715c9f17</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID a34d5e5c-3ca1-423a-82d8-8d64715c9f17</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ledId</_name>
+			<_modifiedTimeWeak type="a">2.9.2023::17:28:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.9.2023::17:28:33</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+			<AggregatesList type="e">
+				<value>GUID 425887d4-2d13-46bd-bfde-ac62eea82e99</value>
+			</AggregatesList>
+		</IArgument>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 425887d4-2d13-46bd-bfde-ac62eea82e99</_id>
+			<_modifiedTimeWeak type="a">2.9.2023::17:28:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.9.2023::17:28:33</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID fe8d9efd-c4e5-424e-8286-90c27250f7c9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SwitchOffLed</_name>
+			<_modifiedTimeWeak type="a">2.9.2023::17:28:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.9.2023::17:28:47</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_virtual type="a">1</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<AggregatesList type="e">
+				<value>GUID 5ceef119-647e-49b4-a12f-806885e10ffb</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID 5ceef119-647e-49b4-a12f-806885e10ffb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ledId</_name>
+			<_modifiedTimeWeak type="a">2.9.2023::17:28:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.9.2023::17:28:47</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+			<AggregatesList type="e">
+				<value>GUID cd1cb57d-c12a-4013-9ae3-5c9bcf7a2b0a</value>
+			</AggregatesList>
+		</IArgument>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID cd1cb57d-c12a-4013-9ae3-5c9bcf7a2b0a</_id>
+			<_modifiedTimeWeak type="a">2.9.2023::17:28:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.9.2023::17:28:47</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 8fa87a5a-c1d1-49e0-988e-a69224613ca7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ToggleCarEngine</_name>
+			<_modifiedTimeWeak type="a">2.9.2023::17:29:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.9.2023::17:29:20</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID ab797060-9f1b-47e1-b177-79df3f6d5e7b</_id>
 			<_myState type="a">10240</_myState>
