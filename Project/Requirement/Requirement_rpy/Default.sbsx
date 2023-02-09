@@ -12,10 +12,10 @@
 			<_id type="a">GUID ca4174e7-b908-4beb-befe-7834994808d4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Default</_name>
-			<_modifiedTimeWeak type="a">2.9.2023::17:10:51</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.9.2023::17:14:27</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.9.2023::17:10:54</_modifiedTime>
 			<_lastID type="a">63</_lastID>
-			<weakCGTime type="a">2.9.2023::17:10:51</weakCGTime>
+			<weakCGTime type="a">2.9.2023::17:14:27</weakCGTime>
 			<strongCGTime type="a">2.7.2023::18:27:44</strongCGTime>
 			<_defaultComposite type="s">GUID 73f1665e-9eee-46c8-b261-47c075cc522e</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -1459,20 +1459,18 @@ altternative Flow:%0D
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Name: TurnOffLED%0D
 Main Actor: LED%0D
-Secondary Energy Source, GUI, %0D
+Secondary Energy Source, Display %0D
 Main Flow: %0D
-1.1 Recieved volt from Gui%0D
+1.1 Recieved volt from Display%0D
 1.2 Turn off%0D
 %0D
-altternative Flow:%0D
-1.1.1 Cannot receive volt from Gui%0D
-1.1.2 Gui displays error%0D
+{We assume it will always work}%0D
 %0D
 %0D
 </_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">2.8.2023::18:9:27</_modifiedTime>
+			<_modifiedTime type="a">2.9.2023::17:18:44</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -1518,19 +1516,17 @@ altternative Flow:%0D
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Name: TurnOnLED%0D
 Main Actor: LED%0D
-Secondary Sensor: LED, Energy Source, GUI, %0D
+Secondary Sensor: LED, Energy Source, Deshboard%0D
 Main Flow: %0D
 1.1 Recieved volt from Gui%0D
 1.2 Turn on%0D
 %0D
-altternative Flow:%0D
-1.1.1 Cannot receive volt from Gui%0D
-1.1.2 Gui displays error%0D
+{We assume it will always work}%0D
 %0D
 </_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">2.8.2023::18:9:48</_modifiedTime>
+			<_modifiedTime type="a">2.9.2023::17:16:38</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
