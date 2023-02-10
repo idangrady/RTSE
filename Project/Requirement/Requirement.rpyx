@@ -24,8 +24,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.9.2023::17:30:21</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.9.2023::17:30:21</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.10.2023::17:47:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.10.2023::17:47:34</_modifiedTime>
 			<_lastID type="a">19</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -529,8 +529,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.9.2023::17:30:34</_modifiedTime>
-			<_lastModifiedTime type="a">2.9.2023::17:30:34</_lastModifiedTime>
+			<_modifiedTime type="a">2.10.2023::17:47:34</_modifiedTime>
+			<_lastModifiedTime type="a">2.10.2023::17:47:34</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -951,6 +951,22 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">15</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID d1e1b730-08fe-4610-8a47-9a2bd008bd60</_id>
@@ -958,7 +974,10 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">3</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">6</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
@@ -3793,8 +3812,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2023::17:33:25</_modifiedTime>
-			<_lastModifiedTime type="a">2.8.2023::17:33:25</_lastModifiedTime>
+			<_modifiedTime type="a">2.10.2023::17:47:34</_modifiedTime>
+			<_lastModifiedTime type="a">2.10.2023::17:47:34</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -13153,8 +13172,8 @@
 			</_properties>
 			<_name type="a">GUI</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.9.2023::17:30:21</_modifiedTime>
-			<_lastModifiedTime type="a">2.9.2023::17:30:21</_lastModifiedTime>
+			<_modifiedTime type="a">2.10.2023::16:41:16</_modifiedTime>
+			<_lastModifiedTime type="a">2.10.2023::16:41:16</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -13314,15 +13333,49 @@
 		</CGIDiagramFrame>
 		<CGIActiveX type="e">
 			<_id type="a">GUID 97b027ed-0dc3-4fa2-9a1f-d0c1ccc5f133</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">DigitalDisplay</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;DisplayedString;;Style;4;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">221</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">displayTempLed3</_hname>
+					<_hid type="a">GUID 6920b3f0-7771-4fca-9fda-2ad09c044dac</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">digitaldisplay_0</m_str>
+					<m_str type="a">Display Temp Wheel3</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13343,23 +13396,66 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">digitaldisplay_0</m_csName>
+			<m_csModelObjPath type="a">Default.TPMS[0].displayTempLed3</m_csModelObjPath>
+			<m_csName type="a">Display Temp Wheel3</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
 		<CGIActiveX type="e">
 			<_id type="a">GUID 6f20693b-50a9-4302-b668-200806d9992e</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">DigitalDisplay</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;DisplayedString;;Style;4;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">221</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">displayPressureLed1</_hname>
+					<_hid type="a">GUID e34c1963-8b99-48e7-80a2-4edbc7b11ad3</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">digitaldisplay_1</m_str>
+					<m_str type="a">Display Pressure Wheel1</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13380,23 +13476,66 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">digitaldisplay_1</m_csName>
+			<m_csModelObjPath type="a">Default.TPMS[0].displayPressureLed1</m_csModelObjPath>
+			<m_csName type="a">Display Pressure Wheel1</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
 		<CGIActiveX type="e">
 			<_id type="a">GUID 4f0d7754-91df-4702-9418-a1f976001d9b</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">DigitalDisplay</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;DisplayedString;;Style;4;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">221</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">displayTempLed1</_hname>
+					<_hid type="a">GUID 376173d9-ae61-4105-8516-109a489e342d</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">digitaldisplay_2</m_str>
+					<m_str type="a">Display Temp Wheel1</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13417,23 +13556,66 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">digitaldisplay_2</m_csName>
+			<m_csModelObjPath type="a">Default.TPMS[0].displayTempLed1</m_csModelObjPath>
+			<m_csName type="a">Display Temp Wheel1</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
 		<CGIActiveX type="e">
 			<_id type="a">GUID ffe2c47d-9181-4b62-bb0e-67adc00e1b38</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">DigitalDisplay</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;DisplayedString;;Style;4;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">221</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">displayTempLed2</_hname>
+					<_hid type="a">GUID d46299b2-54dc-4342-98dd-fa3c2c81a2ba</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">digitaldisplay_3</m_str>
+					<m_str type="a">Display Temp Wheel2</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13454,23 +13636,66 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">digitaldisplay_3</m_csName>
+			<m_csModelObjPath type="a">Default.TPMS[0].displayTempLed2</m_csModelObjPath>
+			<m_csName type="a">Display Temp Wheel2</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
 		<CGIActiveX type="e">
 			<_id type="a">GUID 4135c91a-ec81-4dc5-b529-fa325d2d362f</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">DigitalDisplay</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;DisplayedString;;Style;4;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">221</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">displayPressureLed2</_hname>
+					<_hid type="a">GUID beb87870-ca9d-4a1c-b027-2d13f7b4c7e6</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">digitaldisplay_4</m_str>
+					<m_str type="a">Display Pressure Wheel2</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13491,23 +13716,66 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">digitaldisplay_4</m_csName>
+			<m_csModelObjPath type="a">Default.TPMS[0].displayPressureLed2</m_csModelObjPath>
+			<m_csName type="a">Display Pressure Wheel2</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
 		<CGIActiveX type="e">
 			<_id type="a">GUID c5a89aba-ce52-4e31-8839-8a27cdeaa27c</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">DigitalDisplay</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;DisplayedString;;Style;4;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">221</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">displayPressureLed3</_hname>
+					<_hid type="a">GUID 0e411a7d-ccec-4b90-8c03-d90ebd5e1981</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">digitaldisplay_5</m_str>
+					<m_str type="a">Display Pressure Wheel3</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13528,23 +13796,66 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">digitaldisplay_5</m_csName>
+			<m_csModelObjPath type="a">Default.TPMS[0].displayPressureLed3</m_csModelObjPath>
+			<m_csName type="a">Display Pressure Wheel3</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
 		<CGIActiveX type="e">
 			<_id type="a">GUID 494a8be9-a7bf-45b1-bebb-84cb9cdc07f3</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">DigitalDisplay</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;DisplayedString;;Style;4;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">221</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">displayTempLed4</_hname>
+					<_hid type="a">GUID b9b88a56-8e96-42b5-a8c0-6ae0b2c16311</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">digitaldisplay_6</m_str>
+					<m_str type="a">Display Temp Wheel4</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13565,23 +13876,66 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">digitaldisplay_6</m_csName>
+			<m_csModelObjPath type="a">Default.TPMS[0].displayTempLed4</m_csModelObjPath>
+			<m_csName type="a">Display Temp Wheel4</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
 		<CGIActiveX type="e">
 			<_id type="a">GUID 7e298a21-213a-4f72-ae83-818312459b9b</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">DigitalDisplay</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;DisplayedString;;Style;4;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">221</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">displayPressureLed4</_hname>
+					<_hid type="a">GUID 01717762-8eed-439e-8db6-487f15d110cb</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">digitaldisplay_7</m_str>
+					<m_str type="a">Display Pressure Wheel4</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13602,23 +13956,66 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">digitaldisplay_7</m_csName>
+			<m_csModelObjPath type="a">Default.TPMS[0].displayPressureLed4</m_csModelObjPath>
+			<m_csName type="a">Display Pressure Wheel4</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
 		<CGIActiveX type="e">
 			<_id type="a">GUID 810b048d-d0ec-4ea9-95f8-0f5b31b79f6c</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">DigitalDisplay</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;DisplayedString;;Style;4;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">221</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">displayTempLed5</_hname>
+					<_hid type="a">GUID 33c14ab8-aeea-43e2-91c4-39d932ee49b2</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">digitaldisplay_8</m_str>
+					<m_str type="a">Display Temp Wheel5</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13639,23 +14036,66 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">digitaldisplay_8</m_csName>
+			<m_csModelObjPath type="a">Default.TPMS[0].displayTempLed5</m_csModelObjPath>
+			<m_csName type="a">Display Temp Wheel5</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
 		<CGIActiveX type="e">
 			<_id type="a">GUID f50f2c9a-c1b1-435e-8932-2e6dff179b87</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">DigitalDisplay</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;DisplayedString;;Style;4;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">221</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">displayPressureLed5</_hname>
+					<_hid type="a">GUID 79195942-7e9c-4333-8320-efef67a3581a</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">digitaldisplay_9</m_str>
+					<m_str type="a">Display Pressure Wheel5</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13676,23 +14116,80 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">digitaldisplay_9</m_csName>
+			<m_csModelObjPath type="a">Default.TPMS[0].displayPressureLed5</m_csModelObjPath>
+			<m_csName type="a">Display Pressure Wheel5</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
 		<CGIActiveX type="e">
 			<_id type="a">GUID 698f8a77-5e1e-4f20-ab00-bac5826c916f</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Led</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">ValueProperty</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">219</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">turnOnLed2</_hname>
+					<_hid type="a">GUID 28c4e61a-b148-4372-bc3a-20e04535c858</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">led_0</m_str>
+					<m_str type="a">led_2</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13713,17 +14210,74 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">led_0</m_csName>
+			<m_csModelObjPath type="a">Default.TPMS[0].turnOnLed2</m_csModelObjPath>
+			<m_csName type="a">led_2</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
 		<CGIActiveX type="e">
 			<_id type="a">GUID 6280b799-6033-495e-adaa-cc79e4fac080</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Led</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">ValueProperty</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">219</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">turnOnLed1</_hname>
+					<_hid type="a">GUID 31ca4ed7-0ce4-40eb-8f7f-c0f17a54e7cd</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
@@ -13750,54 +14304,60 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">Default.TPMS[0].turnOnLed1</m_csModelObjPath>
 			<m_csName type="a">led_1</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
 		<CGIActiveX type="e">
 			<_id type="a">GUID 6d72cbaf-ee21-46ea-8225-5f74aa4a2eb1</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Led</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">219</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">led_2</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">0.000126238 0 0 0.000113298 436 447.126 </m_transform>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
-			<m_nNameFormat type="a">0</m_nNameFormat>
-			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">led_2</m_csName>
-			<m_PartsArray type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</m_PartsArray>
-		</CGIActiveX>
-		<CGIActiveX type="e">
-			<_id type="a">GUID 48e5595c-6522-47c4-9795-990bf152165d</_id>
-			<m_type type="a">219</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">turnOnLed3</_hname>
+					<_hid type="a">GUID c93b766c-12c9-48cd-aea8-60e87c0190f0</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
@@ -13819,22 +14379,65 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">0.000126238 0 0 0.000113298 823 447.126 </m_transform>
+			<m_transform type="a">0.000126238 0 0 0.000113298 436 447.126 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">Default.TPMS[0].turnOnLed3</m_csModelObjPath>
 			<m_csName type="a">led_3</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
 		<CGIActiveX type="e">
-			<_id type="a">GUID b85a3bb0-9476-4e3a-8ebf-8b862e921955</_id>
+			<_id type="a">GUID 48e5595c-6522-47c4-9795-990bf152165d</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Led</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">219</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">turnOnLed4</_hname>
+					<_hid type="a">GUID 1c5fc6a5-5a0c-4563-b8fc-95400e13beba</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
@@ -13856,14 +14459,103 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.000126238 0 0 0.000113298 823 447.126 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">Default.TPMS[0].turnOnLed4</m_csModelObjPath>
+			<m_csName type="a">led_4</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</m_PartsArray>
+		</CGIActiveX>
+		<CGIActiveX type="e">
+			<_id type="a">GUID b85a3bb0-9476-4e3a-8ebf-8b862e921955</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Led</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">219</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">turnOnLed5</_hname>
+					<_hid type="a">GUID 9b33c47f-d166-4306-b2b4-d4e4bdc47824</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">led_5</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_transform type="a">0.000126238 0 0 0.000113298 1135 256.126 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">led_4</m_csName>
+			<m_csModelObjPath type="a">Default.TPMS[0].turnOnLed5</m_csModelObjPath>
+			<m_csName type="a">led_5</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
@@ -13872,12 +14564,17 @@
 			<m_type type="a">227</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IReception</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hclass type="a">TPMS</_hclass>
+					<_hname type="a">startCar()</_hname>
+					<_hid type="a">GUID f34e3e97-1e0b-42db-b5fc-cde54ee63bcf</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 46885fbd-7977-4522-802b-53fda8770478</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">pushbutton_0</m_str>
+					<m_str type="a">StartCar</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13898,9 +14595,18 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">pushbutton_0</m_csName>
+			<m_csModelObjPath type="a">Default.TPMS[0].startCar</m_csModelObjPath>
+			<m_csName type="a">StartCar</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">TPMS</_hname>
+							<_hid type="a">GUID e5d51763-0de1-4723-9b24-3330430a9dab</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 			<m_csButtonCaption type="a">Push</m_csButtonCaption>
