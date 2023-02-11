@@ -1,0 +1,72 @@
+I-Logix-RPY-Archive version 8.15.0 * 202002261110
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 12;
+	- value = "DefaultComponent\\DefaultConfig\\Battery.cpp" 2.10.2023::18:11:45
+	"DefaultComponent\\DefaultConfig\\Battery.h" 2.10.2023::18:11:45
+	"DefaultComponent\\DefaultConfig\\Default.cpp" 2.11.2023::16:46:42
+	"DefaultComponent\\DefaultConfig\\Default.h" 2.11.2023::16:46:42
+	"DefaultComponent\\DefaultConfig\\Engine.cpp" 2.10.2023::18:11:45
+	"DefaultComponent\\DefaultConfig\\Engine.h" 2.10.2023::18:11:45
+	"DefaultComponent\\DefaultConfig\\GPS.cpp" 2.10.2023::19:24:15
+	"DefaultComponent\\DefaultConfig\\GPS.h" 2.10.2023::19:24:15
+	"DefaultComponent\\DefaultConfig\\TPMS.cpp" 2.11.2023::18:47:59
+	"DefaultComponent\\DefaultConfig\\TPMS.h" 2.11.2023::18:47:59
+	"DefaultComponent\\DefaultConfig\\car.cpp" 2.10.2023::18:11:45
+	"DefaultComponent\\DefaultConfig\\car.h" 2.10.2023::18:11:45
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID d2d3c6c9-8e74-4a4f-9302-68820592d291" "GUID e3688bfc-4024-4f44-80eb-ff31e0ed6b73"
+	"GUID f4153928-f15d-4bb7-b7eb-2ffc95d574d0" "GUID e3688bfc-4024-4f44-80eb-ff31e0ed6b73"
+	
+}
+- size = 6;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\Week7_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 264b492d-9ebc-4ff1-a9a4-c84066304f54;
+}
+- genTime = 2.11.2023::18:50:18;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\Week7_rpy\\Default.sbsx";
+	- _name = "Default";
+	- _id = GUID f4153928-f15d-4bb7-b7eb-2ffc95d574d0;
+}
+- genTime = 2.11.2023::18:47:59;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Week7_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "TPMS";
+	- _id = GUID ced202c0-a6a5-4560-a00f-e56133dfbef2;
+}
+- genTime = 2.11.2023::18:47:59;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Week7_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Battery";
+	- _id = GUID 09650010-356f-4f5c-a6d5-1588bc4f1ea8;
+}
+- genTime = 2.10.2023::18:11:45;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Week7_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "GPS";
+	- _id = GUID 188500b2-5e3a-4767-8c87-a89b876e34fa;
+}
+- genTime = 2.10.2023::19:24:15;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Week7_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Engine";
+	- _id = GUID 0d8e4ea0-8a03-4216-8cd1-993b3565a790;
+}
+- genTime = 2.10.2023::18:11:45;
+
