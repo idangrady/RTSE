@@ -31,6 +31,9 @@ class Car;
 //## link itsDashboard
 class Dashboard;
 
+//## link itsDriver
+class Driver;
+
 //## link itsEnvironment
 class Environment;
 
@@ -222,6 +225,12 @@ public :
     void setItsDashboard(Dashboard* const p_Dashboard);
     
     //## auto_generated
+    const Driver* getItsDriver(void) const;
+    
+    //## auto_generated
+    void setItsDriver(Driver* const p_Driver);
+    
+    //## auto_generated
     const Environment* getItsEnvironment(void) const;
     
     //## auto_generated
@@ -300,6 +309,8 @@ private :
     
     Dashboard* itsDashboard;		//## link itsDashboard
     
+    Driver* itsDriver;		//## link itsDriver
+    
     Environment* itsEnvironment;		//## link itsEnvironment
     
     PowerSource* itsPowerSource;		//## link itsPowerSource
@@ -327,6 +338,15 @@ public :
     
     //## auto_generated
     void _clearItsDashboard(void);
+    
+    //## auto_generated
+    void __setItsDriver(Driver* const p_Driver);
+    
+    //## auto_generated
+    void _setItsDriver(Driver* const p_Driver);
+    
+    //## auto_generated
+    void _clearItsDriver(void);
     
     //## auto_generated
     void __setItsEnvironment(Environment* const p_Environment);

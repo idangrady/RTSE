@@ -20,6 +20,8 @@
 #include "Car.h"
 //## link itsDashboard
 #include "Dashboard.h"
+//## link itsDriver
+#include "Driver.h"
 //## link itsEnvironment
 #include "Environment.h"
 //## link itsPowerSource
@@ -76,7 +78,7 @@
 //## package Architecture
 
 //## class TPMS
-TPMS::TPMS(void) : OMThread(), OMReactive(), pressureHighThreshold(80), pressureLowThreshold(50), pressureWheel1(0), pressureWheel2(0), pressureWheel3(0), pressureWheel4(0), pressureWheel5(0), systemOK(false), tempHighThreshold(50), tempLowThreshold(10), tempWheel1(0), tempWheel2(0), tempWheel3(0), tempWheel4(0), tempWheel5(0), wheel1Led(false), wheel2Led(false), wheel3Led(false), wheel4Led(false), wheel5Led(false), itsCar(NULL), itsDashboard(NULL), itsEnvironment(NULL), itsPowerSource(NULL), itsSensorActor(NULL) {
+TPMS::TPMS(void) : OMThread(), OMReactive(), pressureHighThreshold(80), pressureLowThreshold(50), pressureWheel1(0), pressureWheel2(0), pressureWheel3(0), pressureWheel4(0), pressureWheel5(0), systemOK(false), tempHighThreshold(50), tempLowThreshold(10), tempWheel1(0), tempWheel2(0), tempWheel3(0), tempWheel4(0), tempWheel5(0), wheel1Led(false), wheel2Led(false), wheel3Led(false), wheel4Led(false), wheel5Led(false), itsCar(NULL), itsDashboard(NULL), itsDriver(NULL), itsEnvironment(NULL), itsPowerSource(NULL), itsSensorActor(NULL) {
     NOTIFY_ACTIVE_CONSTRUCTOR(TPMS, TPMS(), 0, Architecture_TPMS_TPMS_SERIALIZE);
     setActiveContext(this, true);
     initStatechart();
@@ -314,6 +316,18 @@ void TPMS::setItsDashboard(Dashboard* const p_Dashboard) {
     _setItsDashboard(p_Dashboard);
 }
 
+const Driver* TPMS::getItsDriver(void) const {
+    return itsDriver;
+}
+
+void TPMS::setItsDriver(Driver* const p_Driver) {
+    if(p_Driver != NULL)
+        {
+            p_Driver->_setItsTPMS(this);
+        }
+    _setItsDriver(p_Driver);
+}
+
 const Environment* TPMS::getItsEnvironment(void) const {
     return itsEnvironment;
 }
@@ -385,6 +399,16 @@ void TPMS::cleanUpRelations(void) {
                     itsDashboard->__setItsTPMS(NULL);
                 }
             itsDashboard = NULL;
+        }
+    if(itsDriver != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsDriver");
+            const TPMS* p_TPMS = itsDriver->getItsTPMS();
+            if(p_TPMS != NULL)
+                {
+                    itsDriver->__setItsTPMS(NULL);
+                }
+            itsDriver = NULL;
         }
     if(itsEnvironment != NULL)
         {
@@ -466,6 +490,31 @@ void TPMS::_setItsDashboard(Dashboard* const p_Dashboard) {
 void TPMS::_clearItsDashboard(void) {
     NOTIFY_RELATION_CLEARED("itsDashboard");
     itsDashboard = NULL;
+}
+
+void TPMS::__setItsDriver(Driver* const p_Driver) {
+    itsDriver = p_Driver;
+    if(p_Driver != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsDriver", p_Driver, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsDriver");
+        }
+}
+
+void TPMS::_setItsDriver(Driver* const p_Driver) {
+    if(itsDriver != NULL)
+        {
+            itsDriver->__setItsTPMS(NULL);
+        }
+    __setItsDriver(p_Driver);
+}
+
+void TPMS::_clearItsDriver(void) {
+    NOTIFY_RELATION_CLEARED("itsDriver");
+    itsDriver = NULL;
 }
 
 void TPMS::__setItsEnvironment(Environment* const p_Environment) {
@@ -1039,6 +1088,11 @@ void OMAnimatedTPMS::serializeRelations(AOMSRelations* aomsRelations) const {
     if(myReal->itsSensorActor)
         {
             aomsRelations->ADD_ITEM(myReal->itsSensorActor);
+        }
+    aomsRelations->addRelation("itsDriver", false, true);
+    if(myReal->itsDriver)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsDriver);
         }
 }
 

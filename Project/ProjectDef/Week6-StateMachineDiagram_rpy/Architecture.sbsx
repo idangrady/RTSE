@@ -12,10 +12,10 @@
 			<_id type="a">GUID e05c1dfd-278f-4f93-ad36-718a3ff1b9f9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Architecture</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::14:24:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::14:24:57</_modifiedTime>
-			<_lastID type="a">40</_lastID>
-			<weakCGTime type="a">2.12.2023::14:24:57</weakCGTime>
+			<_modifiedTimeWeak type="a">2.12.2023::14:29:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::14:29:13</_modifiedTime>
+			<_lastID type="a">41</_lastID>
+			<weakCGTime type="a">2.12.2023::14:29:13</weakCGTime>
 			<strongCGTime type="a">12.21.2022::11:4:58</strongCGTime>
 			<_defaultComposite type="s">GUID 6f40c486-e03e-4145-a426-c9318834f21c</_defaultComposite>
 			<_eventsBaseID type="a">18601</_eventsBaseID>
@@ -46,6 +46,7 @@
 				<value>GUID fd6dde74-5b29-4237-bbb9-0f8592f2a19e</value>
 				<value>GUID 8c757abb-678f-4bd6-9a8e-a6d3007ed045</value>
 				<value>GUID 9895ee2a-4296-4751-9d92-621e41e51fa3</value>
+				<value>GUID 9121ae27-0ce6-4e4f-91e3-71b7e3c216d1</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IPanelDiagram type="e">
@@ -2896,7 +2897,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.12.2023::14:25:26</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.12.2023::14:29:23</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -2904,9 +2905,9 @@
 					<_hid type="a">GUID 46dfa63a-706c-4aa1-8829-065a16127da2</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.12.2023::14:24:57</_modifiedTime>
+			<_modifiedTime type="a">2.12.2023::14:29:23</_modifiedTime>
 			<_lastID type="a">26</_lastID>
-			<weakCGTime type="a">2.12.2023::14:25:26</weakCGTime>
+			<weakCGTime type="a">2.12.2023::14:29:23</weakCGTime>
 			<strongCGTime type="a">2.12.2023::0:5:17</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2950,6 +2951,7 @@
 				<value>GUID 4a91597e-9b52-4a56-83d8-a8789a960700</value>
 				<value>GUID 38ff09bc-3086-4ecc-bc0e-2c85469fade3</value>
 				<value>GUID d89666cd-65cc-4acf-8b21-34911cde69fb</value>
+				<value>GUID e8d25123-30ff-4f8c-90ee-173a512971d5</value>
 			</AggregatesList>
 		</IClass>
 		<IReception type="e">
@@ -8447,6 +8449,28 @@ tempWheel5=0;</m_str>
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID e8d25123-30ff-4f8c-90ee-173a512971d5</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsDriver</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::14:29:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::14:29:23</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hid type="a">GUID 9121ae27-0ce6-4e4f-91e3-71b7e3c216d1</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 776d4fdd-9f64-4a69-b198-8c11a4a5d41a</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
 		<IClass type="e">
 			<_id type="a">GUID e728e1b8-097e-46c5-af04-8bf69f51f7bd</_id>
 			<_myState type="a">8192</_myState>
@@ -9152,10 +9176,6 @@ tempWheel5=0;</m_str>
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -9174,10 +9194,6 @@ tempWheel5=0;</m_str>
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -9221,10 +9237,6 @@ tempWheel5=0;</m_str>
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -9259,7 +9271,7 @@ tempWheel5=0;</m_str>
 			<_id type="a">GUID debe0347-e763-46e4-ad41-1058677f960b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ReadData</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.12.2023::14:9:26</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.12.2023::14:9:40</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">2.12.2023::14:9:26</weakCGTime>
@@ -9269,10 +9281,6 @@ tempWheel5=0;</m_str>
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -9509,7 +9517,7 @@ tempWheel5=0;</m_str>
 		<IGeneralization type="e">
 			<_id type="a">GUID aa7196c6-32d2-4808-8c5c-79d71f604942</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
@@ -9546,7 +9554,7 @@ tempWheel5=0;</m_str>
 		<IGeneralization type="e">
 			<_id type="a">GUID 6d6e2548-c7d6-43a2-8478-e1fc46e23907</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
@@ -9556,6 +9564,52 @@ tempWheel5=0;</m_str>
 			<_inheritanceType type="a">iPublic</_inheritanceType>
 			<_isVirtual type="a">0</_isVirtual>
 		</IGeneralization>
+		<IActor type="e">
+			<_id type="a">GUID 9121ae27-0ce6-4e4f-91e3-71b7e3c216d1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Driver</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::14:29:23</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">Model1</_hname>
+					<_hid type="a">GUID 46dfa63a-706c-4aa1-8829-065a16127da2</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.12.2023::14:29:23</_modifiedTime>
+			<weakCGTime type="a">2.12.2023::14:29:23</weakCGTime>
+			<strongCGTime type="a">2.12.2023::14:29:15</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 776d4fdd-9f64-4a69-b198-8c11a4a5d41a</value>
+			</AggregatesList>
+		</IActor>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 776d4fdd-9f64-4a69-b198-8c11a4a5d41a</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTPMS</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::14:29:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::14:29:23</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID d47de078-6ad7-4c3e-8ae5-61c6f2194313</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID e8d25123-30ff-4f8c-90ee-173a512971d5</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">

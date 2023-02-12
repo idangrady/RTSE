@@ -96,6 +96,7 @@ OBJS= \
   SensorActor.obj \
   TempSensor.obj \
   PresSensor.obj \
+  Driver.obj \
   Architecture.obj
 
 
@@ -179,7 +180,7 @@ SOCK_LIB=
 
 
 
-TPMS.obj : TPMS.cpp TPMS.h    Architecture.h Dashboard.h Car.h PowerSource.h Environment.h SensorActor.h 
+TPMS.obj : TPMS.cpp TPMS.h    Architecture.h Dashboard.h Car.h PowerSource.h Environment.h SensorActor.h Driver.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TPMS.obj" "TPMS.cpp" 
 
@@ -245,6 +246,12 @@ PresSensor.obj : PresSensor.cpp PresSensor.h    Architecture.h SensorActor.h TPM
 
 
 
+Driver.obj : Driver.cpp Driver.h    Architecture.h TPMS.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Driver.obj" "Driver.cpp" 
+
+
+
 Architecture.obj : Architecture.cpp Architecture.h    TPMS.h Dashboard.h Car.h Wheels.h PowerSource.h Environment.h Display.h Led.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Architecture.obj" "Architecture.cpp" 
@@ -289,6 +296,7 @@ clean:
 	if exist SensorActor.obj erase SensorActor.obj
 	if exist TempSensor.obj erase TempSensor.obj
 	if exist PresSensor.obj erase PresSensor.obj
+	if exist Driver.obj erase Driver.obj
 	if exist Architecture.obj erase Architecture.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
