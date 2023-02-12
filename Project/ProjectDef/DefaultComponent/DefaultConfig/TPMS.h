@@ -1,6 +1,6 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: rogar
+	Login		: gebruiker
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: TPMS
@@ -309,13 +309,9 @@ private :
     
     Dashboard* itsDashboard;		//## link itsDashboard
     
-    Driver* itsDriver;		//## link itsDriver
-    
     Environment* itsEnvironment;		//## link itsEnvironment
     
     PowerSource* itsPowerSource;		//## link itsPowerSource
-    
-    SensorActor* itsSensorActor;		//## link itsSensorActor
     
     ////    Framework operations    ////
 
@@ -375,6 +371,16 @@ public :
     //## auto_generated
     void _clearItsSensorActor(void);
     
+    ////    Framework    ////
+
+private :
+
+    Driver* itsDriver;		//## link itsDriver
+    
+    SensorActor* itsSensorActor;		//## link itsSensorActor
+
+public :
+
     // rootState:
     //## statechart_method
     inline RhpBoolean rootState_IN(void) const;
@@ -437,8 +443,6 @@ protected :
     
     //## statechart_method
     virtual IOxfReactive::TakeEventStatus rootState_processEvent(void);
-    
-    ////    Framework    ////
     
 //#[ ignore
     enum TPMS_Enum {

@@ -1,6 +1,6 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: rogar
+	Login		: gebruiker
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: TempSensor
@@ -17,12 +17,10 @@
 #include <aom.h>
 //## auto_generated
 #include "Architecture.h"
-//## actor TempSensor
-#include "SensorActor.h"
 //## package Architecture
 
 //## actor TempSensor
-class TempSensor : public SensorActor {
+class TempSensor {
     ////    Friends    ////
     
 public :
@@ -42,16 +40,8 @@ public :
 
 #ifdef _OMINSTRUMENT
 //#[ ignore
-class OMAnimatedTempSensor : public OMAnimatedSensorActor {
+class OMAnimatedTempSensor : virtual public AOMInstance {
     DECLARE_META(TempSensor, OMAnimatedTempSensor)
-    
-    ////    Framework operations    ////
-    
-public :
-
-    virtual void serializeAttributes(AOMSAttributes* aomsAttributes) const;
-    
-    virtual void serializeRelations(AOMSRelations* aomsRelations) const;
 };
 //#]
 #endif // _OMINSTRUMENT
