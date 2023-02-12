@@ -114,8 +114,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.12.2023::17:35:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::17:40:28</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::20:39:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::20:39:27</_modifiedTime>
 			<_lastID type="a">6</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -625,8 +625,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::14:29:26</_modifiedTime>
-			<_lastModifiedTime type="a">2.12.2023::14:29:26</_lastModifiedTime>
+			<_modifiedTime type="a">2.12.2023::20:39:30</_modifiedTime>
+			<_lastModifiedTime type="a">2.12.2023::20:39:30</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2672,7 +2672,7 @@
 			</m_sourceMultiplicity>
 			<m_targetMultiplicity type="p">
 				<CGIText type="e">
-					<m_str type="a">10</m_str>
+					<m_str type="a">0..10</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2860,7 +2860,7 @@
 			</m_sourceMultiplicity>
 			<m_targetMultiplicity type="p">
 				<CGIText type="e">
-					<m_str type="a">5</m_str>
+					<m_str type="a">0..5</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3365,7 +3365,7 @@
 			</m_targetRole>
 			<m_sourceMultiplicity type="p">
 				<CGIText type="e">
-					<m_str type="a">1</m_str>
+					<m_str type="a">0..5</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3892,7 +3892,6 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">GeneralRequirementDiagram</_name>
-			<_displayName type="a">GeneralRequirementDiagram</_displayName>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					

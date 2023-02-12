@@ -105,7 +105,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "DefaultComponent\\DefaultConfig";
 	- _id = GUID 7c293842-8478-4243-b626-8f2a1849706a;
 }
-- genTime = 2.12.2023::18:39:14;
+- genTime = 2.12.2023::19:11:1;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\Week6-StateMachineDiagram_rpy\\Architecture.sbsx";
