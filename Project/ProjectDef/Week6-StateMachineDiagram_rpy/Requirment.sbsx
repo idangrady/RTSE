@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 672c201a-e730-4bf7-b154-98834fc4bd7a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Requirment</_name>
+			<_displayName type="a">Requirment</_displayName>
+			<_modifiedTimeWeak type="a">2.12.2023::15:35:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::16:21:32</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<weakCGTime type="a">2.12.2023::15:35:36</weakCGTime>
+			<strongCGTime type="a">2.12.2023::15:23:43</strongCGTime>
+			<_defaultComposite type="s">GUID 6079a628-1da4-4cd7-a7bf-ceb6c56676da</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID e5ee5576-bf5d-4011-9d79-20962eb896c2</value>
+				<value>GUID b440b7f7-64b3-43b3-be2e-0acf7dfc008c</value>
+				<value>GUID beda3309-a1b1-42a8-8664-0361c12e09d7</value>
+				<value>GUID bc2ee7df-e029-40cb-a637-f537fb018aea</value>
+				<value>GUID 3902726b-c313-4430-becb-f0b0f428351e</value>
+				<value>GUID 6079a628-1da4-4cd7-a7bf-ceb6c56676da</value>
+				<value>GUID e192ae73-04e7-4b51-9b6a-0b0d5f94f86c</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID e5ee5576-bf5d-4011-9d79-20962eb896c2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GeneralReq</_name>
+			<_displayName type="a">GeneralReq</_displayName>
+			<_modifiedTimeWeak type="a">2.12.2023::15:28:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:28:25</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<AggregatesList type="e">
+				<value>GUID a7393e5e-906a-45df-8174-8f032fe742ef</value>
+				<value>GUID 67d84b8f-722f-4a72-aeb5-bc9b5080ae14</value>
+				<value>GUID 439d6825-1ae7-4228-862d-889db23a928a</value>
+				<value>GUID 5f98163e-1936-4ff0-930f-b993cd18937a</value>
+				<value>GUID 4ea9df90-5e9e-4d27-890a-fe28adb96f74</value>
+				<value>GUID 7b591cc6-4b7d-4020-bf4f-d5cd2e53c0ca</value>
+				<value>GUID 6536493b-6539-4a38-be95-1d23e1c496f1</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID a7393e5e-906a-45df-8174-8f032fe742ef</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_1</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:27:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:27:13</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The system must recieve the air pressure values from the value tire pressure sensor. \par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">1</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 67d84b8f-722f-4a72-aeb5-bc9b5080ae14</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_2</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:27:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:27:9</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The system must receive the temperature values from athe tire temperature temperature sensors.\par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">2</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 439d6825-1ae7-4228-862d-889db23a928a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_3</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:27:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:27:0</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The system must be connected to a source of energy. \par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">4</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 5f98163e-1936-4ff0-930f-b993cd18937a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_4</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:27:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:27:36</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The system system must be connected to all the wheels of the vehicle.\par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">5</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 4ea9df90-5e9e-4d27-890a-fe28adb96f74</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_5</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:27:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:27:55</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The system must be able to integrate for each wheel its pressure and temperature measurements.\par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">6</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 7b591cc6-4b7d-4020-bf4f-d5cd2e53c0ca</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_6</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:28:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:28:11</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The system must include its spare wheel, to all of the requirement. \par%0D
+\par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">7</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 6536493b-6539-4a38-be95-1d23e1c496f1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_7</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:28:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:28:25</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The TPMS system must detect and display the information reliably\par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">15</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID b440b7f7-64b3-43b3-be2e-0acf7dfc008c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">MaintainanceReq</_name>
+			<_displayName type="a">MaintainanceReq</_displayName>
+			<_modifiedTimeWeak type="a">2.12.2023::15:30:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:30:12</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<AggregatesList type="e">
+				<value>GUID dbc58ec4-6300-48a8-ac12-86b5da2f443f</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID dbc58ec4-6300-48a8-ac12-86b5da2f443f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Repair</_name>
+			<_displayName type="a">Repair</_displayName>
+			<_modifiedTimeWeak type="a">2.12.2023::15:30:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:30:12</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<AggregatesList type="e">
+				<value>GUID 1d0c74f8-6641-4da2-bb73-7c94f444429c</value>
+				<value>GUID 2f21fbf0-c62f-44e7-aa44-8029e6ce58fa</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 1d0c74f8-6641-4da2-bb73-7c94f444429c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_1</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:29:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:29:47</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The sub components of the system should be easy to replace.\par%0D
+\par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">12</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 2f21fbf0-c62f-44e7-aa44-8029e6ce58fa</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_2</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:30:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:30:12</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The sub components of the system should be easy to replace\par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">20</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID beda3309-a1b1-42a8-8664-0361c12e09d7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SafetyReq</_name>
+			<_displayName type="a">SafetyReq</_displayName>
+			<_modifiedTimeWeak type="a">2.12.2023::15:31:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:31:49</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<AggregatesList type="e">
+				<value>GUID 84334dc5-bb70-4eae-b618-eaa6cd3c1b4f</value>
+				<value>GUID 29e0da07-3e22-4c99-bfe7-a6bcf3772c9a</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 84334dc5-bb70-4eae-b618-eaa6cd3c1b4f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_1</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:30:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:30:57</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The system must notify the user in case of an issue.\par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">8</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 29e0da07-3e22-4c99-bfe7-a6bcf3772c9a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_2</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:31:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:31:10</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The system shall be robust for various weather conditions. \par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">13</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID bc2ee7df-e029-40cb-a637-f537fb018aea</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">UsabilityReq</_name>
+			<_displayName type="a">UsabilityReq</_displayName>
+			<_modifiedTimeWeak type="a">2.12.2023::15:35:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:35:21</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<AggregatesList type="e">
+				<value>GUID 0204e8f7-50b7-4d4d-aa3a-3c22f322f3d2</value>
+				<value>GUID 8728077d-a6cc-4c75-9213-f5bba9e01718</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 0204e8f7-50b7-4d4d-aa3a-3c22f322f3d2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Availability</_name>
+			<_displayName type="a">Availability</_displayName>
+			<_modifiedTimeWeak type="a">2.12.2023::15:34:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:34:45</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<AggregatesList type="e">
+				<value>GUID dfa0ee20-2ae6-44c5-9362-4730c7a14f15</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID dfa0ee20-2ae6-44c5-9362-4730c7a14f15</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_1</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:34:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:34:45</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The system should be available as long as the car is used.\par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">14</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 8728077d-a6cc-4c75-9213-f5bba9e01718</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Notification</_name>
+			<_displayName type="a">Notification</_displayName>
+			<_modifiedTimeWeak type="a">2.12.2023::15:35:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:35:21</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<AggregatesList type="e">
+				<value>GUID 125e2a86-5503-4c06-89a6-c330f6e61007</value>
+				<value>GUID 7e7b8133-0647-4793-bc49-3c3b502b4378</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 125e2a86-5503-4c06-89a6-c330f6e61007</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_1</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:35:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:35:8</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The system must notify the users when there is an issue with the sensor values. \par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">3</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 7e7b8133-0647-4793-bc49-3c3b502b4378</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_2</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:35:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:35:21</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The TPMS system must detect and display the information reliably.\par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">11</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 3902726b-c313-4430-becb-f0b0f428351e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SensorReq</_name>
+			<_displayName type="a">SensorReq</_displayName>
+			<_modifiedTimeWeak type="a">2.12.2023::15:33:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:33:23</_modifiedTime>
+			<AggregatesList type="e">
+				<value>GUID 3cf1e9e9-645e-4c50-8f23-aec4fc327ad7</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 3cf1e9e9-645e-4c50-8f23-aec4fc327ad7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Time</_name>
+			<_displayName type="a">Time</_displayName>
+			<_modifiedTimeWeak type="a">2.12.2023::15:33:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:33:23</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<AggregatesList type="e">
+				<value>GUID 823039ab-8e09-478a-9102-6e81e33969b6</value>
+				<value>GUID 2a811ddc-1c2a-42c3-aaa3-4462ba5449e2</value>
+				<value>GUID 8eb81c0b-4c46-4e7e-b478-9dbac24c0eb6</value>
+				<value>GUID 2e4a2c07-baeb-4076-8589-a71dbbc7fa88</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 823039ab-8e09-478a-9102-6e81e33969b6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_1</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:32:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:32:30</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The system must receive the sensors information via a fixed interval.\par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">9</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 2a811ddc-1c2a-42c3-aaa3-4462ba5449e2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_2</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:32:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:32:54</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The system must refresh the notified information via a fixed interval. \par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">10</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 8eb81c0b-4c46-4e7e-b478-9dbac24c0eb6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_3</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:33:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:33:9</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The TPMS must accurately detect the tire pressure with at max +- x\par%0D
+error\par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">16</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 2e4a2c07-baeb-4076-8589-a71dbbc7fa88</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">REQ_4</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::15:33:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:33:23</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The TPMS must accurately detect the temperature with at max +- x\par%0D
+error.\par%0D
+\par%0D
+}%0D
+</_body>
+			<reqID type="a">17</reqID>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID 6079a628-1da4-4cd7-a7bf-ceb6c56676da</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<ITableInstance type="e">
+			<_id type="a">GUID e192ae73-04e7-4b51-9b6a-0b0d5f94f86c</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">requirementstable_6</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+							<_hname type="a">RequirementsTable</_hname>
+							<_hid type="a">GUID ac8ca999-c415-4942-b5eb-99bb8da2415c</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.12.2023::15:35:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::15:35:36</_modifiedTime>
+			<LayoutHandle type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITableLayout</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+					<_hname type="a">ReqTableLayout</_hname>
+					<_hid type="a">GUID 8f1f7467-b093-4abe-9871-3462587c6bc8</_hid>
+				</IHandle>
+			</LayoutHandle>
+			<ScopeHandles type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProject</_hm2Class>
+							<_hname type="a">Week6-StateMachineDiagram</_hname>
+							<_hid type="a">GUID 0fda2717-c46a-4425-af5b-98dd2834da2c</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</ScopeHandles>
+		</ITableInstance>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
