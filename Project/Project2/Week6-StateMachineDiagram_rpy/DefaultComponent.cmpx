@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<IComponent type="e">
+			<_id type="a">GUID e2f0dfb2-1a51-48c2-a977-df62d370c446</_id>
+			<_myState type="a">139264</_myState>
+			<_name type="a">DefaultComponent</_name>
+			<_modifiedTimeWeak type="a">12.21.2022::10:18:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.21.2022::10:35:54</_modifiedTime>
+			<m_buildType type="a">Executable</m_buildType>
+			<m_configActive type="r">
+				<ICodeGenConfigInfoHandle type="e">
+					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
+					<_hid type="a">GUID 7c293842-8478-4243-b626-8f2a1849706a</_hid>
+				</ICodeGenConfigInfoHandle>
+			</m_configActive>
+			<HandlesInMe type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Default.sbsx</_hfilename>
+							<_hname type="a">Default</_hname>
+							<_hid type="a">GUID e05c1dfd-278f-4f93-ad36-718a3ff1b9f9</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hname type="a">SysML</_hname>
+							<_hid type="a">GUID d9689b73-885e-44c4-896b-de43defa0a33</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">$OMROOT\Settings\MISRA\MISRAC++.sbs</_hfilename>
+							<_hname type="a">MISRAC++</_hname>
+							<_hid type="a">GUID 5717d983-7bb5-4aba-bdc8-41bcb977f568</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</HandlesInMe>
+			<VariationPoints type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</VariationPoints>
+			<SelectedVariants type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</SelectedVariants>
+			<weakCGTime type="a">12.21.2022::10:18:59</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<AggregatesList type="e">
+				<value>GUID 8c29f737-3df0-4887-9e33-67cbb399506d</value>
+				<value>GUID 7c293842-8478-4243-b626-8f2a1849706a</value>
+			</AggregatesList>
+		</IComponent>
+		<IFolder type="e">
+			<_id type="a">GUID 8c29f737-3df0-4887-9e33-67cbb399506d</_id>
+			<_myState type="a">73728</_myState>
+			<_name type="a">Files</_name>
+			<_modifiedTimeWeak type="a">12.21.2022::10:2:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.21.2022::10:2:43</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
+		<ICodeGenConfigInfo type="e">
+			<_id type="a">GUID 7c293842-8478-4243-b626-8f2a1849706a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DefaultConfig</_name>
+			<_modifiedTimeWeak type="a">12.21.2022::10:19:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.21.2022::10:19:24</_modifiedTime>
+			<_scopeType type="a">Explicit</_scopeType>
+			<_instrumentation type="a">Animation</_instrumentation>
+			<_timeModel type="a">RealTime</_timeModel>
+			<m_generateActors type="a">1</m_generateActors>
+			<_statechartImplementation type="a">Flat</_statechartImplementation>
+			<_checksList type="a">0 ,</_checksList>
+			<_checksList_Default type="a">1</_checksList_Default>
+			<ScopeElements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</ScopeElements>
+			<InitialInstances type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\Default.sbsx</_hfilename>
+							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hname type="a">PowerSourceCar</_hname>
+							<_hid type="a">GUID d47de078-6ad7-4c3e-8ae5-61c6f2194313</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</InitialInstances>
+			<weakCGTime type="a">12.21.2022::10:19:24</weakCGTime>
+			<strongCGTime type="a">12.21.2022::10:19:24</strongCGTime>
+			<AnimScopeElements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</AnimScopeElements>
+			<m_allInAnimScope type="a">1</m_allInAnimScope>
+			<m_generateUsecases type="a">0</m_generateUsecases>
+			<AggregatesList type="e">
+				<value>GUID 468ec62d-b52a-4e9e-8b1b-b111e09573c9</value>
+				<value>GUID c0f6b5f7-b4fe-420c-8de0-598b13bfc3ea</value>
+				<value>GUID 32db37c1-51df-44f9-bde9-9d85a0daa70a</value>
+			</AggregatesList>
+		</ICodeGenConfigInfo>
+		<IMHyperLink type="e">
+			<_id type="a">GUID 468ec62d-b52a-4e9e-8b1b-b111e09573c9</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.21.2022::10:17:50</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Makefile</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">DefaultComponent.mak</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID c0f6b5f7-b4fe-420c-8de0-598b13bfc3ea</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.21.2022::10:17:50</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Main File</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">MainDefaultComponent</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IFolder type="e">
+			<_id type="a">GUID 32db37c1-51df-44f9-bde9-9d85a0daa70a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DefaultConfig</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.21.2022::10:2:43</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
