@@ -12,10 +12,10 @@
 			<_id type="a">GUID e05c1dfd-278f-4f93-ad36-718a3ff1b9f9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Architecture</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::21:0:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::21:0:13</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::21:4:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::21:4:36</_modifiedTime>
 			<_lastID type="a">41</_lastID>
-			<weakCGTime type="a">2.12.2023::21:0:13</weakCGTime>
+			<weakCGTime type="a">2.12.2023::21:4:36</weakCGTime>
 			<strongCGTime type="a">12.21.2022::11:4:58</strongCGTime>
 			<_defaultComposite type="s">GUID 6f40c486-e03e-4145-a426-c9318834f21c</_defaultComposite>
 			<_eventsBaseID type="a">18601</_eventsBaseID>
@@ -8488,7 +8488,7 @@ tempWheel5=0;</m_str>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.12.2023::20:39:30</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.12.2023::21:4:46</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -8496,9 +8496,9 @@ tempWheel5=0;</m_str>
 					<_hid type="a">GUID 46dfa63a-706c-4aa1-8829-065a16127da2</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.12.2023::20:39:30</_modifiedTime>
+			<_modifiedTime type="a">2.12.2023::21:4:46</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">2.12.2023::20:39:30</weakCGTime>
+			<weakCGTime type="a">2.12.2023::21:4:46</weakCGTime>
 			<strongCGTime type="a">2.12.2023::13:16:8</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -8557,9 +8557,9 @@ tempWheel5=0;</m_str>
 			<_id type="a">GUID 7053e6eb-4f28-4376-8c61-51e65af460ec</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsDisplay</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::20:39:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::20:39:27</_modifiedTime>
-			<_multiplicity type="a">0..10</_multiplicity>
+			<_modifiedTimeWeak type="a">2.12.2023::21:4:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::21:4:41</_modifiedTime>
+			<_multiplicity type="a">2..10</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
@@ -8579,9 +8579,9 @@ tempWheel5=0;</m_str>
 			<_id type="a">GUID fcaaf569-1173-4967-8517-92101c556514</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsLed</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::20:39:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::20:39:30</_modifiedTime>
-			<_multiplicity type="a">0..5</_multiplicity>
+			<_modifiedTimeWeak type="a">2.12.2023::21:4:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::21:4:46</_modifiedTime>
+			<_multiplicity type="a">1..5</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
@@ -8614,7 +8614,7 @@ tempWheel5=0;</m_str>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.12.2023::13:57:16</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.12.2023::21:4:36</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -8622,8 +8622,8 @@ tempWheel5=0;</m_str>
 					<_hid type="a">GUID 46dfa63a-706c-4aa1-8829-065a16127da2</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.12.2023::13:57:16</_modifiedTime>
-			<weakCGTime type="a">2.12.2023::13:57:16</weakCGTime>
+			<_modifiedTime type="a">2.12.2023::21:4:36</_modifiedTime>
+			<weakCGTime type="a">2.12.2023::21:4:36</weakCGTime>
 			<strongCGTime type="a">2.12.2023::13:57:16</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -8661,9 +8661,9 @@ tempWheel5=0;</m_str>
 			<_id type="a">GUID dade45da-95e5-455b-af7b-6cd1ef778d95</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsWheels</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::13:57:16</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::13:57:16</_modifiedTime>
-			<_multiplicity type="a">0..5</_multiplicity>
+			<_modifiedTimeWeak type="a">2.12.2023::21:4:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::21:4:36</_modifiedTime>
+			<_multiplicity type="a">1..5</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
