@@ -126,10 +126,10 @@ void TPMS::Wheel1LedChange_entDef(void) {
 
 void TPMS::Wheel1LedChange_exit(void) {
     switch (Wheel1LedChange_subState) {
-        // State SignalSense
-        case SignalSense:
+        // State Off
+        case Off:
         {
-            NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.SignalSense");
+            NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.Off");
         }
         break;
         // State TurnOnLed
@@ -146,10 +146,10 @@ void TPMS::Wheel1LedChange_exit(void) {
             NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.TurnOffLed");
         }
         break;
-        // State Off
-        case Off:
+        // State SignalSense
+        case SignalSense:
         {
-            NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.Off");
+            NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.SignalSense");
         }
         break;
         default:
@@ -170,44 +170,21 @@ void TPMS::rootState_entDef(void) {
 IOxfReactive::TakeEventStatus TPMS::rootState_processEvent(void) {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
     switch (rootState_active) {
-        // State SignalSense
-        case SignalSense:
+        // State Off
+        case Off:
         {
-            if(IS_EVENT_TYPE_OF(onWheel1LedChange_Architecture_id) == 1)
+            if(IS_EVENT_TYPE_OF(startCar_Architecture_id) == 1)
                 {
-                    //## transition 3 
-                    if((tempWheel1 < tempLowThreshold) && (tempWheel1 > tempHighThreshold))
-                        {
-                            NOTIFY_TRANSITION_STARTED("2");
-                            NOTIFY_TRANSITION_STARTED("3");
-                            NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.SignalSense");
-                            //#[ transition 3 
-                            turnWheel1Led(true);
-                            //#]
-                            NOTIFY_STATE_ENTERED("ROOT.Wheel1LedChange.TurnOnLed");
-                            pushNullTransition();
-                            Wheel1LedChange_subState = TurnOnLed;
-                            rootState_active = TurnOnLed;
-                            NOTIFY_TRANSITION_TERMINATED("3");
-                            NOTIFY_TRANSITION_TERMINATED("2");
-                            res = eventConsumed;
-                        }
-                    else
-                        {
-                            NOTIFY_TRANSITION_STARTED("2");
-                            NOTIFY_TRANSITION_STARTED("4");
-                            NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.SignalSense");
-                            //#[ transition 4 
-                            turnWheel1Led(false);
-                            //#]
-                            NOTIFY_STATE_ENTERED("ROOT.Wheel1LedChange.TurnOffLed");
-                            pushNullTransition();
-                            Wheel1LedChange_subState = TurnOffLed;
-                            rootState_active = TurnOffLed;
-                            NOTIFY_TRANSITION_TERMINATED("4");
-                            NOTIFY_TRANSITION_TERMINATED("2");
-                            res = eventConsumed;
-                        }
+                    NOTIFY_TRANSITION_STARTED("1");
+                    NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.Off");
+                    //#[ transition 1 
+                    systemOK = true;
+                    //#]
+                    NOTIFY_STATE_ENTERED("ROOT.Wheel1LedChange.SignalSense");
+                    Wheel1LedChange_subState = SignalSense;
+                    rootState_active = SignalSense;
+                    NOTIFY_TRANSITION_TERMINATED("1");
+                    res = eventConsumed;
                 }
             
             
@@ -249,21 +226,44 @@ IOxfReactive::TakeEventStatus TPMS::rootState_processEvent(void) {
             
         }
         break;
-        // State Off
-        case Off:
+        // State SignalSense
+        case SignalSense:
         {
-            if(IS_EVENT_TYPE_OF(startCar_Architecture_id) == 1)
+            if(IS_EVENT_TYPE_OF(onWheel1LedChange_Architecture_id) == 1)
                 {
-                    NOTIFY_TRANSITION_STARTED("1");
-                    NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.Off");
-                    //#[ transition 1 
-                    systemOK = true;
-                    //#]
-                    NOTIFY_STATE_ENTERED("ROOT.Wheel1LedChange.SignalSense");
-                    Wheel1LedChange_subState = SignalSense;
-                    rootState_active = SignalSense;
-                    NOTIFY_TRANSITION_TERMINATED("1");
-                    res = eventConsumed;
+                    //## transition 3 
+                    if((tempWheel1 < tempLowThreshold) || (tempWheel1 > tempHighThreshold))
+                        {
+                            NOTIFY_TRANSITION_STARTED("2");
+                            NOTIFY_TRANSITION_STARTED("3");
+                            NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.SignalSense");
+                            //#[ transition 3 
+                            turnWheel1Led(true);
+                            //#]
+                            NOTIFY_STATE_ENTERED("ROOT.Wheel1LedChange.TurnOnLed");
+                            pushNullTransition();
+                            Wheel1LedChange_subState = TurnOnLed;
+                            rootState_active = TurnOnLed;
+                            NOTIFY_TRANSITION_TERMINATED("3");
+                            NOTIFY_TRANSITION_TERMINATED("2");
+                            res = eventConsumed;
+                        }
+                    else
+                        {
+                            NOTIFY_TRANSITION_STARTED("2");
+                            NOTIFY_TRANSITION_STARTED("4");
+                            NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.SignalSense");
+                            //#[ transition 4 
+                            turnWheel1Led(false);
+                            //#]
+                            NOTIFY_STATE_ENTERED("ROOT.Wheel1LedChange.TurnOffLed");
+                            pushNullTransition();
+                            Wheel1LedChange_subState = TurnOffLed;
+                            rootState_active = TurnOffLed;
+                            NOTIFY_TRANSITION_TERMINATED("4");
+                            NOTIFY_TRANSITION_TERMINATED("2");
+                            res = eventConsumed;
+                        }
                 }
             
             
@@ -297,9 +297,9 @@ void OMAnimatedTPMS::rootState_serializeStates(AOMSState* aomsState) const {
 void OMAnimatedTPMS::Wheel1LedChange_serializeStates(AOMSState* aomsState) const {
     aomsState->addState("ROOT.Wheel1LedChange");
     switch (myReal->Wheel1LedChange_subState) {
-        case TPMS::SignalSense:
+        case TPMS::Off:
         {
-            SignalSense_serializeStates(aomsState);
+            Off_serializeStates(aomsState);
         }
         break;
         case TPMS::TurnOnLed:
@@ -312,9 +312,9 @@ void OMAnimatedTPMS::Wheel1LedChange_serializeStates(AOMSState* aomsState) const
             TurnOffLed_serializeStates(aomsState);
         }
         break;
-        case TPMS::Off:
+        case TPMS::SignalSense:
         {
-            Off_serializeStates(aomsState);
+            SignalSense_serializeStates(aomsState);
         }
         break;
         default:

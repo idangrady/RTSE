@@ -12,10 +12,10 @@
 			<_id type="a">GUID e05c1dfd-278f-4f93-ad36-718a3ff1b9f9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Architecture</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::1:26:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:26:1</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:30:26</_modifiedTime>
 			<_lastID type="a">15</_lastID>
-			<weakCGTime type="a">2.12.2023::1:26:1</weakCGTime>
+			<weakCGTime type="a">2.12.2023::1:30:26</weakCGTime>
 			<strongCGTime type="a">12.21.2022::11:4:58</strongCGTime>
 			<_defaultComposite type="s">GUID 6f40c486-e03e-4145-a426-c9318834f21c</_defaultComposite>
 			<_eventsBaseID type="a">18601</_eventsBaseID>
@@ -813,7 +813,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.12.2023::1:22:47</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -821,9 +821,9 @@
 					<_hid type="a">GUID 46dfa63a-706c-4aa1-8829-065a16127da2</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.12.2023::1:18:52</_modifiedTime>
+			<_modifiedTime type="a">2.12.2023::1:30:26</_modifiedTime>
 			<_lastID type="a">11</_lastID>
-			<weakCGTime type="a">2.12.2023::1:22:47</weakCGTime>
+			<weakCGTime type="a">2.12.2023::1:30:26</weakCGTime>
 			<strongCGTime type="a">2.12.2023::0:5:17</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -962,7 +962,7 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			<_id type="a">GUID 64c201f8-d8f5-49f8-b4d5-3a3ef900c29c</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -1222,10 +1222,10 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			<_id type="a">GUID e27893dc-7247-418e-861a-6490bad61083</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SM_PowerSourceCar</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::1:22:47</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:22:47</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:30:26</_modifiedTime>
 			<_lastID type="a">18</_lastID>
-			<weakCGTime type="a">2.12.2023::1:22:47</weakCGTime>
+			<weakCGTime type="a">2.12.2023::1:30:26</weakCGTime>
 			<strongCGTime type="a">12.21.2022::10:5:5</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1233,7 +1233,7 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">9</_defNumber>
-			<_version type="a">2.12.2023::2:22:47</_version>
+			<_version type="a">2.12.2023::2:30:26</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID bad98d2d-e040-403d-bd37-1d5f6941540a</_diagram>
 			<AggregatesList type="e">
@@ -1314,7 +1314,7 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 		<IAction type="e">
 			<_id type="a">GUID a256bfa7-1a1c-4f12-a039-d832496144b9</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_body type="a">systemOK = true;</_body>
 		</IAction>
 		<ITransition type="e">
@@ -1343,7 +1343,7 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 		<IInterfaceItemTrigger type="e">
 			<_id type="a">GUID d5b697a4-e358-4b0e-9385-bf26de42e498</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_body type="a">onWheel1TempChange</_body>
 			<_itsInterfaceItem type="r">
 				<IHandle type="e">
@@ -1356,8 +1356,8 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			<_id type="a">GUID b9780df9-ec06-4fbf-97d1-2fe7f278f1b5</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_7</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::1:17:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:17:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:30:26</_modifiedTime>
 			<_itsTarget type="s">GUID 57819535-d76c-4b41-bab5-6fc50aad6c75</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID a7a738ec-a1ae-4b6f-bd4a-5b7c8f62376e</_itsSource>
@@ -1367,8 +1367,8 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID cf4ad930-bc56-4a31-98d0-34bcf4fa4683</_id>
-			<_modifiedTimeWeak type="a">2.12.2023::1:17:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:17:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:30:26</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<AggregatesList type="e">
 				<value>GUID 1da0e503-645d-436d-8173-78f9c3b9ece7</value>
@@ -1377,9 +1377,9 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID 1da0e503-645d-436d-8173-78f9c3b9ece7</_id>
-			<_modifiedTimeWeak type="a">2.12.2023::1:17:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:17:3</_modifiedTime>
-			<_body type="a">(tempWheel1 &lt; tempLowThreshold) &amp;&amp; (tempWheel1 &gt; tempHighThreshold)</_body>
+			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:30:26</_modifiedTime>
+			<_body type="a">(tempWheel1 &lt; tempLowThreshold) || (tempWheel1 &gt; tempHighThreshold)</_body>
 		</IGuard>
 		<IAction type="e">
 			<_id type="a">GUID af36d13a-7d5b-4840-9445-f41d3e83e268</_id>
@@ -1438,7 +1438,7 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 		<ILabel type="e">
 			<_id type="a">GUID a31cef68-0fa4-463d-b15d-f4f71766a420</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -1459,7 +1459,7 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 		<ILabel type="e">
 			<_id type="a">GUID 53d814a8-cb9b-4ab1-a250-a7e2925ed283</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -1734,9 +1734,9 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::1:22:46</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.12.2023::1:22:47</_modifiedTime>
-			<_lastModifiedTime type="a">2.12.2023::1:22:47</_lastModifiedTime>
+			<_lastModifiedTime type="a">2.12.2023::1:30:26</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2376,7 +2376,7 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[(tempWheel1 &lt; tempLowThreshold) &amp;&amp; (tempWheel1 &gt; tempHighThreshold)]/turnWheel1Led(true);</m_str>
+					<m_str type="a">[(tempWheel1 &lt; tempLowThreshold) || (tempWheel1 &gt; tempHighThreshold)]/turnWheel1Led(true);</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
