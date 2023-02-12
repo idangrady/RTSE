@@ -18,7 +18,28 @@
 //## auto_generated
 #include <event.h>
 //## auto_generated
+class Car;
+
+//## auto_generated
+class Dashboard;
+
+//## auto_generated
+class Display;
+
+//## auto_generated
+class Environment;
+
+//## auto_generated
+class Led;
+
+//## auto_generated
+class PowerSource;
+
+//## auto_generated
 class TPMS;
+
+//## auto_generated
+class Wheels;
 
 //## package Architecture
 

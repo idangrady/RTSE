@@ -16,6 +16,16 @@
 
 //## auto_generated
 #include "TPMS.h"
+//## link itsCar
+#include "Car.h"
+//## link itsDashboard
+#include "Dashboard.h"
+//## link itsEnvironment
+#include "Environment.h"
+//## link itsPowerSource
+#include "PowerSource.h"
+//## link itsSensorActor
+#include "SensorActor.h"
 //#[ ignore
 #define Architecture_TPMS_turnWheelLed_SERIALIZE \
     aomsmethod->addAttribute("value", x2String(value));\
@@ -66,7 +76,7 @@
 //## package Architecture
 
 //## class TPMS
-TPMS::TPMS(void) : OMThread(), OMReactive(), pressureHighThreshold(80), pressureLowThreshold(50), pressureWheel1(0), pressureWheel2(0), pressureWheel3(0), pressureWheel4(0), pressureWheel5(0), systemOK(false), tempHighThreshold(50), tempLowThreshold(10), tempWheel1(0), tempWheel2(0), tempWheel3(0), tempWheel4(0), tempWheel5(0), wheel1Led(false), wheel2Led(false), wheel3Led(false), wheel4Led(false), wheel5Led(false) {
+TPMS::TPMS(void) : OMThread(), OMReactive(), pressureHighThreshold(80), pressureLowThreshold(50), pressureWheel1(0), pressureWheel2(0), pressureWheel3(0), pressureWheel4(0), pressureWheel5(0), systemOK(false), tempHighThreshold(50), tempLowThreshold(10), tempWheel1(0), tempWheel2(0), tempWheel3(0), tempWheel4(0), tempWheel5(0), wheel1Led(false), wheel2Led(false), wheel3Led(false), wheel4Led(false), wheel5Led(false), itsCar(NULL), itsDashboard(NULL), itsEnvironment(NULL), itsPowerSource(NULL), itsSensorActor(NULL) {
     NOTIFY_ACTIVE_CONSTRUCTOR(TPMS, TPMS(), 0, Architecture_TPMS_TPMS_SERIALIZE);
     setActiveContext(this, true);
     initStatechart();
@@ -74,6 +84,7 @@ TPMS::TPMS(void) : OMThread(), OMReactive(), pressureHighThreshold(80), pressure
 
 TPMS::~TPMS(void) {
     NOTIFY_DESTRUCTOR(~TPMS, true);
+    cleanUpRelations();
 }
 
 void TPMS::turnWheelLed(bool value, int ledId) {
@@ -279,6 +290,66 @@ void TPMS::setWheel5Led(const bool p_wheel5Led) {
     NOTIFY_SET_OPERATION;
 }
 
+const Car* TPMS::getItsCar(void) const {
+    return itsCar;
+}
+
+void TPMS::setItsCar(Car* const p_Car) {
+    if(p_Car != NULL)
+        {
+            p_Car->_setItsTPMS(this);
+        }
+    _setItsCar(p_Car);
+}
+
+const Dashboard* TPMS::getItsDashboard(void) const {
+    return itsDashboard;
+}
+
+void TPMS::setItsDashboard(Dashboard* const p_Dashboard) {
+    if(p_Dashboard != NULL)
+        {
+            p_Dashboard->_setItsTPMS(this);
+        }
+    _setItsDashboard(p_Dashboard);
+}
+
+const Environment* TPMS::getItsEnvironment(void) const {
+    return itsEnvironment;
+}
+
+void TPMS::setItsEnvironment(Environment* const p_Environment) {
+    if(p_Environment != NULL)
+        {
+            p_Environment->_setItsTPMS(this);
+        }
+    _setItsEnvironment(p_Environment);
+}
+
+const PowerSource* TPMS::getItsPowerSource(void) const {
+    return itsPowerSource;
+}
+
+void TPMS::setItsPowerSource(PowerSource* const p_PowerSource) {
+    if(p_PowerSource != NULL)
+        {
+            p_PowerSource->_setItsTPMS(this);
+        }
+    _setItsPowerSource(p_PowerSource);
+}
+
+const SensorActor* TPMS::getItsSensorActor(void) const {
+    return itsSensorActor;
+}
+
+void TPMS::setItsSensorActor(SensorActor* const p_SensorActor) {
+    if(p_SensorActor != NULL)
+        {
+            p_SensorActor->_setItsTPMS(this);
+        }
+    _setItsSensorActor(p_SensorActor);
+}
+
 bool TPMS::startBehavior(void) {
     bool done = false;
     done = OMReactive::startBehavior();
@@ -292,6 +363,184 @@ bool TPMS::startBehavior(void) {
 void TPMS::initStatechart(void) {
     rootState_subState = OMNonState;
     rootState_active = OMNonState;
+}
+
+void TPMS::cleanUpRelations(void) {
+    if(itsCar != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsCar");
+            const TPMS* p_TPMS = itsCar->getItsTPMS();
+            if(p_TPMS != NULL)
+                {
+                    itsCar->__setItsTPMS(NULL);
+                }
+            itsCar = NULL;
+        }
+    if(itsDashboard != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsDashboard");
+            const TPMS* p_TPMS = itsDashboard->getItsTPMS();
+            if(p_TPMS != NULL)
+                {
+                    itsDashboard->__setItsTPMS(NULL);
+                }
+            itsDashboard = NULL;
+        }
+    if(itsEnvironment != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsEnvironment");
+            const TPMS* p_TPMS = itsEnvironment->getItsTPMS();
+            if(p_TPMS != NULL)
+                {
+                    itsEnvironment->__setItsTPMS(NULL);
+                }
+            itsEnvironment = NULL;
+        }
+    if(itsPowerSource != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsPowerSource");
+            const TPMS* p_TPMS = itsPowerSource->getItsTPMS();
+            if(p_TPMS != NULL)
+                {
+                    itsPowerSource->__setItsTPMS(NULL);
+                }
+            itsPowerSource = NULL;
+        }
+    if(itsSensorActor != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsSensorActor");
+            const TPMS* p_TPMS = itsSensorActor->getItsTPMS();
+            if(p_TPMS != NULL)
+                {
+                    itsSensorActor->__setItsTPMS(NULL);
+                }
+            itsSensorActor = NULL;
+        }
+}
+
+void TPMS::__setItsCar(Car* const p_Car) {
+    itsCar = p_Car;
+    if(p_Car != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsCar", p_Car, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsCar");
+        }
+}
+
+void TPMS::_setItsCar(Car* const p_Car) {
+    if(itsCar != NULL)
+        {
+            itsCar->__setItsTPMS(NULL);
+        }
+    __setItsCar(p_Car);
+}
+
+void TPMS::_clearItsCar(void) {
+    NOTIFY_RELATION_CLEARED("itsCar");
+    itsCar = NULL;
+}
+
+void TPMS::__setItsDashboard(Dashboard* const p_Dashboard) {
+    itsDashboard = p_Dashboard;
+    if(p_Dashboard != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsDashboard", p_Dashboard, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsDashboard");
+        }
+}
+
+void TPMS::_setItsDashboard(Dashboard* const p_Dashboard) {
+    if(itsDashboard != NULL)
+        {
+            itsDashboard->__setItsTPMS(NULL);
+        }
+    __setItsDashboard(p_Dashboard);
+}
+
+void TPMS::_clearItsDashboard(void) {
+    NOTIFY_RELATION_CLEARED("itsDashboard");
+    itsDashboard = NULL;
+}
+
+void TPMS::__setItsEnvironment(Environment* const p_Environment) {
+    itsEnvironment = p_Environment;
+    if(p_Environment != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsEnvironment", p_Environment, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsEnvironment");
+        }
+}
+
+void TPMS::_setItsEnvironment(Environment* const p_Environment) {
+    if(itsEnvironment != NULL)
+        {
+            itsEnvironment->__setItsTPMS(NULL);
+        }
+    __setItsEnvironment(p_Environment);
+}
+
+void TPMS::_clearItsEnvironment(void) {
+    NOTIFY_RELATION_CLEARED("itsEnvironment");
+    itsEnvironment = NULL;
+}
+
+void TPMS::__setItsPowerSource(PowerSource* const p_PowerSource) {
+    itsPowerSource = p_PowerSource;
+    if(p_PowerSource != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsPowerSource", p_PowerSource, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsPowerSource");
+        }
+}
+
+void TPMS::_setItsPowerSource(PowerSource* const p_PowerSource) {
+    if(itsPowerSource != NULL)
+        {
+            itsPowerSource->__setItsTPMS(NULL);
+        }
+    __setItsPowerSource(p_PowerSource);
+}
+
+void TPMS::_clearItsPowerSource(void) {
+    NOTIFY_RELATION_CLEARED("itsPowerSource");
+    itsPowerSource = NULL;
+}
+
+void TPMS::__setItsSensorActor(SensorActor* const p_SensorActor) {
+    itsSensorActor = p_SensorActor;
+    if(p_SensorActor != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsSensorActor", p_SensorActor, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsSensorActor");
+        }
+}
+
+void TPMS::_setItsSensorActor(SensorActor* const p_SensorActor) {
+    if(itsSensorActor != NULL)
+        {
+            itsSensorActor->__setItsTPMS(NULL);
+        }
+    __setItsSensorActor(p_SensorActor);
+}
+
+void TPMS::_clearItsSensorActor(void) {
+    NOTIFY_RELATION_CLEARED("itsSensorActor");
+    itsSensorActor = NULL;
 }
 
 IOxfReactive::TakeEventStatus TPMS::SignalSense_handleEvent(void) {
@@ -418,6 +667,16 @@ IOxfReactive::TakeEventStatus TPMS::SignalSense_handleEvent(void) {
                         wheel3Led=false;
                         wheel4Led=false;
                         wheel5Led=false;
+                        pressureWheel1=0;
+                        pressureWheel2=0;
+                        pressureWheel3=0;
+                        pressureWheel4=0;
+                        pressureWheel5=0;
+                        tempWheel1=0;
+                        tempWheel2=0;
+                        tempWheel3=0;
+                        tempWheel4=0;
+                        tempWheel5=0;
                         //#]
                         NOTIFY_STATE_ENTERED("ROOT.Off");
                         rootState_subState = Off;
@@ -753,6 +1012,34 @@ void OMAnimatedTPMS::serializeAttributes(AOMSAttributes* aomsAttributes) const {
     aomsAttributes->addAttribute("pressureWheel3", x2String(myReal->pressureWheel3));
     aomsAttributes->addAttribute("pressureWheel4", x2String(myReal->pressureWheel4));
     aomsAttributes->addAttribute("pressureWheel5", x2String(myReal->pressureWheel5));
+}
+
+void OMAnimatedTPMS::serializeRelations(AOMSRelations* aomsRelations) const {
+    aomsRelations->addRelation("itsDashboard", false, true);
+    if(myReal->itsDashboard)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsDashboard);
+        }
+    aomsRelations->addRelation("itsCar", false, true);
+    if(myReal->itsCar)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsCar);
+        }
+    aomsRelations->addRelation("itsPowerSource", false, true);
+    if(myReal->itsPowerSource)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsPowerSource);
+        }
+    aomsRelations->addRelation("itsEnvironment", false, true);
+    if(myReal->itsEnvironment)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsEnvironment);
+        }
+    aomsRelations->addRelation("itsSensorActor", false, true);
+    if(myReal->itsSensorActor)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsSensorActor);
+        }
 }
 
 void OMAnimatedTPMS::rootState_serializeStates(AOMSState* aomsState) const {

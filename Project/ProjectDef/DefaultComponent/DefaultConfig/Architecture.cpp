@@ -15,7 +15,21 @@
 //## auto_generated
 #include "Architecture.h"
 //## auto_generated
+#include "Car.h"
+//## auto_generated
+#include "Dashboard.h"
+//## auto_generated
+#include "Display.h"
+//## auto_generated
+#include "Environment.h"
+//## auto_generated
+#include "Led.h"
+//## auto_generated
+#include "PowerSource.h"
+//## auto_generated
 #include "TPMS.h"
+//## auto_generated
+#include "Wheels.h"
 //#[ ignore
 #define requestPowerOn_SERIALIZE OM_NO_OP
 

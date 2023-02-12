@@ -86,6 +86,16 @@ ADDITIONAL_OBJS=
 
 OBJS= \
   TPMS.obj \
+  Dashboard.obj \
+  Car.obj \
+  Wheels.obj \
+  PowerSource.obj \
+  Environment.obj \
+  Display.obj \
+  Led.obj \
+  SensorActor.obj \
+  TempSensor.obj \
+  PresSensor.obj \
   Architecture.obj
 
 
@@ -169,13 +179,73 @@ SOCK_LIB=
 
 
 
-TPMS.obj : TPMS.cpp TPMS.h    Architecture.h 
+TPMS.obj : TPMS.cpp TPMS.h    Architecture.h Dashboard.h Car.h PowerSource.h Environment.h SensorActor.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TPMS.obj" "TPMS.cpp" 
 
 
 
-Architecture.obj : Architecture.cpp Architecture.h    TPMS.h 
+Dashboard.obj : Dashboard.cpp Dashboard.h    Architecture.h TPMS.h Display.h Led.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Dashboard.obj" "Dashboard.cpp" 
+
+
+
+Car.obj : Car.cpp Car.h    Architecture.h TPMS.h Wheels.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Car.obj" "Car.cpp" 
+
+
+
+Wheels.obj : Wheels.cpp Wheels.h    Architecture.h Car.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Wheels.obj" "Wheels.cpp" 
+
+
+
+PowerSource.obj : PowerSource.cpp PowerSource.h    Architecture.h TPMS.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"PowerSource.obj" "PowerSource.cpp" 
+
+
+
+Environment.obj : Environment.cpp Environment.h    Architecture.h TPMS.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Environment.obj" "Environment.cpp" 
+
+
+
+Display.obj : Display.cpp Display.h    Architecture.h Dashboard.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Display.obj" "Display.cpp" 
+
+
+
+Led.obj : Led.cpp Led.h    Architecture.h Dashboard.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Led.obj" "Led.cpp" 
+
+
+
+SensorActor.obj : SensorActor.cpp SensorActor.h    Architecture.h TPMS.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SensorActor.obj" "SensorActor.cpp" 
+
+
+
+TempSensor.obj : TempSensor.cpp TempSensor.h    Architecture.h SensorActor.h TPMS.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TempSensor.obj" "TempSensor.cpp" 
+
+
+
+PresSensor.obj : PresSensor.cpp PresSensor.h    Architecture.h SensorActor.h TPMS.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"PresSensor.obj" "PresSensor.cpp" 
+
+
+
+Architecture.obj : Architecture.cpp Architecture.h    TPMS.h Dashboard.h Car.h Wheels.h PowerSource.h Environment.h Display.h Led.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Architecture.obj" "Architecture.cpp" 
 
@@ -209,6 +279,16 @@ $(TARGET_NAME)$(LIB_EXT) : $(OBJS) $(ADDITIONAL_OBJS) DefaultComponent.mak
 clean:
 	@echo Cleanup
 	if exist TPMS.obj erase TPMS.obj
+	if exist Dashboard.obj erase Dashboard.obj
+	if exist Car.obj erase Car.obj
+	if exist Wheels.obj erase Wheels.obj
+	if exist PowerSource.obj erase PowerSource.obj
+	if exist Environment.obj erase Environment.obj
+	if exist Display.obj erase Display.obj
+	if exist Led.obj erase Led.obj
+	if exist SensorActor.obj erase SensorActor.obj
+	if exist TempSensor.obj erase TempSensor.obj
+	if exist PresSensor.obj erase PresSensor.obj
 	if exist Architecture.obj erase Architecture.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)

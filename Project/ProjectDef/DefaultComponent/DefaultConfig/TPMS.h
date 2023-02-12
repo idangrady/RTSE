@@ -25,6 +25,21 @@
 #include <state.h>
 //## auto_generated
 #include <event.h>
+//## link itsCar
+class Car;
+
+//## link itsDashboard
+class Dashboard;
+
+//## link itsEnvironment
+class Environment;
+
+//## link itsPowerSource
+class PowerSource;
+
+//## link itsSensorActor
+class SensorActor;
+
 //#[ ignore
 #define OMAnim_Architecture_TPMS_setPressureWheel1_int_ARGS_DECLARATION int p_pressureWheel1;
 
@@ -195,12 +210,45 @@ public :
     void setWheel5Led(const bool p_wheel5Led);
     
     //## auto_generated
+    const Car* getItsCar(void) const;
+    
+    //## auto_generated
+    void setItsCar(Car* const p_Car);
+    
+    //## auto_generated
+    const Dashboard* getItsDashboard(void) const;
+    
+    //## auto_generated
+    void setItsDashboard(Dashboard* const p_Dashboard);
+    
+    //## auto_generated
+    const Environment* getItsEnvironment(void) const;
+    
+    //## auto_generated
+    void setItsEnvironment(Environment* const p_Environment);
+    
+    //## auto_generated
+    const PowerSource* getItsPowerSource(void) const;
+    
+    //## auto_generated
+    void setItsPowerSource(PowerSource* const p_PowerSource);
+    
+    //## auto_generated
+    const SensorActor* getItsSensorActor(void) const;
+    
+    //## auto_generated
+    void setItsSensorActor(SensorActor* const p_SensorActor);
+    
+    //## auto_generated
     virtual bool startBehavior(void);
 
 protected :
 
     //## auto_generated
     void initStatechart(void);
+    
+    //## auto_generated
+    void cleanUpRelations(void);
     
     ////    Attributes    ////
 
@@ -246,10 +294,67 @@ private :
     
     bool wheel5Led;		//## attribute wheel5Led
     
+    ////    Relations and components    ////
+    
+    Car* itsCar;		//## link itsCar
+    
+    Dashboard* itsDashboard;		//## link itsDashboard
+    
+    Environment* itsEnvironment;		//## link itsEnvironment
+    
+    PowerSource* itsPowerSource;		//## link itsPowerSource
+    
+    SensorActor* itsSensorActor;		//## link itsSensorActor
+    
     ////    Framework operations    ////
 
 public :
 
+    //## auto_generated
+    void __setItsCar(Car* const p_Car);
+    
+    //## auto_generated
+    void _setItsCar(Car* const p_Car);
+    
+    //## auto_generated
+    void _clearItsCar(void);
+    
+    //## auto_generated
+    void __setItsDashboard(Dashboard* const p_Dashboard);
+    
+    //## auto_generated
+    void _setItsDashboard(Dashboard* const p_Dashboard);
+    
+    //## auto_generated
+    void _clearItsDashboard(void);
+    
+    //## auto_generated
+    void __setItsEnvironment(Environment* const p_Environment);
+    
+    //## auto_generated
+    void _setItsEnvironment(Environment* const p_Environment);
+    
+    //## auto_generated
+    void _clearItsEnvironment(void);
+    
+    //## auto_generated
+    void __setItsPowerSource(PowerSource* const p_PowerSource);
+    
+    //## auto_generated
+    void _setItsPowerSource(PowerSource* const p_PowerSource);
+    
+    //## auto_generated
+    void _clearItsPowerSource(void);
+    
+    //## auto_generated
+    void __setItsSensorActor(SensorActor* const p_SensorActor);
+    
+    //## auto_generated
+    void _setItsSensorActor(SensorActor* const p_SensorActor);
+    
+    //## auto_generated
+    void _clearItsSensorActor(void);
+    
     // rootState:
     //## statechart_method
     inline RhpBoolean rootState_IN(void) const;
@@ -392,6 +497,8 @@ class OMAnimatedTPMS : virtual public AOMInstance {
 public :
 
     virtual void serializeAttributes(AOMSAttributes* aomsAttributes) const;
+    
+    virtual void serializeRelations(AOMSRelations* aomsRelations) const;
     
     //## statechart_method
     void rootState_serializeStates(AOMSState* aomsState) const;
