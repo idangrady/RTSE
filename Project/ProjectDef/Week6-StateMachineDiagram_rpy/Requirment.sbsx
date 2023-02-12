@@ -13,10 +13,17 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Requirment</_name>
 			<_displayName type="a">Requirment</_displayName>
-			<_modifiedTimeWeak type="a">2.12.2023::15:35:36</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::16:21:32</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::17:3:53</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">GeneralRequirementDiagram</_hname>
+					<_hid type="a">GUID 4242285b-8105-4a11-be5e-59a798ab3f31</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.12.2023::17:11:34</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">2.12.2023::15:35:36</weakCGTime>
+			<weakCGTime type="a">2.12.2023::17:3:53</weakCGTime>
 			<strongCGTime type="a">2.12.2023::15:23:43</strongCGTime>
 			<_defaultComposite type="s">GUID 6079a628-1da4-4cd7-a7bf-ceb6c56676da</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
