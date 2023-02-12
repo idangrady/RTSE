@@ -76,6 +76,12 @@
 #define pressureDecreaseWheel1_UNSERIALIZE OM_NO_OP
 
 #define pressureDecreaseWheel1_CONSTRUCTOR pressureDecreaseWheel1()
+
+#define onWheel2LedChange_SERIALIZE OM_NO_OP
+
+#define onWheel2LedChange_UNSERIALIZE OM_NO_OP
+
+#define onWheel2LedChange_CONSTRUCTOR onWheel2LedChange()
 //#]
 
 //## package Architecture
@@ -209,6 +215,18 @@ const IOxfEvent::ID pressureDecreaseWheel1_Architecture_id(18610);
 //#]
 
 IMPLEMENT_META_EVENT_P(pressureDecreaseWheel1, Architecture, Architecture, pressureDecreaseWheel1())
+
+//## event onWheel2LedChange()
+onWheel2LedChange::onWheel2LedChange(void) : OMEvent() {
+    NOTIFY_EVENT_CONSTRUCTOR(onWheel2LedChange)
+    setId(onWheel2LedChange_Architecture_id);
+}
+
+//#[ ignore
+const IOxfEvent::ID onWheel2LedChange_Architecture_id(18611);
+//#]
+
+IMPLEMENT_META_EVENT_P(onWheel2LedChange, Architecture, Architecture, onWheel2LedChange())
 
 /*********************************************************************
 	File Path	: DefaultComponent\DefaultConfig\Architecture.cpp

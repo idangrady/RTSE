@@ -304,6 +304,34 @@ class OMAnimatedpressureDecreaseWheel1 : virtual public AOMEvent {
 extern const IOxfEvent::ID pressureDecreaseWheel1_Architecture_id;
 //#]
 
+//## event onWheel2LedChange()
+class onWheel2LedChange : public OMEvent {
+    ////    Friends    ////
+    
+public :
+
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedonWheel2LedChange;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
+    //## auto_generated
+    onWheel2LedChange(void);
+};
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedonWheel2LedChange : virtual public AOMEvent {
+    DECLARE_META_EVENT(onWheel2LedChange)
+};
+//#]
+#endif // _OMINSTRUMENT
+
+//#[ ignore
+extern const IOxfEvent::ID onWheel2LedChange_Architecture_id;
+//#]
+
 #endif
 /*********************************************************************
 	File Path	: DefaultComponent\DefaultConfig\Architecture.h

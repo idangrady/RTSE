@@ -28,7 +28,11 @@
 //#[ ignore
 #define OMAnim_Architecture_TPMS_setPressureWheel1_int_ARGS_DECLARATION int p_pressureWheel1;
 
+#define OMAnim_Architecture_TPMS_setPressureWheel2_int_ARGS_DECLARATION int p_pressureWheel2;
+
 #define OMAnim_Architecture_TPMS_setTempWheel1_int_ARGS_DECLARATION int p_tempWheel1;
+
+#define OMAnim_Architecture_TPMS_setTempWheel2_int_ARGS_DECLARATION int p_tempWheel2;
 //#]
 
 //## package Architecture
@@ -53,8 +57,8 @@ public :
     
     ////    Operations    ////
     
-    //## operation turnWheel1Led(int)
-    virtual void turnWheel1Led(int value);
+    //## operation turnWheelLed(bool,int)
+    virtual void turnWheelLed(bool value, int ledId);
     
     ////    Additional operations    ////
     
@@ -75,6 +79,12 @@ public :
     
     //## auto_generated
     void setPressureWheel1(const int p_pressureWheel1);
+    
+    //## auto_generated
+    const int getPressureWheel2(void) const;
+    
+    //## auto_generated
+    void setPressureWheel2(const int p_pressureWheel2);
     
     //## auto_generated
     const RhpBoolean getSystemOK(void) const;
@@ -101,10 +111,22 @@ public :
     void setTempWheel1(const int p_tempWheel1);
     
     //## auto_generated
+    const int getTempWheel2(void) const;
+    
+    //## auto_generated
+    void setTempWheel2(const int p_tempWheel2);
+    
+    //## auto_generated
     const int getWheel1Led(void) const;
     
     //## auto_generated
     void setWheel1Led(const int p_wheel1Led);
+    
+    //## auto_generated
+    const int getWheel2Led(void) const;
+    
+    //## auto_generated
+    void setWheel2Led(const int p_wheel2Led);
     
     //## auto_generated
     virtual bool startBehavior(void);
@@ -124,6 +146,8 @@ private :
     
     int pressureWheel1;		//## attribute pressureWheel1
     
+    int pressureWheel2;		//## attribute pressureWheel2
+    
     RhpBoolean systemOK;		//## attribute systemOK
     
     int tempHighThreshold;		//## attribute tempHighThreshold
@@ -132,7 +156,11 @@ private :
     
     int tempWheel1;		//## attribute tempWheel1
     
+    int tempWheel2;		//## attribute tempWheel2
+    
     int wheel1Led;		//## attribute wheel1Led
+    
+    int wheel2Led;		//## attribute wheel2Led
     
     ////    Framework operations    ////
 
@@ -142,27 +170,28 @@ public :
     //## statechart_method
     inline RhpBoolean rootState_IN(void) const;
     
-    // Wheel1LedChange:
+    // TurnOnLed2:
     //## statechart_method
-    inline RhpBoolean Wheel1LedChange_IN(void) const;
+    inline RhpBoolean TurnOnLed2_IN(void) const;
     
+    // TurnOnLed1:
     //## statechart_method
-    void Wheel1LedChange_entDef(void);
+    inline RhpBoolean TurnOnLed1_IN(void) const;
     
+    // TurnOffLed2:
     //## statechart_method
-    void Wheel1LedChange_exit(void);
+    inline RhpBoolean TurnOffLed2_IN(void) const;
     
-    // TurnOnLed:
+    // TurnOffLed1:
     //## statechart_method
-    inline RhpBoolean TurnOnLed_IN(void) const;
-    
-    // TurnOffLed:
-    //## statechart_method
-    inline RhpBoolean TurnOffLed_IN(void) const;
+    inline RhpBoolean TurnOffLed1_IN(void) const;
     
     // SignalSense:
     //## statechart_method
     inline RhpBoolean SignalSense_IN(void) const;
+    
+    //## statechart_method
+    IOxfReactive::TakeEventStatus SignalSense_handleEvent(void);
     
     // Off:
     //## statechart_method
@@ -181,11 +210,12 @@ protected :
 //#[ ignore
     enum TPMS_Enum {
         OMNonState = 0,
-        Wheel1LedChange = 1,
-        TurnOnLed = 2,
-        TurnOffLed = 3,
-        SignalSense = 4,
-        Off = 5
+        TurnOnLed2 = 1,
+        TurnOnLed1 = 2,
+        TurnOffLed2 = 3,
+        TurnOffLed1 = 4,
+        SignalSense = 5,
+        Off = 6
     };
 //#]
 
@@ -195,15 +225,17 @@ private :
     TPMS_Enum rootState_subState;
     
     TPMS_Enum rootState_active;
-    
-    TPMS_Enum Wheel1LedChange_subState;
 //#]
 };
 
 #ifdef _OMINSTRUMENT
 DECLARE_OPERATION_CLASS(Architecture_TPMS_setPressureWheel1_int)
 
+DECLARE_OPERATION_CLASS(Architecture_TPMS_setPressureWheel2_int)
+
 DECLARE_OPERATION_CLASS(Architecture_TPMS_setTempWheel1_int)
+
+DECLARE_OPERATION_CLASS(Architecture_TPMS_setTempWheel2_int)
 
 //#[ ignore
 class OMAnimatedTPMS : virtual public AOMInstance {
@@ -211,7 +243,11 @@ class OMAnimatedTPMS : virtual public AOMInstance {
     
     DECLARE_META_OP(Architecture_TPMS_setPressureWheel1_int)
     
+    DECLARE_META_OP(Architecture_TPMS_setPressureWheel2_int)
+    
     DECLARE_META_OP(Architecture_TPMS_setTempWheel1_int)
+    
+    DECLARE_META_OP(Architecture_TPMS_setTempWheel2_int)
     
     ////    Framework operations    ////
     
@@ -223,13 +259,16 @@ public :
     void rootState_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void Wheel1LedChange_serializeStates(AOMSState* aomsState) const;
+    void TurnOnLed2_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void TurnOnLed_serializeStates(AOMSState* aomsState) const;
+    void TurnOnLed1_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void TurnOffLed_serializeStates(AOMSState* aomsState) const;
+    void TurnOffLed2_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void TurnOffLed1_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
     void SignalSense_serializeStates(AOMSState* aomsState) const;
@@ -244,24 +283,28 @@ inline RhpBoolean TPMS::rootState_IN(void) const {
     return true;
 }
 
-inline RhpBoolean TPMS::Wheel1LedChange_IN(void) const {
-    return rootState_subState == Wheel1LedChange;
+inline RhpBoolean TPMS::TurnOnLed2_IN(void) const {
+    return rootState_subState == TurnOnLed2;
 }
 
-inline RhpBoolean TPMS::TurnOnLed_IN(void) const {
-    return Wheel1LedChange_subState == TurnOnLed;
+inline RhpBoolean TPMS::TurnOnLed1_IN(void) const {
+    return rootState_subState == TurnOnLed1;
 }
 
-inline RhpBoolean TPMS::TurnOffLed_IN(void) const {
-    return Wheel1LedChange_subState == TurnOffLed;
+inline RhpBoolean TPMS::TurnOffLed2_IN(void) const {
+    return rootState_subState == TurnOffLed2;
+}
+
+inline RhpBoolean TPMS::TurnOffLed1_IN(void) const {
+    return rootState_subState == TurnOffLed1;
 }
 
 inline RhpBoolean TPMS::SignalSense_IN(void) const {
-    return Wheel1LedChange_subState == SignalSense;
+    return rootState_subState == SignalSense;
 }
 
 inline RhpBoolean TPMS::Off_IN(void) const {
-    return Wheel1LedChange_subState == Off;
+    return rootState_subState == Off;
 }
 
 #endif
