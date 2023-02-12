@@ -25,7 +25,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "DefaultComponent\\DefaultConfig";
 	- _id = GUID 7c293842-8478-4243-b626-8f2a1849706a;
 }
-- genTime = 2.12.2023::12:38:16;
+- genTime = 2.12.2023::12:44:30;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\Week6-StateMachineDiagram_rpy\\Architecture.sbsx";
@@ -40,5 +40,5 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "Architecture";
 	- _id = GUID e05c1dfd-278f-4f93-ad36-718a3ff1b9f9;
 }
-- genTime = 2.12.2023::12:38:16;
+- genTime = 2.12.2023::12:44:30;
 
