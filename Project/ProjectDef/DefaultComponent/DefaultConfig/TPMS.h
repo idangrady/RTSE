@@ -243,10 +243,16 @@ public :
     void setItsPowerSource(PowerSource* const p_PowerSource);
     
     //## auto_generated
-    const SensorActor* getItsSensorActor(void) const;
+    Rhp_int32_t getItsSensorActor(void) const;
     
     //## auto_generated
-    void setItsSensorActor(SensorActor* const p_SensorActor);
+    void addItsSensorActor(SensorActor* const p_SensorActor);
+    
+    //## auto_generated
+    void removeItsSensorActor(SensorActor* p_SensorActor);
+    
+    //## auto_generated
+    void clearItsSensorActor(void);
     
     //## auto_generated
     virtual bool startBehavior(void);
@@ -315,7 +321,7 @@ private :
     
     PowerSource* itsPowerSource;		//## link itsPowerSource
     
-    SensorActor* itsSensorActor;		//## link itsSensorActor
+    SensorActor* itsSensorActor[5];		//## link itsSensorActor
     
     ////    Framework operations    ////
 
@@ -367,10 +373,10 @@ public :
     void _clearItsPowerSource(void);
     
     //## auto_generated
-    void __setItsSensorActor(SensorActor* const p_SensorActor);
+    void _addItsSensorActor(SensorActor* const p_SensorActor);
     
     //## auto_generated
-    void _setItsSensorActor(SensorActor* const p_SensorActor);
+    void _removeItsSensorActor(SensorActor* const p_SensorActor);
     
     //## auto_generated
     void _clearItsSensorActor(void);

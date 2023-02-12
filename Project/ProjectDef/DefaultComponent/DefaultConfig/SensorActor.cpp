@@ -39,7 +39,7 @@ const TPMS* SensorActor::getItsTPMS(void) const {
 void SensorActor::setItsTPMS(TPMS* const p_TPMS) {
     if(p_TPMS != NULL)
         {
-            p_TPMS->_setItsSensorActor(this);
+            p_TPMS->_addItsSensorActor(this);
         }
     _setItsTPMS(p_TPMS);
 }
@@ -48,10 +48,10 @@ void SensorActor::cleanUpRelations(void) {
     if(itsTPMS != NULL)
         {
             NOTIFY_RELATION_CLEARED("itsTPMS");
-            const SensorActor* p_SensorActor = itsTPMS->getItsSensorActor();
-            if(p_SensorActor != NULL)
+            TPMS* current = itsTPMS;
+            if(current != NULL)
                 {
-                    itsTPMS->__setItsSensorActor(NULL);
+                    current->_removeItsSensorActor(this);
                 }
             itsTPMS = NULL;
         }
@@ -69,10 +69,10 @@ void SensorActor::__setItsTPMS(TPMS* const p_TPMS) {
         }
 }
 
-void SensorActor::_setItsTPMS(TPMS* const p_TPMS) {
+void SensorActor::_setItsTPMS(TPMS* p_TPMS) {
     if(itsTPMS != NULL)
         {
-            itsTPMS->__setItsSensorActor(NULL);
+            itsTPMS->_removeItsSensorActor(this);
         }
     __setItsTPMS(p_TPMS);
 }

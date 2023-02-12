@@ -78,9 +78,14 @@
 //## package Architecture
 
 //## class TPMS
-TPMS::TPMS(void) : OMThread(), OMReactive(), pressureHighThreshold(80), pressureLowThreshold(50), pressureWheel1(0), pressureWheel2(0), pressureWheel3(0), pressureWheel4(0), pressureWheel5(0), systemOK(false), tempHighThreshold(50), tempLowThreshold(10), tempWheel1(0), tempWheel2(0), tempWheel3(0), tempWheel4(0), tempWheel5(0), wheel1Led(false), wheel2Led(false), wheel3Led(false), wheel4Led(false), wheel5Led(false), itsCar(NULL), itsDashboard(NULL), itsDriver(NULL), itsEnvironment(NULL), itsPowerSource(NULL), itsSensorActor(NULL) {
+TPMS::TPMS(void) : OMThread(), OMReactive(), pressureHighThreshold(80), pressureLowThreshold(50), pressureWheel1(0), pressureWheel2(0), pressureWheel3(0), pressureWheel4(0), pressureWheel5(0), systemOK(false), tempHighThreshold(50), tempLowThreshold(10), tempWheel1(0), tempWheel2(0), tempWheel3(0), tempWheel4(0), tempWheel5(0), wheel1Led(false), wheel2Led(false), wheel3Led(false), wheel4Led(false), wheel5Led(false), itsCar(NULL), itsDashboard(NULL), itsDriver(NULL), itsEnvironment(NULL), itsPowerSource(NULL) {
     NOTIFY_ACTIVE_CONSTRUCTOR(TPMS, TPMS(), 0, Architecture_TPMS_TPMS_SERIALIZE);
     setActiveContext(this, true);
+    {
+        for (int pos = 0; pos < 5; ++pos) {
+        	itsSensorActor[pos] = NULL;
+        }
+    }
     initStatechart();
 }
 
@@ -352,16 +357,34 @@ void TPMS::setItsPowerSource(PowerSource* const p_PowerSource) {
     _setItsPowerSource(p_PowerSource);
 }
 
-const SensorActor* TPMS::getItsSensorActor(void) const {
-    return itsSensorActor;
+Rhp_int32_t TPMS::getItsSensorActor(void) const {
+    Rhp_int32_t iter = 0;
+    return iter;
 }
 
-void TPMS::setItsSensorActor(SensorActor* const p_SensorActor) {
+void TPMS::addItsSensorActor(SensorActor* const p_SensorActor) {
     if(p_SensorActor != NULL)
         {
             p_SensorActor->_setItsTPMS(this);
         }
-    _setItsSensorActor(p_SensorActor);
+    _addItsSensorActor(p_SensorActor);
+}
+
+void TPMS::removeItsSensorActor(SensorActor* p_SensorActor) {
+    if(p_SensorActor != NULL)
+        {
+            p_SensorActor->__setItsTPMS(NULL);
+        }
+    _removeItsSensorActor(p_SensorActor);
+}
+
+void TPMS::clearItsSensorActor(void) {
+    Rhp_int32_t iter = 0;
+    while ((iter < 5) && itsSensorActor[iter]){
+        (itsSensorActor[iter])->_clearItsTPMS();
+        iter++;
+    }
+    _clearItsSensorActor();
 }
 
 bool TPMS::startBehavior(void) {
@@ -430,16 +453,17 @@ void TPMS::cleanUpRelations(void) {
                 }
             itsPowerSource = NULL;
         }
-    if(itsSensorActor != NULL)
-        {
-            NOTIFY_RELATION_CLEARED("itsSensorActor");
-            const TPMS* p_TPMS = itsSensorActor->getItsTPMS();
+    {
+        Rhp_int32_t iter = 0;
+        while ((iter < 5) && itsSensorActor[iter]){
+            const TPMS* p_TPMS = (itsSensorActor[iter])->getItsTPMS();
             if(p_TPMS != NULL)
                 {
-                    itsSensorActor->__setItsTPMS(NULL);
+                    (itsSensorActor[iter])->__setItsTPMS(NULL);
                 }
-            itsSensorActor = NULL;
+            iter++;
         }
+    }
 }
 
 void TPMS::__setItsCar(Car* const p_Car) {
@@ -567,29 +591,35 @@ void TPMS::_clearItsPowerSource(void) {
     itsPowerSource = NULL;
 }
 
-void TPMS::__setItsSensorActor(SensorActor* const p_SensorActor) {
-    itsSensorActor = p_SensorActor;
+void TPMS::_addItsSensorActor(SensorActor* const p_SensorActor) {
     if(p_SensorActor != NULL)
         {
-            NOTIFY_RELATION_ITEM_ADDED("itsSensorActor", p_SensorActor, false, true);
+            NOTIFY_RELATION_ITEM_ADDED("itsSensorActor", p_SensorActor, false, false);
         }
     else
         {
             NOTIFY_RELATION_CLEARED("itsSensorActor");
         }
+    for (int pos = 0; pos < 5; ++pos) {
+    	if (!itsSensorActor[pos]) {
+    		itsSensorActor[pos] = p_SensorActor;
+    		break;
+    	}
+    }
 }
 
-void TPMS::_setItsSensorActor(SensorActor* const p_SensorActor) {
-    if(itsSensorActor != NULL)
-        {
-            itsSensorActor->__setItsTPMS(NULL);
-        }
-    __setItsSensorActor(p_SensorActor);
+void TPMS::_removeItsSensorActor(SensorActor* const p_SensorActor) {
+    NOTIFY_RELATION_ITEM_REMOVED("itsSensorActor", p_SensorActor);
+    for (int pos = 0; pos < 5; ++pos) {
+    	if (itsSensorActor[pos] == p_SensorActor) {
+    		itsSensorActor[pos] = NULL;
+    	}
+    }
 }
 
 void TPMS::_clearItsSensorActor(void) {
     NOTIFY_RELATION_CLEARED("itsSensorActor");
-    itsSensorActor = NULL;
+    
 }
 
 IOxfReactive::TakeEventStatus TPMS::SignalSense_handleEvent(void) {
@@ -1084,11 +1114,14 @@ void OMAnimatedTPMS::serializeRelations(AOMSRelations* aomsRelations) const {
         {
             aomsRelations->ADD_ITEM(myReal->itsEnvironment);
         }
-    aomsRelations->addRelation("itsSensorActor", false, true);
-    if(myReal->itsSensorActor)
-        {
-            aomsRelations->ADD_ITEM(myReal->itsSensorActor);
+    aomsRelations->addRelation("itsSensorActor", false, false);
+    {
+        Rhp_int32_t iter = 0;
+        while ((iter < 5) && myReal->itsSensorActor[iter]){
+            aomsRelations->ADD_ITEM(myReal->itsSensorActor[iter]);
+            iter++;
         }
+    }
     aomsRelations->addRelation("itsDriver", false, true);
     if(myReal->itsDriver)
         {

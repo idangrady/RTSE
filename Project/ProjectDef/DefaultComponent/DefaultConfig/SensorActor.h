@@ -67,7 +67,7 @@ public :
     void __setItsTPMS(TPMS* const p_TPMS);
     
     //## auto_generated
-    void _setItsTPMS(TPMS* const p_TPMS);
+    void _setItsTPMS(TPMS* p_TPMS);
     
     //## auto_generated
     void _clearItsTPMS(void);
