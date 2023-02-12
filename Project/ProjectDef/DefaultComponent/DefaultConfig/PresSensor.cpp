@@ -1,6 +1,6 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: gebruiker
+	Login		: rogar
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: PresSensor
@@ -21,16 +21,30 @@
 //## package Architecture
 
 //## actor PresSensor
-PresSensor::PresSensor(void) {
+PresSensor::PresSensor(void) : SensorActor() {
     NOTIFY_CONSTRUCTOR(PresSensor, PresSensor(), 0, Architecture_PresSensor_PresSensor_SERIALIZE);
 }
 
 PresSensor::~PresSensor(void) {
-    NOTIFY_DESTRUCTOR(~PresSensor, true);
+    NOTIFY_DESTRUCTOR(~PresSensor, false);
 }
 
 #ifdef _OMINSTRUMENT
-IMPLEMENT_META_P(PresSensor, Architecture, Architecture, false, OMAnimatedPresSensor)
+//#[ ignore
+void OMAnimatedPresSensor::serializeAttributes(AOMSAttributes* aomsAttributes) const {
+    OMAnimatedSensorActor::serializeAttributes(aomsAttributes);
+}
+
+void OMAnimatedPresSensor::serializeRelations(AOMSRelations* aomsRelations) const {
+    OMAnimatedSensorActor::serializeRelations(aomsRelations);
+}
+//#]
+
+IMPLEMENT_META_S_P(PresSensor, Architecture, false, SensorActor, OMAnimatedSensorActor, OMAnimatedPresSensor)
+
+OMINIT_SUPERCLASS(SensorActor, OMAnimatedSensorActor)
+
+OMREGISTER_CLASS
 #endif // _OMINSTRUMENT
 
 /*********************************************************************

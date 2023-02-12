@@ -1,6 +1,6 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: gebruiker
+	Login		: rogar
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: PresSensor
@@ -17,10 +17,12 @@
 #include <aom.h>
 //## auto_generated
 #include "Architecture.h"
+//## actor PresSensor
+#include "SensorActor.h"
 //## package Architecture
 
 //## actor PresSensor
-class PresSensor {
+class PresSensor : public SensorActor {
     ////    Friends    ////
     
 public :
@@ -40,8 +42,16 @@ public :
 
 #ifdef _OMINSTRUMENT
 //#[ ignore
-class OMAnimatedPresSensor : virtual public AOMInstance {
+class OMAnimatedPresSensor : public OMAnimatedSensorActor {
     DECLARE_META(PresSensor, OMAnimatedPresSensor)
+    
+    ////    Framework operations    ////
+    
+public :
+
+    virtual void serializeAttributes(AOMSAttributes* aomsAttributes) const;
+    
+    virtual void serializeRelations(AOMSRelations* aomsRelations) const;
 };
 //#]
 #endif // _OMINSTRUMENT

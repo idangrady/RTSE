@@ -1,6 +1,6 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: gebruiker
+	Login		: rogar
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: TempSensor
@@ -21,16 +21,30 @@
 //## package Architecture
 
 //## actor TempSensor
-TempSensor::TempSensor(void) {
+TempSensor::TempSensor(void) : SensorActor() {
     NOTIFY_CONSTRUCTOR(TempSensor, TempSensor(), 0, Architecture_TempSensor_TempSensor_SERIALIZE);
 }
 
 TempSensor::~TempSensor(void) {
-    NOTIFY_DESTRUCTOR(~TempSensor, true);
+    NOTIFY_DESTRUCTOR(~TempSensor, false);
 }
 
 #ifdef _OMINSTRUMENT
-IMPLEMENT_META_P(TempSensor, Architecture, Architecture, false, OMAnimatedTempSensor)
+//#[ ignore
+void OMAnimatedTempSensor::serializeAttributes(AOMSAttributes* aomsAttributes) const {
+    OMAnimatedSensorActor::serializeAttributes(aomsAttributes);
+}
+
+void OMAnimatedTempSensor::serializeRelations(AOMSRelations* aomsRelations) const {
+    OMAnimatedSensorActor::serializeRelations(aomsRelations);
+}
+//#]
+
+IMPLEMENT_META_S_P(TempSensor, Architecture, false, SensorActor, OMAnimatedSensorActor, OMAnimatedTempSensor)
+
+OMINIT_SUPERCLASS(SensorActor, OMAnimatedSensorActor)
+
+OMREGISTER_CLASS
 #endif // _OMINSTRUMENT
 
 /*********************************************************************

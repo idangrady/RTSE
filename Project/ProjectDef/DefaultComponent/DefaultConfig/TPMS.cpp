@@ -1,6 +1,6 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: gebruiker
+	Login		: rogar
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: TPMS
@@ -20,12 +20,12 @@
 #include "Car.h"
 //## link itsDashboard
 #include "Dashboard.h"
+//## link itsDriver
+#include "Driver.h"
 //## link itsEnvironment
 #include "Environment.h"
 //## link itsPowerSource
 #include "PowerSource.h"
-//## link itsDriver
-#include "Driver.h"
 //## link itsSensorActor
 #include "SensorActor.h"
 //#[ ignore
@@ -78,7 +78,7 @@
 //## package Architecture
 
 //## class TPMS
-TPMS::TPMS(void) : OMThread(), OMReactive(), pressureHighThreshold(80), pressureLowThreshold(50), pressureWheel1(0), pressureWheel2(0), pressureWheel3(0), pressureWheel4(0), pressureWheel5(0), systemOK(false), tempHighThreshold(50), tempLowThreshold(10), tempWheel1(0), tempWheel2(0), tempWheel3(0), tempWheel4(0), tempWheel5(0), wheel1Led(false), wheel2Led(false), wheel3Led(false), wheel4Led(false), wheel5Led(false), itsCar(NULL), itsDashboard(NULL), itsEnvironment(NULL), itsPowerSource(NULL), itsDriver(NULL), itsSensorActor(NULL) {
+TPMS::TPMS(void) : OMThread(), OMReactive(), pressureHighThreshold(80), pressureLowThreshold(50), pressureWheel1(0), pressureWheel2(0), pressureWheel3(0), pressureWheel4(0), pressureWheel5(0), systemOK(false), tempHighThreshold(50), tempLowThreshold(10), tempWheel1(0), tempWheel2(0), tempWheel3(0), tempWheel4(0), tempWheel5(0), wheel1Led(false), wheel2Led(false), wheel3Led(false), wheel4Led(false), wheel5Led(false), itsCar(NULL), itsDashboard(NULL), itsDriver(NULL), itsEnvironment(NULL), itsPowerSource(NULL), itsSensorActor(NULL) {
     NOTIFY_ACTIVE_CONSTRUCTOR(TPMS, TPMS(), 0, Architecture_TPMS_TPMS_SERIALIZE);
     setActiveContext(this, true);
     initStatechart();

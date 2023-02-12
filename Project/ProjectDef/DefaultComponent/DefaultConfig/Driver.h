@@ -1,6 +1,6 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: gebruiker
+	Login		: rogar
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: Driver
@@ -34,17 +34,13 @@ public :
 
     ////    Constructors and destructors    ////
     
-    ////    Additional operations    ////
-    
-    ////    Relations and components    ////
-    
-    ////    Framework operations    ////
-    
     //## auto_generated
     Driver(void);
     
     //## auto_generated
     ~Driver(void);
+    
+    ////    Additional operations    ////
     
     //## auto_generated
     const TPMS* getItsTPMS(void) const;
@@ -56,10 +52,14 @@ protected :
 
     //## auto_generated
     void cleanUpRelations(void);
+    
+    ////    Relations and components    ////
 
 private :
 
     TPMS* itsTPMS;		//## link itsTPMS
+    
+    ////    Framework operations    ////
 
 public :
 
