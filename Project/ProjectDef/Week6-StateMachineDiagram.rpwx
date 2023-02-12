@@ -42,8 +42,8 @@
 								<_hid type="a">GUID ba425b6b-8557-41ab-9be6-35915cbda371</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 94 </_UpLeft>
-						<_DownRight type="a">2407 1192 </_DownRight>
+						<_UpLeft type="a">597 0 </_UpLeft>
+						<_DownRight type="a">2231 745 </_DownRight>
 						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
 						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -142,8 +142,8 @@
 								<_hid type="a">GUID bad98d2d-e040-403d-bd37-1d5f6941540a</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">-17 493 </_UpLeft>
-						<_DownRight type="a">2620 1247 </_DownRight>
+						<_UpLeft type="a">-17 0 </_UpLeft>
+						<_DownRight type="a">2620 754 </_DownRight>
 						<_instanceName type="a">TPMS[0]</_instanceName>
 						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>

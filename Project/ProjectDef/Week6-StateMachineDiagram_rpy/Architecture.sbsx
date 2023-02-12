@@ -12,10 +12,10 @@
 			<_id type="a">GUID e05c1dfd-278f-4f93-ad36-718a3ff1b9f9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Architecture</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::12:44:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::12:44:8</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::12:48:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::12:48:51</_modifiedTime>
 			<_lastID type="a">19</_lastID>
-			<weakCGTime type="a">2.12.2023::12:44:8</weakCGTime>
+			<weakCGTime type="a">2.12.2023::12:48:51</weakCGTime>
 			<strongCGTime type="a">12.21.2022::11:4:58</strongCGTime>
 			<_defaultComposite type="s">GUID 6f40c486-e03e-4145-a426-c9318834f21c</_defaultComposite>
 			<_eventsBaseID type="a">18601</_eventsBaseID>
@@ -2882,7 +2882,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.12.2023::12:38:8</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.12.2023::12:48:51</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -2890,9 +2890,9 @@
 					<_hid type="a">GUID 46dfa63a-706c-4aa1-8829-065a16127da2</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.12.2023::12:38:8</_modifiedTime>
+			<_modifiedTime type="a">2.12.2023::12:48:51</_modifiedTime>
 			<_lastID type="a">26</_lastID>
-			<weakCGTime type="a">2.12.2023::12:38:8</weakCGTime>
+			<weakCGTime type="a">2.12.2023::12:48:51</weakCGTime>
 			<strongCGTime type="a">2.12.2023::0:5:17</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3001,8 +3001,8 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">turnWheelLed</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::12:37:51</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::12:37:51</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::12:48:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::12:48:51</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<_virtual type="a">1</_virtual>
 			<_returnType type="r">
@@ -3040,7 +3040,7 @@ else if(ledId == 5)%0D
 {%0D
 wheel5Led = value;%0D
 }%0D
-std::cout&lt;&lt;&quot;Led &quot; &lt;&lt;ledId &lt;&lt;&quot; = &quot;&lt;&lt;wheel1Led;</_bodyData>
+std::cout&lt;&lt;&quot;Led &quot; &lt;&lt;ledId &lt;&lt;&quot; = &quot;&lt;&lt;value&lt;&lt;std::endl;</_bodyData>
 			</IBody>
 			</_itsBody>
 			<AggregatesList type="e">

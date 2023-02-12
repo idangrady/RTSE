@@ -99,7 +99,7 @@ void TPMS::turnWheelLed(bool value, int ledId) {
     {
     wheel5Led = value;
     }
-    std::cout<<"Led " <<ledId <<" = "<<wheel1Led;
+    std::cout<<"Led " <<ledId <<" = "<<value<<std::endl;
     //#]
 }
 
