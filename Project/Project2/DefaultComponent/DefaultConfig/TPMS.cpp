@@ -21,6 +21,10 @@
 
 #define Architecture_TPMS_turnWheel1Led_SERIALIZE aomsmethod->addAttribute("value", x2String(value));
 
+#define OMAnim_Architecture_TPMS_setPressureWheel1_int_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_pressureWheel1)
+
+#define OMAnim_Architecture_TPMS_setPressureWheel1_int_SERIALIZE_RET_VAL
+
 #define OMAnim_Architecture_TPMS_setTempWheel1_int_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_tempWheel1)
 
 #define OMAnim_Architecture_TPMS_setTempWheel1_int_SERIALIZE_RET_VAL
@@ -29,7 +33,7 @@
 //## package Architecture
 
 //## class TPMS
-TPMS::TPMS(void) : OMThread(), OMReactive(), systemOK(false), tempHighThreshold(50), tempLowThreshold(10), tempWheel1(0), wheel1Led(false) {
+TPMS::TPMS(void) : OMThread(), OMReactive(), pressureHighThreshold(80), pressureLowThreshold(50), pressureWheel1(0), systemOK(false), tempHighThreshold(50), tempLowThreshold(10), tempWheel1(0), wheel1Led(false) {
     NOTIFY_ACTIVE_CONSTRUCTOR(TPMS, TPMS(), 0, Architecture_TPMS_TPMS_SERIALIZE);
     setActiveContext(this, true);
     initStatechart();
@@ -47,12 +51,29 @@ void TPMS::turnWheel1Led(int value) {
     //#]
 }
 
+const int TPMS::getPressureHighThreshold(void) const {
+    return pressureHighThreshold;
+}
+
+void TPMS::setPressureHighThreshold(const int p_pressureHighThreshold) {
+    pressureHighThreshold = p_pressureHighThreshold;
+}
+
+const int TPMS::getPressureLowThreshold(void) const {
+    return pressureLowThreshold;
+}
+
+void TPMS::setPressureLowThreshold(const int p_pressureLowThreshold) {
+    pressureLowThreshold = p_pressureLowThreshold;
+}
+
 const int TPMS::getPressureWheel1(void) const {
     return pressureWheel1;
 }
 
 void TPMS::setPressureWheel1(const int p_pressureWheel1) {
     pressureWheel1 = p_pressureWheel1;
+    NOTIFY_SET_OPERATION;
 }
 
 const RhpBoolean TPMS::getSystemOK(void) const {
@@ -179,6 +200,8 @@ IOxfReactive::TakeEventStatus TPMS::rootState_processEvent(void) {
                     NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.Off");
                     //#[ transition 1 
                     systemOK = true;
+                    tempWheel1 = 20;
+                    pressureWheel1 = 75;
                     //#]
                     NOTIFY_STATE_ENTERED("ROOT.Wheel1LedChange.SignalSense");
                     Wheel1LedChange_subState = SignalSense;
@@ -229,42 +252,59 @@ IOxfReactive::TakeEventStatus TPMS::rootState_processEvent(void) {
         // State SignalSense
         case SignalSense:
         {
-            if(IS_EVENT_TYPE_OF(onWheel1LedChange_Architecture_id) == 1)
+            if(IS_EVENT_TYPE_OF(reqPowerOff_Architecture_id) == 1)
                 {
-                    //## transition 3 
-                    if((tempWheel1 < tempLowThreshold) || (tempWheel1 > tempHighThreshold))
-                        {
-                            NOTIFY_TRANSITION_STARTED("2");
-                            NOTIFY_TRANSITION_STARTED("3");
-                            NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.SignalSense");
-                            //#[ transition 3 
-                            turnWheel1Led(true);
-                            //#]
-                            NOTIFY_STATE_ENTERED("ROOT.Wheel1LedChange.TurnOnLed");
-                            pushNullTransition();
-                            Wheel1LedChange_subState = TurnOnLed;
-                            rootState_active = TurnOnLed;
-                            NOTIFY_TRANSITION_TERMINATED("3");
-                            NOTIFY_TRANSITION_TERMINATED("2");
-                            res = eventConsumed;
-                        }
-                    else
-                        {
-                            NOTIFY_TRANSITION_STARTED("2");
-                            NOTIFY_TRANSITION_STARTED("4");
-                            NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.SignalSense");
-                            //#[ transition 4 
-                            turnWheel1Led(false);
-                            //#]
-                            NOTIFY_STATE_ENTERED("ROOT.Wheel1LedChange.TurnOffLed");
-                            pushNullTransition();
-                            Wheel1LedChange_subState = TurnOffLed;
-                            rootState_active = TurnOffLed;
-                            NOTIFY_TRANSITION_TERMINATED("4");
-                            NOTIFY_TRANSITION_TERMINATED("2");
-                            res = eventConsumed;
-                        }
+                    NOTIFY_TRANSITION_STARTED("7");
+                    NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.SignalSense");
+                    //#[ transition 7 
+                    systemOK=false;
+                    wheel1Led=false;
+                    //#]
+                    NOTIFY_STATE_ENTERED("ROOT.Wheel1LedChange.Off");
+                    Wheel1LedChange_subState = Off;
+                    rootState_active = Off;
+                    NOTIFY_TRANSITION_TERMINATED("7");
+                    res = eventConsumed;
                 }
+            else {
+                if(IS_EVENT_TYPE_OF(onWheel1LedChange_Architecture_id) == 1)
+                    {
+                        //## transition 3 
+                        if((tempWheel1 < tempLowThreshold) || (tempWheel1 > tempHighThreshold) ||  (pressureWheel1 < pressureLowThreshold) || (pressureWheel1 > pressureHighThreshold))
+                            {
+                                NOTIFY_TRANSITION_STARTED("2");
+                                NOTIFY_TRANSITION_STARTED("3");
+                                NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.SignalSense");
+                                //#[ transition 3 
+                                turnWheel1Led(true);
+                                //#]
+                                NOTIFY_STATE_ENTERED("ROOT.Wheel1LedChange.TurnOnLed");
+                                pushNullTransition();
+                                Wheel1LedChange_subState = TurnOnLed;
+                                rootState_active = TurnOnLed;
+                                NOTIFY_TRANSITION_TERMINATED("3");
+                                NOTIFY_TRANSITION_TERMINATED("2");
+                                res = eventConsumed;
+                            }
+                        else
+                            {
+                                NOTIFY_TRANSITION_STARTED("2");
+                                NOTIFY_TRANSITION_STARTED("4");
+                                NOTIFY_STATE_EXITED("ROOT.Wheel1LedChange.SignalSense");
+                                //#[ transition 4 
+                                turnWheel1Led(false);
+                                //#]
+                                NOTIFY_STATE_ENTERED("ROOT.Wheel1LedChange.TurnOffLed");
+                                pushNullTransition();
+                                Wheel1LedChange_subState = TurnOffLed;
+                                rootState_active = TurnOffLed;
+                                NOTIFY_TRANSITION_TERMINATED("4");
+                                NOTIFY_TRANSITION_TERMINATED("2");
+                                res = eventConsumed;
+                            }
+                    }
+                }
+                
             
             
         }
@@ -284,6 +324,8 @@ void OMAnimatedTPMS::serializeAttributes(AOMSAttributes* aomsAttributes) const {
     aomsAttributes->addAttribute("wheel1Led", x2String(myReal->wheel1Led));
     aomsAttributes->addAttribute("tempHighThreshold", x2String(myReal->tempHighThreshold));
     aomsAttributes->addAttribute("tempLowThreshold", x2String(myReal->tempLowThreshold));
+    aomsAttributes->addAttribute("pressureHighThreshold", x2String(myReal->pressureHighThreshold));
+    aomsAttributes->addAttribute("pressureLowThreshold", x2String(myReal->pressureLowThreshold));
 }
 
 void OMAnimatedTPMS::rootState_serializeStates(AOMSState* aomsState) const {
@@ -340,6 +382,10 @@ void OMAnimatedTPMS::Off_serializeStates(AOMSState* aomsState) const {
 //#]
 
 IMPLEMENT_REACTIVE_META_P(TPMS, Architecture, Architecture, false, OMAnimatedTPMS)
+
+IMPLEMENT_META_OP(OMAnimatedTPMS, Architecture_TPMS_setPressureWheel1_int, "setPressureWheel1", FALSE, "setPressureWheel1(int)", 1)
+
+IMPLEMENT_OP_CALL(Architecture_TPMS_setPressureWheel1_int, TPMS, setPressureWheel1(p_pressureWheel1), NO_OP())
 
 IMPLEMENT_META_OP(OMAnimatedTPMS, Architecture_TPMS_setTempWheel1_int, "setTempWheel1", FALSE, "setTempWheel1(int)", 1)
 

@@ -26,6 +26,8 @@
 //## auto_generated
 #include <event.h>
 //#[ ignore
+#define OMAnim_Architecture_TPMS_setPressureWheel1_int_ARGS_DECLARATION int p_pressureWheel1;
+
 #define OMAnim_Architecture_TPMS_setTempWheel1_int_ARGS_DECLARATION int p_tempWheel1;
 //#]
 
@@ -55,6 +57,18 @@ public :
     virtual void turnWheel1Led(int value);
     
     ////    Additional operations    ////
+    
+    //## auto_generated
+    const int getPressureHighThreshold(void) const;
+    
+    //## auto_generated
+    void setPressureHighThreshold(const int p_pressureHighThreshold);
+    
+    //## auto_generated
+    const int getPressureLowThreshold(void) const;
+    
+    //## auto_generated
+    void setPressureLowThreshold(const int p_pressureLowThreshold);
     
     //## auto_generated
     const int getPressureWheel1(void) const;
@@ -104,6 +118,10 @@ protected :
 
 private :
 
+    int pressureHighThreshold;		//## attribute pressureHighThreshold
+    
+    int pressureLowThreshold;		//## attribute pressureLowThreshold
+    
     int pressureWheel1;		//## attribute pressureWheel1
     
     RhpBoolean systemOK;		//## attribute systemOK
@@ -183,11 +201,15 @@ private :
 };
 
 #ifdef _OMINSTRUMENT
+DECLARE_OPERATION_CLASS(Architecture_TPMS_setPressureWheel1_int)
+
 DECLARE_OPERATION_CLASS(Architecture_TPMS_setTempWheel1_int)
 
 //#[ ignore
 class OMAnimatedTPMS : virtual public AOMInstance {
     DECLARE_REACTIVE_META(TPMS, OMAnimatedTPMS)
+    
+    DECLARE_META_OP(Architecture_TPMS_setPressureWheel1_int)
     
     DECLARE_META_OP(Architecture_TPMS_setTempWheel1_int)
     

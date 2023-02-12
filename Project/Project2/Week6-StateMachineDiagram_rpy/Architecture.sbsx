@@ -12,10 +12,10 @@
 			<_id type="a">GUID e05c1dfd-278f-4f93-ad36-718a3ff1b9f9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Architecture</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:30:26</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:42:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:42:52</_modifiedTime>
 			<_lastID type="a">15</_lastID>
-			<weakCGTime type="a">2.12.2023::1:30:26</weakCGTime>
+			<weakCGTime type="a">2.12.2023::1:42:52</weakCGTime>
 			<strongCGTime type="a">12.21.2022::11:4:58</strongCGTime>
 			<_defaultComposite type="s">GUID 6f40c486-e03e-4145-a426-c9318834f21c</_defaultComposite>
 			<_eventsBaseID type="a">18601</_eventsBaseID>
@@ -150,8 +150,8 @@
 			</_properties>
 			<_name type="a">GUI</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:17:34</_modifiedTime>
-			<_lastModifiedTime type="a">2.12.2023::1:17:34</_lastModifiedTime>
+			<_modifiedTime type="a">2.12.2023::1:43:12</_modifiedTime>
+			<_lastModifiedTime type="a">2.12.2023::1:43:12</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -194,7 +194,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">9</elementList>
+			<elementList type="a">11</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -211,11 +211,13 @@
 				<value>GUID bef69364-4920-4061-9062-f017c1b20bec</value>
 				<value>GUID 80f23028-9908-4ff4-a270-9449214b34a7</value>
 				<value>GUID b8ad5932-8b45-4a8b-8c15-0300f37003e4</value>
-				<value>GUID e585ba11-de37-477d-aaae-e51eac5780dc</value>
 				<value>GUID b9d79793-4d4c-413b-a861-fefb3e52f78f</value>
 				<value>GUID 1ae61df9-c79f-4931-a7f7-79d6c1afd8d6</value>
 				<value>GUID bbd5c0d1-63b8-4f19-a9b6-2852865ba56b</value>
 				<value>GUID c8963259-c1f0-4cf4-8e52-9c403712dfcf</value>
+				<value>GUID d57e4e74-326f-49dc-8671-88c0ce542897</value>
+				<value>GUID f787a73e-32ee-4f82-8b7f-fa83c2f83247</value>
+				<value>GUID 0fa8bc4d-acdb-453f-993a-bedf97be5924</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIBox type="e">
@@ -275,7 +277,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">3.24074 0 0 3.63636 20 20 </m_transform>
+			<m_transform type="a">4.01852 0 0 3.63636 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -357,7 +359,7 @@
 			<m_pParent type="s">GUID eaa71ce1-3b06-4020-8a75-50ffc1830012</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">TempChange</m_str>
+					<m_str type="a">Wheel 1 sensor value update</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -373,13 +375,13 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">0.000971062 0 0 0.00043576 277 67.485 </m_transform>
+			<m_transform type="a">0.000971062 0 0 0.00043576 778 334.485 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<m_csModelObjPath type="a">Architecture.TPMS[0].onWheel1LedChange</m_csModelObjPath>
-			<m_csName type="a">TempChange</m_csName>
+			<m_csName type="a">Wheel 1 sensor value update</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
 					
@@ -388,44 +390,6 @@
 							<_hid type="a">GUID d47de078-6ad7-4c3e-8ae5-61c6f2194313</_hid>
 						</IHandle>
 					
-				</IRPYRawContainer>
-			</m_PartsArray>
-			<m_csButtonCaption type="a">Push</m_csButtonCaption>
-		</CGIMFCCtrl>
-		<CGIMFCCtrl type="e">
-			<_id type="a">GUID e585ba11-de37-477d-aaae-e51eac5780dc</_id>
-			<m_type type="a">227</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s">GUID eaa71ce1-3b06-4020-8a75-50ffc1830012</m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">ClearFault</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">0.000971062 0 0 0.00043576 429 67.485 </m_transform>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
-			<m_nNameFormat type="a">0</m_nNameFormat>
-			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">ClearFault</m_csName>
-			<m_PartsArray type="c">
-				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</m_PartsArray>
 			<m_csButtonCaption type="a">Push</m_csButtonCaption>
@@ -546,7 +510,7 @@
 			<m_pParent type="s">GUID eaa71ce1-3b06-4020-8a75-50ffc1830012</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">digitaldisplay_0</m_str>
+					<m_str type="a">Temperature display wheel 1</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -568,7 +532,7 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<m_csModelObjPath type="a">Architecture.TPMS[0].tempWheel1</m_csModelObjPath>
-			<m_csName type="a">digitaldisplay_0</m_csName>
+			<m_csName type="a">Temperature display wheel 1</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
 					
@@ -643,7 +607,7 @@
 			<m_pParent type="s">GUID eaa71ce1-3b06-4020-8a75-50ffc1830012</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">slider_0</m_str>
+					<m_str type="a">Wheel 1 sensor temperature value</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -665,7 +629,7 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<m_csModelObjPath type="a">Architecture.TPMS[0].tempWheel1</m_csModelObjPath>
-			<m_csName type="a">slider_0</m_csName>
+			<m_csName type="a">Wheel 1 sensor temperature value</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
 					
@@ -718,7 +682,7 @@
 			<m_pParent type="s">GUID eaa71ce1-3b06-4020-8a75-50ffc1830012</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">led_1</m_str>
+					<m_str type="a">Wheel 1 issue led </m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -734,13 +698,13 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">0.000126238 0 0 0.000113298 410 209.126 </m_transform>
+			<m_transform type="a">0.000126238 0 0 0.000113298 321 227.126 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<m_csModelObjPath type="a">Architecture.TPMS[0].wheel1Led</m_csModelObjPath>
-			<m_csName type="a">led_1</m_csName>
+			<m_csName type="a">Wheel 1 issue led </m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
 					
@@ -752,6 +716,225 @@
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGIActiveX>
+		<CGIActiveX type="e">
+			<_id type="a">GUID d57e4e74-326f-49dc-8671-88c0ce542897</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">DigitalDisplay</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;DisplayedString;;Style;4;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">221</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hid type="a">GUID d27f6526-006f-4e50-b86a-f1bc33c8f95e</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID eaa71ce1-3b06-4020-8a75-50ffc1830012</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">Pressure display wheel 1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.00157312 0 0 0.000278887 246 383.311 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">Architecture.TPMS[0].pressureWheel1</m_csModelObjPath>
+			<m_csName type="a">Pressure display wheel 1</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hid type="a">GUID d47de078-6ad7-4c3e-8ae5-61c6f2194313</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</m_PartsArray>
+		</CGIActiveX>
+		<CGIActiveX type="e">
+			<_id type="a">GUID f787a73e-32ee-4f82-8b7f-fa83c2f83247</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Slider</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackGroundColor;4210752;DivisionLineThickness;2;DotColor;255;EndAngle;-45;Font;Arial;;7.8;0;0;0;0;400;0;GradientFactor;0.7;LineColor;14737632;MaximumValue;100;MinimumValue;0;NumberOfDivisions;10;NumberOfSubdivisions;1;RelativeBubbleRadius;0.1;RelativeDotPositionRadius;0.75;RelativeDotRadius;2;RelativeExternalRadius;6.25;RelativeInternalRadius;4.75;RelativeTextRadius;7.5;StartAngle;225;SubdivisionLineThickness;1;TextColor;16777215;Value;0;ValueFormatString;%25.0f;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">PanelDiagram</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Slider</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Direction</_Name>
+													<_Value type="a">InOut</_Value>
+													<_Type type="a">Enum</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">225</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hid type="a">GUID d27f6526-006f-4e50-b86a-f1bc33c8f95e</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID eaa71ce1-3b06-4020-8a75-50ffc1830012</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">Wheel 1 sensor pressure value</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.00252476 0 0 0.000610064 450 364.68 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">Architecture.TPMS[0].pressureWheel1</m_csModelObjPath>
+			<m_csName type="a">Wheel 1 sensor pressure value</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hid type="a">GUID d47de078-6ad7-4c3e-8ae5-61c6f2194313</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</m_PartsArray>
+		</CGIActiveX>
+		<CGIMFCCtrl type="e">
+			<_id type="a">GUID 0fa8bc4d-acdb-453f-993a-bedf97be5924</_id>
+			<m_type type="a">227</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IReception</_hm2Class>
+					<_hid type="a">GUID ebc47bd7-2a4d-4752-a400-cf25d21dd3db</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID eaa71ce1-3b06-4020-8a75-50ffc1830012</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">PowerOff</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.000971062 0 0 0.00043576 82 271.485 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">Architecture.TPMS[0].reqPowerOff</m_csModelObjPath>
+			<m_csName type="a">PowerOff</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hid type="a">GUID d47de078-6ad7-4c3e-8ae5-61c6f2194313</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</m_PartsArray>
+			<m_csButtonCaption type="a">Push</m_csButtonCaption>
+		</CGIMFCCtrl>
 		<IClass type="e">
 			<_id type="a">GUID 6f40c486-e03e-4145-a426-c9318834f21c</_id>
 			<_myState type="a">40960</_myState>
@@ -813,7 +996,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.12.2023::1:41:41</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -821,9 +1004,9 @@
 					<_hid type="a">GUID 46dfa63a-706c-4aa1-8829-065a16127da2</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.12.2023::1:30:26</_modifiedTime>
-			<_lastID type="a">11</_lastID>
-			<weakCGTime type="a">2.12.2023::1:30:26</weakCGTime>
+			<_modifiedTime type="a">2.12.2023::1:40:46</_modifiedTime>
+			<_lastID type="a">13</_lastID>
+			<weakCGTime type="a">2.12.2023::1:41:41</weakCGTime>
 			<strongCGTime type="a">2.12.2023::0:5:17</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -843,6 +1026,8 @@
 				<value>GUID a89e256b-27e1-4a58-8dd0-99db4007d366</value>
 				<value>GUID cb69b97e-8849-46f2-bb1f-a019254319f0</value>
 				<value>GUID ebf6d1a6-38ab-4dcb-91a4-6f8b571ac16e</value>
+				<value>GUID 119bdbde-eb4a-4566-b227-6f6f02b1267d</value>
+				<value>GUID ca2826de-523d-43c4-908e-f283f3ffac9d</value>
 				<value>GUID e27893dc-7247-418e-861a-6490bad61083</value>
 			</AggregatesList>
 		</IClass>
@@ -1076,8 +1261,8 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.11.2023::23:32:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.11.2023::23:32:1</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:33:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:33:26</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1091,7 +1276,16 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID ab0cdd2e-b7ed-4371-b1e8-06abf85a044a</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID ab0cdd2e-b7ed-4371-b1e8-06abf85a044a</_id>
+			<_modifiedTimeWeak type="a">2.12.2023::1:33:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:33:26</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
 		<IAttribute type="e">
 			<_id type="a">GUID a89e256b-27e1-4a58-8dd0-99db4007d366</_id>
 			<_myState type="a">8192</_myState>
@@ -1218,14 +1412,98 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			<_modifiedTime type="a">2.11.2023::23:39:35</_modifiedTime>
 			<_value type="a">10</_value>
 		</ILiteralSpecification>
+		<IAttribute type="e">
+			<_id type="a">GUID 119bdbde-eb4a-4566-b227-6f6f02b1267d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">pressureHighThreshold</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.12.2023::1:36:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:36:53</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 5a284ad3-3259-4648-90ed-17d45fde4aa4</value>
+			</AggregatesList>
+		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 5a284ad3-3259-4648-90ed-17d45fde4aa4</_id>
+			<_modifiedTimeWeak type="a">2.12.2023::1:36:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:36:53</_modifiedTime>
+			<_value type="a">80</_value>
+		</ILiteralSpecification>
+		<IAttribute type="e">
+			<_id type="a">GUID ca2826de-523d-43c4-908e-f283f3ffac9d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">pressureLowThreshold</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.12.2023::1:36:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:36:45</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 5ce48e57-f896-4db7-a7d7-5fdc225dcbdf</value>
+			</AggregatesList>
+		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 5ce48e57-f896-4db7-a7d7-5fdc225dcbdf</_id>
+			<_modifiedTimeWeak type="a">2.12.2023::1:36:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:36:45</_modifiedTime>
+			<_value type="a">50</_value>
+		</ILiteralSpecification>
 		<IStateChart type="e">
 			<_id type="a">GUID e27893dc-7247-418e-861a-6490bad61083</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SM_PowerSourceCar</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:30:26</_modifiedTime>
-			<_lastID type="a">18</_lastID>
-			<weakCGTime type="a">2.12.2023::1:30:26</weakCGTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:41:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:41:41</_modifiedTime>
+			<_lastID type="a">19</_lastID>
+			<weakCGTime type="a">2.12.2023::1:41:41</weakCGTime>
 			<strongCGTime type="a">12.21.2022::10:5:5</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1233,7 +1511,7 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">9</_defNumber>
-			<_version type="a">2.12.2023::2:30:26</_version>
+			<_version type="a">2.12.2023::2:41:41</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID bad98d2d-e040-403d-bd37-1d5f6941540a</_diagram>
 			<AggregatesList type="e">
@@ -1244,6 +1522,7 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 				<value>GUID 608d73e6-147d-4acb-ad4d-0d1de39719bd</value>
 				<value>GUID 1a7b602f-f57f-44ab-8766-16fc3b6ea2a5</value>
 				<value>GUID be80f6e4-dd18-4bc3-a79c-7c59f0a6d658</value>
+				<value>GUID 848b6ce1-1757-4e4c-a8ae-cc793a88653d</value>
 				<value>GUID a7a738ec-a1ae-4b6f-bd4a-5b7c8f62376e</value>
 				<value>GUID 411923a3-7455-4081-82d4-4d1f5381d765</value>
 				<value>GUID 5b158380-de73-4f00-9985-488cc7aec7ac</value>
@@ -1280,8 +1559,8 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			<_id type="a">GUID 195794d5-8a66-4a51-b123-92fab7e18d5d</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_4</_name>
-			<_modifiedTimeWeak type="a">2.11.2023::23:44:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.11.2023::23:44:30</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:34:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:34:23</_modifiedTime>
 			<_itsTarget type="s">GUID 34902f15-454c-497e-bea4-ef41f80ea918</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 5b158380-de73-4f00-9985-488cc7aec7ac</_itsSource>
@@ -1291,8 +1570,8 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 44b550c2-0d47-401d-b3ad-b568b471d5b1</_id>
-			<_modifiedTimeWeak type="a">2.11.2023::23:44:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.11.2023::23:44:30</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:34:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:34:23</_modifiedTime>
 			<_itsGuard>NULL</_itsGuard>
 			<AggregatesList type="e">
 				<value>GUID 555da457-4261-4013-ae8c-ef88f4e69c82</value>
@@ -1313,9 +1592,11 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 		</IInterfaceItemTrigger>
 		<IAction type="e">
 			<_id type="a">GUID a256bfa7-1a1c-4f12-a039-d832496144b9</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">systemOK = true;</_body>
+			<_modifiedTimeWeak type="a">2.12.2023::1:34:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:34:23</_modifiedTime>
+			<_body type="a">systemOK = true;%0D
+tempWheel1 = 20;%0D
+pressureWheel1 = 75;</_body>
 		</IAction>
 		<ITransition type="e">
 			<_id type="a">GUID 6d00e71e-c1b3-4779-bca9-c23cfe90ffcb</_id>
@@ -1356,8 +1637,8 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			<_id type="a">GUID b9780df9-ec06-4fbf-97d1-2fe7f278f1b5</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_7</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:30:26</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:37:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:37:51</_modifiedTime>
 			<_itsTarget type="s">GUID 57819535-d76c-4b41-bab5-6fc50aad6c75</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID a7a738ec-a1ae-4b6f-bd4a-5b7c8f62376e</_itsSource>
@@ -1367,8 +1648,8 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID cf4ad930-bc56-4a31-98d0-34bcf4fa4683</_id>
-			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:30:26</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:37:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:37:51</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<AggregatesList type="e">
 				<value>GUID 1da0e503-645d-436d-8173-78f9c3b9ece7</value>
@@ -1377,9 +1658,10 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID 1da0e503-645d-436d-8173-78f9c3b9ece7</_id>
-			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:30:26</_modifiedTime>
-			<_body type="a">(tempWheel1 &lt; tempLowThreshold) || (tempWheel1 &gt; tempHighThreshold)</_body>
+			<_modifiedTimeWeak type="a">2.12.2023::1:37:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:37:51</_modifiedTime>
+			<_body type="a">(tempWheel1 &lt; tempLowThreshold) || (tempWheel1 &gt; tempHighThreshold) || %0D
+(pressureWheel1 &lt; pressureLowThreshold) || (pressureWheel1 &gt; pressureHighThreshold)</_body>
 		</IGuard>
 		<IAction type="e">
 			<_id type="a">GUID af36d13a-7d5b-4840-9445-f41d3e83e268</_id>
@@ -1464,6 +1746,48 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
 		</ILabel>
+		<ITransition type="e">
+			<_id type="a">GUID 848b6ce1-1757-4e4c-a8ae-cc793a88653d</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">transition_18</_name>
+			<_modifiedTimeWeak type="a">2.12.2023::1:41:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:41:41</_modifiedTime>
+			<_itsTarget type="s">GUID 5b158380-de73-4f00-9985-488cc7aec7ac</_itsTarget>
+			<_staticReaction type="a">0</_staticReaction>
+			<_itsSource type="s">GUID 34902f15-454c-497e-bea4-ef41f80ea918</_itsSource>
+			<AggregatesList type="e">
+				<value>GUID aa2d5d78-b7b4-49f3-872b-4a7e30f59804</value>
+			</AggregatesList>
+		</ITransition>
+		<ILabel type="e">
+			<_id type="a">GUID aa2d5d78-b7b4-49f3-872b-4a7e30f59804</_id>
+			<_modifiedTimeWeak type="a">2.12.2023::1:41:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:41:41</_modifiedTime>
+			<_itsGuard>NULL</_itsGuard>
+			<AggregatesList type="e">
+				<value>GUID 04539ba1-d133-476e-878a-991a2acaa9dd</value>
+				<value>GUID 227ac797-e3ff-4129-8dbd-7583e9fcb119</value>
+			</AggregatesList>
+		</ILabel>
+		<IInterfaceItemTrigger type="e">
+			<_id type="a">GUID 04539ba1-d133-476e-878a-991a2acaa9dd</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_body type="a">reqPowerOff</_body>
+			<_itsInterfaceItem type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID 57b0bcbe-3d5e-485f-957f-1873c1b4214a</_hid>
+				</IHandle>
+			</_itsInterfaceItem>
+		</IInterfaceItemTrigger>
+		<IAction type="e">
+			<_id type="a">GUID 227ac797-e3ff-4129-8dbd-7583e9fcb119</_id>
+			<_modifiedTimeWeak type="a">2.12.2023::1:41:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:41:41</_modifiedTime>
+			<_body type="a">systemOK=false;%0D
+wheel1Led=false;</_body>
+		</IAction>
 		<IBranch type="e">
 			<_id type="a">GUID a7a738ec-a1ae-4b6f-bd4a-5b7c8f62376e</_id>
 			<_name type="a">condition_5</_name>
@@ -1482,8 +1806,8 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 		<IState type="e">
 			<_id type="a">GUID 5b158380-de73-4f00-9985-488cc7aec7ac</_id>
 			<_name type="a">Off</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::1:22:20</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:22:20</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:40:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:40:46</_modifiedTime>
 			<_parent type="s">GUID a0035180-40f5-42a5-8511-a40700ad9b12</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 		</IState>
@@ -1506,8 +1830,8 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 		<IState type="e">
 			<_id type="a">GUID 34902f15-454c-497e-bea4-ef41f80ea918</_id>
 			<_name type="a">SignalSense</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::1:10:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:10:40</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:40:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:40:46</_modifiedTime>
 			<_parent type="s">GUID a0035180-40f5-42a5-8511-a40700ad9b12</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 		</IState>
@@ -1734,9 +2058,9 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">2.12.2023::1:30:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.12.2023::1:22:47</_modifiedTime>
-			<_lastModifiedTime type="a">2.12.2023::1:30:26</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">2.12.2023::1:40:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.12.2023::1:40:46</_modifiedTime>
+			<_lastModifiedTime type="a">2.12.2023::1:41:41</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1773,7 +2097,7 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<elementList type="a">15</elementList>
+			<elementList type="a">16</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -1805,6 +2129,7 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 				<value>GUID 7e9e324a-359e-45a3-945f-748f8d957725</value>
 				<value>GUID 301c15c9-ef11-41f3-9d6c-66e873edc8ac</value>
 				<value>GUID f741c828-9835-465e-928a-b639061597bf</value>
+				<value>GUID 2f79e224-ef78-455a-a9c2-cf34a5cbab7d</value>
 			</AggregatesList>
 		</CGIStateChart>
 		<CGIState type="e">
@@ -2121,7 +2446,9 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">startCar/systemOK = true;</m_str>
+					<m_str type="a">startCar/systemOK = true;%0D
+tempWheel1 = 20;%0D
+pressureWheel1 = 75;</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2130,12 +2457,12 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -8 -11  166 -11  166 5  -8 5  </m_position>
+					<m_position type="a">4 -8 -11  166 -11  166 37  -8 37  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 193 108 </m_transform>
-					<m_nHorizontalSpacing type="a">-35</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-10</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 222 511 </m_transform>
+					<m_nHorizontalSpacing type="a">-65</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-46</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
@@ -2376,7 +2703,8 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[(tempWheel1 &lt; tempLowThreshold) || (tempWheel1 &gt; tempHighThreshold)]/turnWheel1Led(true);</m_str>
+					<m_str type="a">[(tempWheel1 &lt; tempLowThreshold) || (tempWheel1 &gt; tempHighThreshold) || %0D
+(pressureWheel1 &lt; pressureLowThreshold) || (pressureWheel1 &gt; pressureHighThreshold)]/turnWheel1Led(true);</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2385,12 +2713,12 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -8 -11  647 -11  647 5  -8 5  </m_position>
+					<m_position type="a">4 -8 -11  702 -11  702 21  -8 21  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 580 605 </m_transform>
-					<m_nHorizontalSpacing type="a">-63</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-13</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 576 593 </m_transform>
+					<m_nHorizontalSpacing type="a">-67</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-25</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
@@ -2737,6 +3065,73 @@ std::cout&lt;&lt;&quot;Led 1= &quot;&lt;&lt;wheel1Led;</_bodyData>
 			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
 			<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
 		</CGIState>
+		<CGITrans type="e">
+			<_id type="a">GUID 2f79e224-ef78-455a-a9c2-cf34a5cbab7d</_id>
+			<m_type type="a">28</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITransition</_hm2Class>
+					<_hid type="a">GUID 848b6ce1-1757-4e4c-a8ae-cc793a88653d</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID b0d9f251-cbf6-48fc-a1df-2ca0191a37ea</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID f72daa73-fbfd-40cb-9599-f0358916c833</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">reqPowerOff/systemOK=false;%0D
+wheel1Led=false;</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">4 -8 -11  190 -11  190 5  -8 5  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 203 739 </m_transform>
+					<m_nHorizontalSpacing type="a">-97</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">16</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">3 277 655  277 717  214 717  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">0 777 </m_SourcePort>
+			<m_TargetPort type="a">537 1060 </m_TargetPort>
+			<m_pInheritsFrom type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pInheritsFrom>
+			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
+			<m_bShowName type="a">1</m_bShowName>
+		</CGITrans>
 		<IEvent type="e">
 			<_id type="a">GUID 89a1dc5c-4c2f-421d-8f08-8a7b0bca9d17</_id>
 			<_myState type="a">8192</_myState>
